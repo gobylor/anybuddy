@@ -14,18 +14,18 @@ describe('Home page', () => {
 
     expect(screen.getByRole('heading', { name: 'AnyBuddy' })).toBeInTheDocument()
     expect(
-      screen.getByText(/selection sheet/i),
+      screen.getByText(/伙伴选择面板/),
     ).toBeInTheDocument()
     expect(
       screen.getByText(
-        /choose a species, refine the rarity, and reveal the companion dossier/i,
+        /选择物种、筛选稀有度，揭晓最适合你 Claude Code 的伙伴档案/,
       ),
     ).toBeInTheDocument()
     expect(
-      screen.getByText(/Choose a species to open the companion dossier/i),
+      screen.getByText(/选择一个物种来打开伙伴档案/),
     ).toBeInTheDocument()
-    expect(screen.getByText(/Species gallery/i)).toBeInTheDocument()
-    expect(screen.getByText(/Rarity filter/i)).toBeInTheDocument()
+    expect(screen.getByText(/物种图鉴/)).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /稀有度筛选/ })).toBeInTheDocument()
     expect(screen.getByText(/Lor —— AI Builder/i)).toBeInTheDocument()
 
     const repoLink = screen.getByRole('link', {
@@ -40,12 +40,12 @@ describe('Home page', () => {
     expect(repoLink).toHaveAttribute('rel', expect.stringContaining('noopener'))
     expect(repoLink).toHaveAttribute('rel', expect.stringContaining('noreferrer'))
 
-    await user.click(screen.getByRole('button', { name: /Select duck/i }))
+    await user.click(screen.getByRole('button', { name: /选择 鸭子/i }))
 
     expect(
-      screen.getByRole('heading', { name: /Companion dossier/i }),
+      screen.getByRole('heading', { name: /伙伴档案/i }),
     ).toBeInTheDocument()
-    expect(screen.getByText(/Your legendary duck/i)).toBeInTheDocument()
+    expect(screen.getByText(/你的传说鸭子/i)).toBeInTheDocument()
   })
 
   it('shows the shorter species-and-rarity command in the result card and keeps it stable when cycling matches', async () => {
@@ -57,13 +57,13 @@ describe('Home page', () => {
       rarity: 'legendary',
     })
 
-    await user.click(screen.getAllByRole('button', { name: /select duck/i })[0])
+    await user.click(screen.getAllByRole('button', { name: /选择 鸭子/i })[0])
 
     expect(screen.getByText(command)).toBeInTheDocument()
     expect(screen.queryByText(/--user-id/)).not.toBeInTheDocument()
     expect(screen.queryByRole('button', { name: /copy userid/i })).not.toBeInTheDocument()
 
-    await user.click(screen.getByRole('button', { name: /show another/i }))
+    await user.click(screen.getByRole('button', { name: /换一个/i }))
 
     expect(screen.getByText(command)).toBeInTheDocument()
     expect(screen.queryByText(/--user-id/)).not.toBeInTheDocument()

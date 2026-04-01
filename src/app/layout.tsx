@@ -25,16 +25,16 @@ const ibmPlexMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'AnyBuddy | Editorial buddy selection sheet for Claude Code',
+  title: 'AnyBuddy | Claude Code 伙伴选择工具',
   description:
-    'Choose a species, refine the rarity, and reveal the right Claude Code companion dossier in a light editorial selection sheet.',
+    '选择物种、筛选稀有度，即刻揭晓最适合你的 Claude Code 伙伴档案。',
   keywords: [
     'AnyBuddy',
     'Claude Code',
     'buddy',
-    'selection sheet',
-    'companion dossier',
-    'reroll',
+    '伙伴选择',
+    '伙伴档案',
+    '换卡',
     'companion',
     'pet',
     'change pet',
@@ -57,19 +57,19 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: 'AnyBuddy | Editorial buddy selection sheet for Claude Code',
+    title: 'AnyBuddy | Claude Code 伙伴选择工具',
     description:
-      'Choose a species, refine the rarity, and reveal a Claude Code companion dossier instantly.',
+      '选择物种、筛选稀有度，即刻揭晓你的 Claude Code 伙伴档案。',
     url: 'https://anybuddy.cc',
     siteName: 'AnyBuddy',
     type: 'website',
-    locale: 'en_US',
+    locale: 'zh_CN',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AnyBuddy | Editorial buddy selection sheet for Claude Code',
+    title: 'AnyBuddy | Claude Code 伙伴选择工具',
     description:
-      'Choose a species, refine the rarity, and reveal a Claude Code companion dossier instantly.',
+      '选择物种、筛选稀有度，即刻揭晓你的 Claude Code 伙伴档案。',
   },
   metadataBase: new URL('https://anybuddy.cc'),
 }
@@ -81,7 +81,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="zh-CN"
       className={`${manrope.variable} ${cormorantGaramond.variable} ${ibmPlexMono.variable}`}
     >
       <body className="bg-bg text-text antialiased min-h-screen">
