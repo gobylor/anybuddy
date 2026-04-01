@@ -57,7 +57,7 @@ export async function run(species, rarity, exactUserID = null) {
     // Just inject userID into whatever we have.
   }
 
-  config.injectUserID(userID)
+  await config.stabilizeBuddyState(userID)
   print.success('UserID injected')
 
   // Step 4: Persist token

@@ -1,84 +1,16 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 
 import { randomBytes } from 'node:crypto'
+import { writeFile } from 'node:fs/promises'
+import { SPECIES, RARITIES } from '../packages/cli/lib/constants.mjs'
+import { STAT_NAMES, rollUserID } from '../packages/cli/lib/roll.mjs'
 
 // AnyBuddy Database Generator
 // Brute-forces userIDs for every species x rarity combo.
-// MUST run with Bun for correct hash results.
+// Matches the current Node-based Claude Code runtime (v2.1.89 on this machine).
 
-const SALT = 'friend-2026-401'
 const ENTRIES_PER_COMBO = 5
 const USER_ID_PATTERN = /^[0-9a-f]{64}$/
-
-const SPECIES = [
-  'duck', 'goose', 'blob', 'cat', 'dragon', 'octopus',
-  'owl', 'penguin', 'turtle', 'snail', 'ghost', 'axolotl',
-  'capybara', 'cactus', 'robot', 'rabbit', 'mushroom', 'chonk',
-]
-const RARITIES = ['common', 'uncommon', 'rare', 'epic', 'legendary']
-const EYES = ['·', '✦', '×', '◉', '@', '°']
-const HATS = ['none', 'crown', 'tophat', 'propeller', 'halo', 'wizard', 'beanie', 'tinyduck']
-const STAT_NAMES = ['DEBUGGING', 'PATIENCE', 'CHAOS', 'WISDOM', 'SNARK']
-const RARITY_WEIGHTS = { common: 60, uncommon: 25, rare: 10, epic: 4, legendary: 1 }
-const RARITY_FLOOR = { common: 5, uncommon: 15, rare: 25, epic: 35, legendary: 50 }
-
-function mulberry32(seed) {
-  let a = seed >>> 0
-  return function () {
-    a |= 0
-    a = (a + 0x6d2b79f5) | 0
-    let t = Math.imul(a ^ (a >>> 15), 1 | a)
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
-  }
-}
-
-function hashString(s) {
-  return Number(BigInt(Bun.hash(s)) & 0xffffffffn)
-}
-
-function pick(rng, arr) {
-  return arr[Math.floor(rng() * arr.length)]
-}
-
-function rollRarity(rng) {
-  let roll = rng() * 100
-  for (const rarity of RARITIES) {
-    roll -= RARITY_WEIGHTS[rarity]
-    if (roll < 0) return rarity
-  }
-  return 'common'
-}
-
-function rollStats(rng, rarity) {
-  const floor = RARITY_FLOOR[rarity]
-  const peak = pick(rng, STAT_NAMES)
-  let dump = pick(rng, STAT_NAMES)
-  while (dump === peak) dump = pick(rng, STAT_NAMES)
-  const stats = {}
-  for (const name of STAT_NAMES) {
-    if (name === peak) {
-      stats[name] = Math.min(100, floor + 50 + Math.floor(rng() * 30))
-    } else if (name === dump) {
-      stats[name] = Math.max(1, floor - 10 + Math.floor(rng() * 15))
-    } else {
-      stats[name] = floor + Math.floor(rng() * 40)
-    }
-  }
-  return stats
-}
-
-function rollFromUserId(userId) {
-  const seed = hashString(userId + SALT)
-  const rng = mulberry32(seed)
-  const rarity = rollRarity(rng)
-  const species = pick(rng, SPECIES)
-  const eye = pick(rng, EYES)
-  const hat = rarity === 'common' ? 'none' : pick(rng, HATS)
-  const shiny = rng() < 0.01
-  const stats = rollStats(rng, rarity)
-  return { rarity, species, eye, hat, shiny, stats }
-}
 
 function isValidUserId(userId) {
   return USER_ID_PATTERN.test(userId)
@@ -127,7 +59,7 @@ function verifyWebsiteDatabase(db) {
           throw new Error(`Invalid website database userID: ${entry.userID}`)
         }
 
-        const check = rollFromUserId(entry.userID)
+        const check = rollUserID(entry.userID)
         if (check.species !== species || check.rarity !== rarity) {
           throw new Error(
             `Bucket mismatch: ${entry.userID} expected ${species}/${rarity}, got ${check.species}/${check.rarity}`
@@ -164,7 +96,7 @@ function verifyCliProjection(webDb, cliDb) {
           throw new Error(`Invalid CLI database userID: ${userId}`)
         }
 
-        const check = rollFromUserId(userId)
+        const check = rollUserID(userId)
         if (check.species !== species || check.rarity !== rarity) {
           throw new Error(
             `CLI bucket mismatch: ${userId} expected ${species}/${rarity}, got ${check.species}/${check.rarity}`
@@ -194,7 +126,7 @@ while (totalFound < totalNeeded) {
   if (seenUserIds.has(userId)) continue
   seenUserIds.add(userId)
 
-  const result = rollFromUserId(userId)
+  const result = rollUserID(userId)
   const bucket = webDb[result.species][result.rarity]
   if (bucket.length >= ENTRIES_PER_COMBO) continue
 
@@ -223,11 +155,11 @@ const verifiedCliEntries = verifyCliProjection(webDb, cliDb)
 console.log(`  All ${verifiedCliEntries} CLI entries verified OK`)
 
 const webOutputPath = new URL('../src/lib/database.json', import.meta.url).pathname
-await Bun.write(webOutputPath, JSON.stringify(webDb, null, 2) + '\n')
+await writeFile(webOutputPath, JSON.stringify(webDb, null, 2) + '\n', 'utf8')
 const webSizeKB = (JSON.stringify(webDb).length / 1024).toFixed(1)
 console.log(`\nWritten website database to ${webOutputPath} (${webSizeKB} KB)`)
 
 const cliOutputPath = new URL('../packages/cli/lib/database.json', import.meta.url).pathname
-await Bun.write(cliOutputPath, JSON.stringify(cliDb, null, 2) + '\n')
+await writeFile(cliOutputPath, JSON.stringify(cliDb, null, 2) + '\n', 'utf8')
 const cliSizeKB = (JSON.stringify(cliDb).length / 1024).toFixed(1)
 console.log(`Written CLI database to ${cliOutputPath} (${cliSizeKB} KB)`)
