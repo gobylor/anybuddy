@@ -1,134 +1,77 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
-type OS = 'mac' | 'windows' | 'linux'
-
-function detectOS(): OS {
-  if (typeof navigator === 'undefined') return 'mac'
-  const ua = navigator.userAgent.toLowerCase()
-  if (ua.includes('win')) return 'windows'
-  if (ua.includes('linux')) return 'linux'
-  return 'mac'
+function copyToClipboard(text: string): Promise<boolean> {
+  if (navigator.clipboard?.writeText) {
+    return navigator.clipboard.writeText(text).then(() => true).catch(() => false)
+  }
+  const textarea = document.createElement('textarea')
+  textarea.value = text
+  textarea.style.position = 'fixed'
+  textarea.style.opacity = '0'
+  document.body.appendChild(textarea)
+  textarea.select()
+  const ok = document.execCommand('copy')
+  document.body.removeChild(textarea)
+  return Promise.resolve(ok)
 }
 
-function configPath(os: OS): string {
-  return os === 'windows' ? '%USERPROFILE%\\.claude.json' : '~/.claude.json'
-}
+export function Instructions({ species, rarity }: { species: string; rarity: string }) {
+  const [copied, setCopied] = useState(false)
 
-function backupCmd(os: OS): string {
-  return os === 'windows'
-    ? 'copy %USERPROFILE%\\.claude.json %USERPROFILE%\\.claude.json.bak'
-    : 'cp ~/.claude.json ~/.claude.json.bak'
-}
+  const command = `npx anybuddy --species ${species} --rarity ${rarity}`
 
-function restoreCmd(os: OS): string {
-  return os === 'windows'
-    ? 'copy %USERPROFILE%\\.claude.json.bak %USERPROFILE%\\.claude.json'
-    : 'cp ~/.claude.json.bak ~/.claude.json'
-}
-
-export function Instructions({ userID }: { userID: string }) {
-  const [os, setOS] = useState<OS>('mac')
-
-  useEffect(() => {
-    setOS(detectOS())
-  }, [])
+  const handleCopy = async () => {
+    const ok = await copyToClipboard(command)
+    if (ok) {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    }
+  }
 
   return (
     <div className="mt-8 space-y-4">
       <h3 className="text-lg font-bold text-text">How to apply</h3>
 
-      <div className="space-y-3 text-sm">
-        {/* Step 0: Backup */}
-        <div className="p-4 bg-[#161b22] rounded-lg border border-[#30363d]">
-          <p className="font-bold text-accent mb-2">Step 0: Backup first</p>
-          <code className="block bg-[#0d1117] p-2 rounded text-xs overflow-x-auto">
-            {backupCmd(os)}
-          </code>
+      <div className="p-4 bg-[#161b22] rounded-lg border border-[#30363d]">
+        <p className="font-bold text-accent mb-3">
+          Run this in your terminal:
+        </p>
+
+        <div className="relative group">
+          <pre className="bg-[#0d1117] p-3 pr-20 rounded text-sm overflow-x-auto text-text/80 leading-relaxed">
+            {command}
+          </pre>
+          <button
+            onClick={handleCopy}
+            className="absolute top-2 right-2 px-3 py-1.5 rounded text-xs font-bold cursor-pointer transition-all border"
+            style={{
+              color: copied ? '#7ee787' : '#e6edf3',
+              borderColor: copied ? '#7ee787' : '#30363d',
+              backgroundColor: copied ? '#7ee78715' : '#161b22',
+            }}
+          >
+            {copied ? 'Copied!' : 'Copy'}
+          </button>
         </div>
 
-        {/* Step 1: Close */}
-        <div className="p-4 bg-[#161b22] rounded-lg border border-[#30363d]">
-          <p className="font-bold text-text mb-2">
-            Step 1: Close Claude Code completely
-          </p>
-          <p className="text-muted">
-            Make sure Claude Code is fully closed before editing the config
-            file.
-          </p>
-        </div>
+        <p className="text-xs text-muted mt-3">
+          The CLI handles everything: OAuth login, config setup, and buddy injection.
+          <br />
+          After it finishes, restart your terminal, run{' '}
+          <code className="text-accent">claude</code>, type{' '}
+          <code className="text-accent">/buddy</code>.
+        </p>
+      </div>
 
-        {/* Step 2: Open + before/after */}
-        <div className="p-4 bg-[#161b22] rounded-lg border border-[#30363d]">
-          <p className="font-bold text-text mb-2">
-            Step 2: Open{' '}
-            <code className="text-accent">{configPath(os)}</code>
-          </p>
-          <p className="text-muted mb-2">
-            Open the file in any text editor. Look for these fields:
-          </p>
-          <div className="grid gap-2 sm:grid-cols-2">
-            <div>
-              <p className="text-xs text-muted mb-1">Before:</p>
-              <pre className="bg-[#0d1117] p-2 rounded text-xs overflow-x-auto text-red-400">
-{`{
-  ...
-  "userID": "your-old-id",
-  "companion": { ... },
-  ...
-}`}
-              </pre>
-            </div>
-            <div>
-              <p className="text-xs text-muted mb-1">After:</p>
-              <pre className="bg-[#0d1117] p-2 rounded text-xs overflow-x-auto text-success">
-{`{
-  ...
-  "userID": "${userID}",
-  ...
-}`}
-              </pre>
-            </div>
-          </div>
-        </div>
-
-        {/* Step 3: Edit */}
-        <div className="p-4 bg-[#161b22] rounded-lg border border-[#30363d]">
-          <p className="font-bold text-text mb-2">
-            Step 3: Replace userID &amp; delete companion
-          </p>
-          <ol className="list-decimal list-inside text-muted space-y-1">
-            <li>
-              Replace the <code className="text-text">&quot;userID&quot;</code>{' '}
-              value with the one above
-            </li>
-            <li>
-              Delete the entire{' '}
-              <code className="text-text">&quot;companion&quot;</code> object (if
-              it exists)
-            </li>
-            <li>Save the file</li>
-          </ol>
-        </div>
-
-        {/* Step 4: Restart */}
-        <div className="p-4 bg-[#161b22] rounded-lg border border-[#30363d]">
-          <p className="font-bold text-text mb-2">
-            Step 4: Restart Claude Code and type{' '}
-            <code className="text-accent">/buddy</code>
-          </p>
-          <p className="text-muted">Your new buddy will hatch!</p>
-        </div>
-
-        {/* Recovery */}
-        <div className="p-3 bg-[#1c1206] rounded-lg border border-accent/30 text-xs">
-          <p className="text-accent font-bold mb-1">Something went wrong?</p>
-          <p className="text-muted">Restore your backup:</p>
-          <code className="block bg-[#0d1117] p-2 rounded mt-1 overflow-x-auto">
-            {restoreCmd(os)}
-          </code>
-        </div>
+      {/* Recovery */}
+      <div className="p-3 bg-[#1c1206] rounded-lg border border-accent/30 text-xs">
+        <p className="text-accent font-bold mb-1">Something went wrong?</p>
+        <p className="text-muted">Restore your backup:</p>
+        <code className="block bg-[#0d1117] p-2 rounded mt-1 overflow-x-auto">
+          cp ~/.claude.json.bak ~/.claude.json
+        </code>
       </div>
     </div>
   )
