@@ -1,0 +1,6068 @@
+{
+  "duck": {
+    "common": [
+      {
+        "userID": "olvprr6q0sjik0m0",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 1,
+          "CHAOS": 11,
+          "WISDOM": 79,
+          "SNARK": 30
+        }
+      },
+      {
+        "userID": "k95g92jck6km8a8b",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 8,
+          "PATIENCE": 33,
+          "CHAOS": 27,
+          "WISDOM": 71,
+          "SNARK": 17
+        }
+      },
+      {
+        "userID": "lb88lvw52vbugem7",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 20,
+          "PATIENCE": 71,
+          "CHAOS": 12,
+          "WISDOM": 3,
+          "SNARK": 43
+        }
+      },
+      {
+        "userID": "u37zoh959r8e8r88",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 37,
+          "CHAOS": 33,
+          "WISDOM": 1,
+          "SNARK": 72
+        }
+      },
+      {
+        "userID": "7ynpnh7re9utliz1",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 5,
+          "PATIENCE": 80,
+          "CHAOS": 36,
+          "WISDOM": 40,
+          "SNARK": 22
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "izmjee8ui3o2zrk4",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 17,
+          "CHAOS": 23,
+          "WISDOM": 13,
+          "SNARK": 67
+        }
+      },
+      {
+        "userID": "f30jq81sktaqqcfc",
+        "eye": "◉",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 29,
+          "PATIENCE": 49,
+          "CHAOS": 24,
+          "WISDOM": 78,
+          "SNARK": 18
+        }
+      },
+      {
+        "userID": "b25b8jghk7slz3he",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 26,
+          "CHAOS": 5,
+          "WISDOM": 25,
+          "SNARK": 68
+        }
+      },
+      {
+        "userID": "w62nyysdeq1qfkqe",
+        "eye": "×",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 21,
+          "PATIENCE": 37,
+          "CHAOS": 83,
+          "WISDOM": 9,
+          "SNARK": 19
+        }
+      },
+      {
+        "userID": "6j0l1znyddsnjm0n",
+        "eye": "×",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 25,
+          "PATIENCE": 12,
+          "CHAOS": 24,
+          "WISDOM": 92,
+          "SNARK": 23
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "00h806o8q1lc9sw4",
+        "eye": "°",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 16,
+          "PATIENCE": 63,
+          "CHAOS": 96,
+          "WISDOM": 31,
+          "SNARK": 49
+        }
+      },
+      {
+        "userID": "jeek3aednfiei0g3",
+        "eye": "◉",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 27,
+          "CHAOS": 53,
+          "WISDOM": 86,
+          "SNARK": 18
+        }
+      },
+      {
+        "userID": "baffptoo7i8osmb0",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 26,
+          "PATIENCE": 27,
+          "CHAOS": 57,
+          "WISDOM": 98,
+          "SNARK": 63
+        }
+      },
+      {
+        "userID": "8i2dbllu8gugi3hv",
+        "eye": "@",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 77,
+          "PATIENCE": 17,
+          "CHAOS": 48,
+          "WISDOM": 38,
+          "SNARK": 60
+        }
+      },
+      {
+        "userID": "5hz8rvr58r0lifzx",
+        "eye": "◉",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 27,
+          "PATIENCE": 26,
+          "CHAOS": 39,
+          "WISDOM": 27,
+          "SNARK": 92
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "mmr3wdkd1f1n73lp",
+        "eye": "✦",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 69,
+          "PATIENCE": 100,
+          "CHAOS": 53,
+          "WISDOM": 66,
+          "SNARK": 31
+        }
+      },
+      {
+        "userID": "9wzg3vhbfr2z8g3b",
+        "eye": "@",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 42,
+          "PATIENCE": 56,
+          "CHAOS": 89,
+          "WISDOM": 71,
+          "SNARK": 27
+        }
+      },
+      {
+        "userID": "gh2z2mqhfy6w6are",
+        "eye": "@",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 67,
+          "PATIENCE": 38,
+          "CHAOS": 89,
+          "WISDOM": 48,
+          "SNARK": 37
+        }
+      },
+      {
+        "userID": "k50yx881sbwpjday",
+        "eye": "◉",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 67,
+          "PATIENCE": 56,
+          "CHAOS": 100,
+          "WISDOM": 52,
+          "SNARK": 32
+        }
+      },
+      {
+        "userID": "4gqbozlp57qj4f22",
+        "eye": "°",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 92,
+          "PATIENCE": 54,
+          "CHAOS": 36,
+          "WISDOM": 68,
+          "SNARK": 56
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "tfkpdwekmnboeoeh",
+        "eye": "×",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 45,
+          "PATIENCE": 52,
+          "CHAOS": 100,
+          "WISDOM": 85,
+          "SNARK": 79
+        }
+      },
+      {
+        "userID": "nrxi5fxwyyhpxame",
+        "eye": "✦",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 87,
+          "CHAOS": 53,
+          "WISDOM": 78,
+          "SNARK": 79
+        }
+      },
+      {
+        "userID": "atpkff8v1mrzqvyi",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 73,
+          "PATIENCE": 88,
+          "CHAOS": 59,
+          "WISDOM": 100,
+          "SNARK": 53
+        }
+      },
+      {
+        "userID": "agq9h8ngqybfvas4",
+        "eye": "°",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 86,
+          "PATIENCE": 53,
+          "CHAOS": 65,
+          "WISDOM": 100,
+          "SNARK": 71
+        }
+      },
+      {
+        "userID": "g2rygxl8j7eo3woe",
+        "eye": "✦",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 86,
+          "PATIENCE": 60,
+          "CHAOS": 61,
+          "WISDOM": 49,
+          "SNARK": 100
+        }
+      }
+    ]
+  },
+  "goose": {
+    "common": [
+      {
+        "userID": "4ojtqyd67779qhz4",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 37,
+          "CHAOS": 64,
+          "WISDOM": 19,
+          "SNARK": 24
+        }
+      },
+      {
+        "userID": "a2y9ggh2dy14m1lr",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 20,
+          "CHAOS": 73,
+          "WISDOM": 37,
+          "SNARK": 18
+        }
+      },
+      {
+        "userID": "jl634tfgss84a9qv",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 79,
+          "PATIENCE": 43,
+          "CHAOS": 24,
+          "WISDOM": 24,
+          "SNARK": 1
+        }
+      },
+      {
+        "userID": "hp43bsw6noznapco",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 28,
+          "PATIENCE": 40,
+          "CHAOS": 42,
+          "WISDOM": 60,
+          "SNARK": 1
+        }
+      },
+      {
+        "userID": "h5x237rmoki2u7zm",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 39,
+          "CHAOS": 5,
+          "WISDOM": 62,
+          "SNARK": 36
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "kaqgebnk9fctmj1r",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 30,
+          "PATIENCE": 92,
+          "CHAOS": 16,
+          "WISDOM": 33,
+          "SNARK": 52
+        }
+      },
+      {
+        "userID": "5qgx7sda84g31bra",
+        "eye": "@",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 29,
+          "PATIENCE": 5,
+          "CHAOS": 25,
+          "WISDOM": 28,
+          "SNARK": 90
+        }
+      },
+      {
+        "userID": "cl98j10ukwe9maur",
+        "eye": "·",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 36,
+          "PATIENCE": 11,
+          "CHAOS": 36,
+          "WISDOM": 30,
+          "SNARK": 73
+        }
+      },
+      {
+        "userID": "ul8h6g9hzgb39h9g",
+        "eye": "×",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 30,
+          "PATIENCE": 32,
+          "CHAOS": 77,
+          "WISDOM": 48,
+          "SNARK": 6
+        }
+      },
+      {
+        "userID": "sb8mzx8avp2zxfk6",
+        "eye": "·",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 13,
+          "PATIENCE": 21,
+          "CHAOS": 82,
+          "WISDOM": 25,
+          "SNARK": 42
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "magl4jmb2453prpu",
+        "eye": "×",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 18,
+          "PATIENCE": 91,
+          "CHAOS": 55,
+          "WISDOM": 27,
+          "SNARK": 40
+        }
+      },
+      {
+        "userID": "j32q40gtcaps3trf",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 33,
+          "PATIENCE": 62,
+          "CHAOS": 45,
+          "WISDOM": 85,
+          "SNARK": 17
+        }
+      },
+      {
+        "userID": "fgclrwh0jh54ombf",
+        "eye": "°",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 82,
+          "PATIENCE": 23,
+          "CHAOS": 61,
+          "WISDOM": 59,
+          "SNARK": 40
+        }
+      },
+      {
+        "userID": "v2j29avbp9rckzzr",
+        "eye": "×",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 27,
+          "PATIENCE": 54,
+          "CHAOS": 76,
+          "WISDOM": 20,
+          "SNARK": 34
+        }
+      },
+      {
+        "userID": "qgqjieg9i0uz8eff",
+        "eye": "◉",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 44,
+          "PATIENCE": 43,
+          "CHAOS": 79,
+          "WISDOM": 39,
+          "SNARK": 21
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "ahddq0m6a5d4yp4b",
+        "eye": "✦",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 63,
+          "CHAOS": 31,
+          "WISDOM": 47,
+          "SNARK": 74
+        }
+      },
+      {
+        "userID": "tseanzvwsyeyl2j4",
+        "eye": "@",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 66,
+          "CHAOS": 47,
+          "WISDOM": 34,
+          "SNARK": 38
+        }
+      },
+      {
+        "userID": "b0zg6br0n61oqi24",
+        "eye": "✦",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 93,
+          "PATIENCE": 45,
+          "CHAOS": 67,
+          "WISDOM": 54,
+          "SNARK": 33
+        }
+      },
+      {
+        "userID": "l0b2qvo7nbsie41o",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 67,
+          "PATIENCE": 100,
+          "CHAOS": 57,
+          "WISDOM": 55,
+          "SNARK": 34
+        }
+      },
+      {
+        "userID": "xav3xpcr1aq9qmzc",
+        "eye": "·",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 97,
+          "PATIENCE": 40,
+          "CHAOS": 37,
+          "WISDOM": 53,
+          "SNARK": 38
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "xnubkx1njwy5da3u",
+        "eye": "@",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 57,
+          "PATIENCE": 56,
+          "CHAOS": 54,
+          "WISDOM": 100,
+          "SNARK": 55
+        }
+      },
+      {
+        "userID": "iftlk1b053j5nnyv",
+        "eye": "✦",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 74,
+          "PATIENCE": 100,
+          "CHAOS": 80,
+          "WISDOM": 68,
+          "SNARK": 44
+        }
+      },
+      {
+        "userID": "jurpcohxcxmsy2nv",
+        "eye": "·",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 81,
+          "PATIENCE": 100,
+          "CHAOS": 84,
+          "WISDOM": 84,
+          "SNARK": 53
+        }
+      },
+      {
+        "userID": "qyresvzwpnavuc5e",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 52,
+          "PATIENCE": 63,
+          "CHAOS": 79,
+          "WISDOM": 40,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "iicskfej3x0tnqb2",
+        "eye": "◉",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 53,
+          "PATIENCE": 86,
+          "CHAOS": 88,
+          "WISDOM": 78,
+          "SNARK": 100
+        }
+      }
+    ]
+  },
+  "blob": {
+    "common": [
+      {
+        "userID": "lua4o3ihe8ao3ywx",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 16,
+          "CHAOS": 57,
+          "WISDOM": 30,
+          "SNARK": 6
+        }
+      },
+      {
+        "userID": "ah1sv25j55ui499j",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 5,
+          "PATIENCE": 36,
+          "CHAOS": 41,
+          "WISDOM": 8,
+          "SNARK": 65
+        }
+      },
+      {
+        "userID": "86bajyac96gzii8u",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 40,
+          "CHAOS": 23,
+          "WISDOM": 79,
+          "SNARK": 5
+        }
+      },
+      {
+        "userID": "quj6hn0a3sagd2ye",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 11,
+          "CHAOS": 27,
+          "WISDOM": 38,
+          "SNARK": 79
+        }
+      },
+      {
+        "userID": "yt2tyoyrd1jpbyff",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 16,
+          "PATIENCE": 11,
+          "CHAOS": 8,
+          "WISDOM": 35,
+          "SNARK": 55
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "nznu0ta0cm0p2drg",
+        "eye": "@",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 8,
+          "PATIENCE": 17,
+          "CHAOS": 51,
+          "WISDOM": 21,
+          "SNARK": 68
+        }
+      },
+      {
+        "userID": "9n2wn4ixf2fxq5au",
+        "eye": "@",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 54,
+          "PATIENCE": 72,
+          "CHAOS": 23,
+          "WISDOM": 22,
+          "SNARK": 17
+        }
+      },
+      {
+        "userID": "wa6qe1ulkv90wcuu",
+        "eye": "◉",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 6,
+          "PATIENCE": 92,
+          "CHAOS": 39,
+          "WISDOM": 38,
+          "SNARK": 48
+        }
+      },
+      {
+        "userID": "pf9n7ufwbsjxnju3",
+        "eye": "✦",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 20,
+          "PATIENCE": 21,
+          "CHAOS": 6,
+          "WISDOM": 94,
+          "SNARK": 43
+        }
+      },
+      {
+        "userID": "ejzazkslur2rat5c",
+        "eye": "·",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 29,
+          "PATIENCE": 19,
+          "CHAOS": 27,
+          "WISDOM": 94,
+          "SNARK": 50
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "dlv074kvg56o8vth",
+        "eye": "·",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 28,
+          "PATIENCE": 53,
+          "CHAOS": 41,
+          "WISDOM": 100,
+          "SNARK": 26
+        }
+      },
+      {
+        "userID": "ogvkb4tm8ca9z60t",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 29,
+          "PATIENCE": 38,
+          "CHAOS": 45,
+          "WISDOM": 51,
+          "SNARK": 80
+        }
+      },
+      {
+        "userID": "cravybpo9x6z96nu",
+        "eye": "·",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 52,
+          "CHAOS": 23,
+          "WISDOM": 95,
+          "SNARK": 48
+        }
+      },
+      {
+        "userID": "fj510of90dmey1nt",
+        "eye": "◉",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 45,
+          "PATIENCE": 81,
+          "CHAOS": 20,
+          "WISDOM": 50,
+          "SNARK": 40
+        }
+      },
+      {
+        "userID": "vfs4r8xf07y34nqq",
+        "eye": "°",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 15,
+          "PATIENCE": 29,
+          "CHAOS": 37,
+          "WISDOM": 60,
+          "SNARK": 95
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "dn8iomciakheg5nt",
+        "eye": "°",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 30,
+          "PATIENCE": 63,
+          "CHAOS": 100,
+          "WISDOM": 41,
+          "SNARK": 46
+        }
+      },
+      {
+        "userID": "ixa0tmkg3n8pbnlf",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 58,
+          "PATIENCE": 26,
+          "CHAOS": 44,
+          "WISDOM": 88,
+          "SNARK": 58
+        }
+      },
+      {
+        "userID": "bq248tp1uugguuyk",
+        "eye": "·",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 40,
+          "PATIENCE": 36,
+          "CHAOS": 29,
+          "WISDOM": 51,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "rh70thb3c3m6k3sv",
+        "eye": "°",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 58,
+          "PATIENCE": 100,
+          "CHAOS": 34,
+          "WISDOM": 58,
+          "SNARK": 54
+        }
+      },
+      {
+        "userID": "x400wxj88l5qbhow",
+        "eye": "°",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 94,
+          "PATIENCE": 49,
+          "CHAOS": 38,
+          "WISDOM": 69,
+          "SNARK": 41
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "9lgsusjou0neqzex",
+        "eye": "×",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 54,
+          "CHAOS": 56,
+          "WISDOM": 84,
+          "SNARK": 75
+        }
+      },
+      {
+        "userID": "4vb70vjaofyqtzes",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 85,
+          "PATIENCE": 71,
+          "CHAOS": 100,
+          "WISDOM": 49,
+          "SNARK": 52
+        }
+      },
+      {
+        "userID": "7x4i0e9ftsska2k6",
+        "eye": "✦",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 67,
+          "PATIENCE": 60,
+          "CHAOS": 84,
+          "WISDOM": 100,
+          "SNARK": 46
+        }
+      },
+      {
+        "userID": "23cd0crelm3rujr8",
+        "eye": "×",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 76,
+          "PATIENCE": 80,
+          "CHAOS": 100,
+          "WISDOM": 65,
+          "SNARK": 49
+        }
+      },
+      {
+        "userID": "7m4pxzpmxt9akfvr",
+        "eye": "@",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 54,
+          "PATIENCE": 79,
+          "CHAOS": 56,
+          "WISDOM": 58,
+          "SNARK": 100
+        }
+      }
+    ]
+  },
+  "cat": {
+    "common": [
+      {
+        "userID": "r4yd5gyvkkpsaxd7",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 31,
+          "PATIENCE": 23,
+          "CHAOS": 7,
+          "WISDOM": 28,
+          "SNARK": 79
+        }
+      },
+      {
+        "userID": "62btmhi2qpqs4fkb",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 41,
+          "CHAOS": 73,
+          "WISDOM": 16,
+          "SNARK": 27
+        }
+      },
+      {
+        "userID": "jiikzkr4jq0kqra1",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 42,
+          "PATIENCE": 2,
+          "CHAOS": 31,
+          "WISDOM": 32,
+          "SNARK": 61
+        }
+      },
+      {
+        "userID": "kklxelourin6swmm",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 2,
+          "PATIENCE": 71,
+          "CHAOS": 28,
+          "WISDOM": 6,
+          "SNARK": 23
+        }
+      },
+      {
+        "userID": "5ngu72sblpxcq66p",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 20,
+          "PATIENCE": 38,
+          "CHAOS": 60,
+          "WISDOM": 1,
+          "SNARK": 43
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "9yjyvofa74jl9i3r",
+        "eye": "✦",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 33,
+          "PATIENCE": 42,
+          "CHAOS": 18,
+          "WISDOM": 15,
+          "SNARK": 69
+        }
+      },
+      {
+        "userID": "30aq8noi6qczqsd0",
+        "eye": "✦",
+        "hat": "wizard",
+        "shiny": true,
+        "stats": {
+          "DEBUGGING": 24,
+          "PATIENCE": 16,
+          "CHAOS": 39,
+          "WISDOM": 73,
+          "SNARK": 47
+        }
+      },
+      {
+        "userID": "5n2rd62k2rjx3geh",
+        "eye": "◉",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 28,
+          "PATIENCE": 88,
+          "CHAOS": 48,
+          "WISDOM": 12,
+          "SNARK": 36
+        }
+      },
+      {
+        "userID": "274fqydmq5ets3vq",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 66,
+          "PATIENCE": 17,
+          "CHAOS": 16,
+          "WISDOM": 29,
+          "SNARK": 6
+        }
+      },
+      {
+        "userID": "j2v941kch7rpr9ax",
+        "eye": "×",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 46,
+          "PATIENCE": 21,
+          "CHAOS": 35,
+          "WISDOM": 19,
+          "SNARK": 83
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "b0dn9ekjabzbkzc7",
+        "eye": "✦",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 16,
+          "PATIENCE": 33,
+          "CHAOS": 31,
+          "WISDOM": 97,
+          "SNARK": 50
+        }
+      },
+      {
+        "userID": "56soczhcb7gmzl73",
+        "eye": "◉",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 20,
+          "PATIENCE": 48,
+          "CHAOS": 92,
+          "WISDOM": 45,
+          "SNARK": 33
+        }
+      },
+      {
+        "userID": "8yrwrkdlkrdqkwlz",
+        "eye": "×",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 28,
+          "PATIENCE": 15,
+          "CHAOS": 44,
+          "WISDOM": 49,
+          "SNARK": 85
+        }
+      },
+      {
+        "userID": "7csm3k3w4w4r1qfm",
+        "eye": "◉",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 96,
+          "PATIENCE": 26,
+          "CHAOS": 54,
+          "WISDOM": 33,
+          "SNARK": 23
+        }
+      },
+      {
+        "userID": "3uh61808qgnfp6y1",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 25,
+          "PATIENCE": 28,
+          "CHAOS": 49,
+          "WISDOM": 62,
+          "SNARK": 86
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "wrr46ejnkyyt5bx7",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 49,
+          "PATIENCE": 33,
+          "CHAOS": 53,
+          "WISDOM": 85,
+          "SNARK": 67
+        }
+      },
+      {
+        "userID": "1sirqvifgim3ado5",
+        "eye": "°",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 49,
+          "CHAOS": 39,
+          "WISDOM": 41,
+          "SNARK": 60
+        }
+      },
+      {
+        "userID": "bthsoj18np8izw3x",
+        "eye": "°",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 100,
+          "CHAOS": 41,
+          "WISDOM": 72,
+          "SNARK": 30
+        }
+      },
+      {
+        "userID": "mxvkebkcwy8obbr6",
+        "eye": "°",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 38,
+          "CHAOS": 35,
+          "WISDOM": 38,
+          "SNARK": 48
+        }
+      },
+      {
+        "userID": "0r53q8cd3jsisms4",
+        "eye": "°",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 96,
+          "PATIENCE": 67,
+          "CHAOS": 52,
+          "WISDOM": 48,
+          "SNARK": 33
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "3ajeol59ainzbsor",
+        "eye": "✦",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 50,
+          "PATIENCE": 69,
+          "CHAOS": 40,
+          "WISDOM": 100,
+          "SNARK": 89
+        }
+      },
+      {
+        "userID": "j1s9bkk7wm2l2mm0",
+        "eye": "°",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 52,
+          "PATIENCE": 52,
+          "CHAOS": 100,
+          "WISDOM": 69,
+          "SNARK": 54
+        }
+      },
+      {
+        "userID": "n921if9v6vxydnaf",
+        "eye": "@",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 46,
+          "PATIENCE": 70,
+          "CHAOS": 85,
+          "WISDOM": 100,
+          "SNARK": 75
+        }
+      },
+      {
+        "userID": "nx9qxik0jhup8e3n",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 40,
+          "PATIENCE": 65,
+          "CHAOS": 100,
+          "WISDOM": 86,
+          "SNARK": 52
+        }
+      },
+      {
+        "userID": "5p23p36p72dllvqv",
+        "eye": "@",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 72,
+          "PATIENCE": 44,
+          "CHAOS": 67,
+          "WISDOM": 86,
+          "SNARK": 100
+        }
+      }
+    ]
+  },
+  "dragon": {
+    "common": [
+      {
+        "userID": "m0558wu6pr894i1x",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 43,
+          "CHAOS": 78,
+          "WISDOM": 33,
+          "SNARK": 1
+        }
+      },
+      {
+        "userID": "eusqt9q0v3wt76c3",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 9,
+          "PATIENCE": 28,
+          "CHAOS": 43,
+          "WISDOM": 62,
+          "SNARK": 6
+        }
+      },
+      {
+        "userID": "pa4zmrutmnjw7iy1",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 14,
+          "PATIENCE": 19,
+          "CHAOS": 82,
+          "WISDOM": 15,
+          "SNARK": 8
+        }
+      },
+      {
+        "userID": "6j7iwoifejqjrdsp",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 18,
+          "PATIENCE": 41,
+          "CHAOS": 3,
+          "WISDOM": 84,
+          "SNARK": 29
+        }
+      },
+      {
+        "userID": "ya639b6djyi2wg9t",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 79,
+          "PATIENCE": 44,
+          "CHAOS": 12,
+          "WISDOM": 27,
+          "SNARK": 1
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "9mgroegsnypt2ful",
+        "eye": "×",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 24,
+          "PATIENCE": 65,
+          "CHAOS": 31,
+          "WISDOM": 38,
+          "SNARK": 13
+        }
+      },
+      {
+        "userID": "wujf7jdckje7b8jv",
+        "eye": "×",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 18,
+          "PATIENCE": 52,
+          "CHAOS": 16,
+          "WISDOM": 17,
+          "SNARK": 72
+        }
+      },
+      {
+        "userID": "73uecbddwysburop",
+        "eye": "×",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 47,
+          "PATIENCE": 49,
+          "CHAOS": 10,
+          "WISDOM": 76,
+          "SNARK": 21
+        }
+      },
+      {
+        "userID": "i34l2qy7ihj2aevz",
+        "eye": "°",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 18,
+          "PATIENCE": 23,
+          "CHAOS": 86,
+          "WISDOM": 49,
+          "SNARK": 43
+        }
+      },
+      {
+        "userID": "9hvj6canvvxw0y4x",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 90,
+          "PATIENCE": 27,
+          "CHAOS": 20,
+          "WISDOM": 29,
+          "SNARK": 7
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "pc26q1xgkqb0qr0r",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 47,
+          "PATIENCE": 97,
+          "CHAOS": 27,
+          "WISDOM": 47,
+          "SNARK": 35
+        }
+      },
+      {
+        "userID": "5nc9p83r67py1zwv",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 49,
+          "PATIENCE": 47,
+          "CHAOS": 27,
+          "WISDOM": 88,
+          "SNARK": 26
+        }
+      },
+      {
+        "userID": "y4uekkb3qx6dc1tn",
+        "eye": "°",
+        "hat": "crown",
+        "shiny": true,
+        "stats": {
+          "DEBUGGING": 29,
+          "PATIENCE": 19,
+          "CHAOS": 50,
+          "WISDOM": 100,
+          "SNARK": 60
+        }
+      },
+      {
+        "userID": "pcij0lhfkrf284da",
+        "eye": "°",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 90,
+          "PATIENCE": 28,
+          "CHAOS": 44,
+          "WISDOM": 16,
+          "SNARK": 25
+        }
+      },
+      {
+        "userID": "k9iikzg02cto6vdf",
+        "eye": "✦",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 23,
+          "CHAOS": 31,
+          "WISDOM": 55,
+          "SNARK": 77
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "mntxotm95nroz9fh",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 30,
+          "PATIENCE": 65,
+          "CHAOS": 58,
+          "WISDOM": 40,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "hbntic776l1ps7pe",
+        "eye": "◉",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 58,
+          "PATIENCE": 56,
+          "CHAOS": 34,
+          "WISDOM": 47,
+          "SNARK": 93
+        }
+      },
+      {
+        "userID": "sjsg8y12k1ig2gyq",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 59,
+          "PATIENCE": 72,
+          "CHAOS": 66,
+          "WISDOM": 96,
+          "SNARK": 36
+        }
+      },
+      {
+        "userID": "drmftz33g9j24bao",
+        "eye": "@",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 36,
+          "PATIENCE": 100,
+          "CHAOS": 59,
+          "WISDOM": 68,
+          "SNARK": 62
+        }
+      },
+      {
+        "userID": "k0xzdty6dhc3ejne",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 88,
+          "PATIENCE": 35,
+          "CHAOS": 53,
+          "WISDOM": 63,
+          "SNARK": 38
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "b5wdhqpkj7ey12vk",
+        "eye": "◉",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 84,
+          "PATIENCE": 56,
+          "CHAOS": 49,
+          "WISDOM": 100,
+          "SNARK": 52
+        }
+      },
+      {
+        "userID": "20fmv7mr32ppzpp5",
+        "eye": "·",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 51,
+          "PATIENCE": 67,
+          "CHAOS": 50,
+          "WISDOM": 100,
+          "SNARK": 41
+        }
+      },
+      {
+        "userID": "ymh6d45u8394j7gi",
+        "eye": "✦",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 59,
+          "PATIENCE": 80,
+          "CHAOS": 75,
+          "WISDOM": 100,
+          "SNARK": 51
+        }
+      },
+      {
+        "userID": "p622jtykj97k3v52",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 71,
+          "PATIENCE": 64,
+          "CHAOS": 68,
+          "WISDOM": 49,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "nxj2w4z949pbgjk9",
+        "eye": "@",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 85,
+          "PATIENCE": 70,
+          "CHAOS": 87,
+          "WISDOM": 100,
+          "SNARK": 46
+        }
+      }
+    ]
+  },
+  "octopus": {
+    "common": [
+      {
+        "userID": "2lcshuaqxil415fo",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 23,
+          "PATIENCE": 82,
+          "CHAOS": 17,
+          "WISDOM": 9,
+          "SNARK": 6
+        }
+      },
+      {
+        "userID": "8ub80ctk2g2w37c4",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 41,
+          "CHAOS": 56,
+          "WISDOM": 42,
+          "SNARK": 27
+        }
+      },
+      {
+        "userID": "sy8hg3dlxcshxues",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 17,
+          "PATIENCE": 13,
+          "CHAOS": 5,
+          "WISDOM": 68,
+          "SNARK": 34
+        }
+      },
+      {
+        "userID": "zrw8f8ni6y9j9dcy",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 22,
+          "PATIENCE": 32,
+          "CHAOS": 21,
+          "WISDOM": 4,
+          "SNARK": 56
+        }
+      },
+      {
+        "userID": "u571jzu6a0xzrjo1",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 38,
+          "CHAOS": 18,
+          "WISDOM": 10,
+          "SNARK": 71
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "yniyrj6l63e1zqpq",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 19,
+          "PATIENCE": 41,
+          "CHAOS": 34,
+          "WISDOM": 36,
+          "SNARK": 88
+        }
+      },
+      {
+        "userID": "f4rks2y9yu2umpcn",
+        "eye": "·",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 72,
+          "CHAOS": 43,
+          "WISDOM": 19,
+          "SNARK": 32
+        }
+      },
+      {
+        "userID": "gypclmgrviuktqci",
+        "eye": "@",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 49,
+          "PATIENCE": 15,
+          "CHAOS": 33,
+          "WISDOM": 89,
+          "SNARK": 5
+        }
+      },
+      {
+        "userID": "hathrqv6mt8sehp7",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 5,
+          "PATIENCE": 41,
+          "CHAOS": 87,
+          "WISDOM": 39,
+          "SNARK": 41
+        }
+      },
+      {
+        "userID": "agfmukefmolimyvc",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 71,
+          "CHAOS": 42,
+          "WISDOM": 9,
+          "SNARK": 53
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "z901h3qe1c0gkb5a",
+        "eye": "·",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 46,
+          "PATIENCE": 60,
+          "CHAOS": 83,
+          "WISDOM": 55,
+          "SNARK": 22
+        }
+      },
+      {
+        "userID": "s4j1457afx1i7e5o",
+        "eye": "@",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 40,
+          "PATIENCE": 36,
+          "CHAOS": 34,
+          "WISDOM": 21,
+          "SNARK": 97
+        }
+      },
+      {
+        "userID": "whf96ltm6s3u3o2t",
+        "eye": "◉",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 75,
+          "PATIENCE": 18,
+          "CHAOS": 26,
+          "WISDOM": 45,
+          "SNARK": 37
+        }
+      },
+      {
+        "userID": "iz2ho3zhyfbt5iq0",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 51,
+          "PATIENCE": 92,
+          "CHAOS": 57,
+          "WISDOM": 61,
+          "SNARK": 22
+        }
+      },
+      {
+        "userID": "oyi5qc1yt9mk2fn5",
+        "eye": "@",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 36,
+          "CHAOS": 95,
+          "WISDOM": 20,
+          "SNARK": 52
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "6e1p9103qjop1325",
+        "eye": "×",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 31,
+          "CHAOS": 51,
+          "WISDOM": 40,
+          "SNARK": 38
+        }
+      },
+      {
+        "userID": "gzhfxh4fn80wx0lr",
+        "eye": "✦",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 38,
+          "CHAOS": 64,
+          "WISDOM": 69,
+          "SNARK": 73
+        }
+      },
+      {
+        "userID": "2ht684z0qq0tf3ne",
+        "eye": "×",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 53,
+          "CHAOS": 66,
+          "WISDOM": 39,
+          "SNARK": 74
+        }
+      },
+      {
+        "userID": "g4lqf1gbf71yz4o0",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 34,
+          "PATIENCE": 100,
+          "CHAOS": 37,
+          "WISDOM": 59,
+          "SNARK": 39
+        }
+      },
+      {
+        "userID": "uy629gep0wolq4ld",
+        "eye": "◉",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 61,
+          "PATIENCE": 44,
+          "CHAOS": 26,
+          "WISDOM": 39,
+          "SNARK": 100
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "1xz8ps160nz97hld",
+        "eye": "×",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 72,
+          "PATIENCE": 42,
+          "CHAOS": 83,
+          "WISDOM": 100,
+          "SNARK": 61
+        }
+      },
+      {
+        "userID": "mqy7p51ztvrq4uq3",
+        "eye": "✦",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 82,
+          "CHAOS": 62,
+          "WISDOM": 100,
+          "SNARK": 81
+        }
+      },
+      {
+        "userID": "v9eh2tmfwrajd8lp",
+        "eye": "°",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 43,
+          "PATIENCE": 70,
+          "CHAOS": 68,
+          "WISDOM": 59,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "zdda7o0nzol8zw8t",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 63,
+          "PATIENCE": 100,
+          "CHAOS": 79,
+          "WISDOM": 42,
+          "SNARK": 61
+        }
+      },
+      {
+        "userID": "s99jzrwswstulr4i",
+        "eye": "✦",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 69,
+          "PATIENCE": 49,
+          "CHAOS": 74,
+          "WISDOM": 82,
+          "SNARK": 100
+        }
+      }
+    ]
+  },
+  "owl": {
+    "common": [
+      {
+        "userID": "mg5j9hdmqwxr92wp",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 44,
+          "PATIENCE": 1,
+          "CHAOS": 30,
+          "WISDOM": 76,
+          "SNARK": 19
+        }
+      },
+      {
+        "userID": "f9emd4c4c31lrmiq",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 39,
+          "PATIENCE": 72,
+          "CHAOS": 25,
+          "WISDOM": 5,
+          "SNARK": 5
+        }
+      },
+      {
+        "userID": "x7pr3x6ge7noqtnn",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 79,
+          "PATIENCE": 37,
+          "CHAOS": 4,
+          "WISDOM": 34,
+          "SNARK": 7
+        }
+      },
+      {
+        "userID": "qw7212fg5dss7t9p",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 21,
+          "PATIENCE": 6,
+          "CHAOS": 30,
+          "WISDOM": 63,
+          "SNARK": 32
+        }
+      },
+      {
+        "userID": "8c10hxipvld4thz0",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 36,
+          "CHAOS": 24,
+          "WISDOM": 76,
+          "SNARK": 29
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "ha4jyb82o64snsbd",
+        "eye": "·",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 32,
+          "CHAOS": 5,
+          "WISDOM": 79,
+          "SNARK": 28
+        }
+      },
+      {
+        "userID": "xn1590juikdlwif0",
+        "eye": "✦",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 68,
+          "PATIENCE": 15,
+          "CHAOS": 31,
+          "WISDOM": 45,
+          "SNARK": 11
+        }
+      },
+      {
+        "userID": "52i2b2ubvzaczsor",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 19,
+          "PATIENCE": 47,
+          "CHAOS": 15,
+          "WISDOM": 19,
+          "SNARK": 69
+        }
+      },
+      {
+        "userID": "qz7z6ref6wbmqnm9",
+        "eye": "◉",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 82,
+          "PATIENCE": 29,
+          "CHAOS": 18,
+          "WISDOM": 18,
+          "SNARK": 54
+        }
+      },
+      {
+        "userID": "cg4lt4mehfmufmw3",
+        "eye": "@",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 26,
+          "PATIENCE": 94,
+          "CHAOS": 47,
+          "WISDOM": 17,
+          "SNARK": 34
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "0rrlbofjeyikttel",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 24,
+          "PATIENCE": 58,
+          "CHAOS": 39,
+          "WISDOM": 32,
+          "SNARK": 77
+        }
+      },
+      {
+        "userID": "llnmtx4t5glty8yp",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 36,
+          "PATIENCE": 19,
+          "CHAOS": 36,
+          "WISDOM": 54,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "11zlji1bsdx1aqck",
+        "eye": "·",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 98,
+          "PATIENCE": 53,
+          "CHAOS": 30,
+          "WISDOM": 24,
+          "SNARK": 46
+        }
+      },
+      {
+        "userID": "1nofjfh1ef4v3ixz",
+        "eye": "✦",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 46,
+          "PATIENCE": 49,
+          "CHAOS": 75,
+          "WISDOM": 39,
+          "SNARK": 17
+        }
+      },
+      {
+        "userID": "5rnal5md41zrykty",
+        "eye": "@",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 37,
+          "PATIENCE": 15,
+          "CHAOS": 44,
+          "WISDOM": 58,
+          "SNARK": 97
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "oki6qzxg0bgijn7s",
+        "eye": "✦",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 87,
+          "PATIENCE": 73,
+          "CHAOS": 47,
+          "WISDOM": 34,
+          "SNARK": 48
+        }
+      },
+      {
+        "userID": "3ey1abjhhlebigj0",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 49,
+          "CHAOS": 42,
+          "WISDOM": 25,
+          "SNARK": 61
+        }
+      },
+      {
+        "userID": "sx8awbcb78wml7g4",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 43,
+          "CHAOS": 100,
+          "WISDOM": 53,
+          "SNARK": 33
+        }
+      },
+      {
+        "userID": "f70zo4qp78ea58ff",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 30,
+          "PATIENCE": 100,
+          "CHAOS": 56,
+          "WISDOM": 56,
+          "SNARK": 54
+        }
+      },
+      {
+        "userID": "qbzbdgtd2odbt7u9",
+        "eye": "×",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 65,
+          "PATIENCE": 100,
+          "CHAOS": 40,
+          "WISDOM": 74,
+          "SNARK": 38
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "o22dv3qclgt4n49s",
+        "eye": "·",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 47,
+          "CHAOS": 83,
+          "WISDOM": 80,
+          "SNARK": 81
+        }
+      },
+      {
+        "userID": "trxnrx5j0qi0yf9i",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 75,
+          "PATIENCE": 53,
+          "CHAOS": 61,
+          "WISDOM": 54,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "fxunvdjcxsw97daz",
+        "eye": "·",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 71,
+          "PATIENCE": 89,
+          "CHAOS": 78,
+          "WISDOM": 46,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "9ut0vepgjn0rrvhr",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 68,
+          "PATIENCE": 64,
+          "CHAOS": 86,
+          "WISDOM": 100,
+          "SNARK": 49
+        }
+      },
+      {
+        "userID": "bshtv5a9jva0qd7f",
+        "eye": "×",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 52,
+          "PATIENCE": 55,
+          "CHAOS": 54,
+          "WISDOM": 100,
+          "SNARK": 62
+        }
+      }
+    ]
+  },
+  "penguin": {
+    "common": [
+      {
+        "userID": "9sgyl8yjr0f6awyo",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 6,
+          "PATIENCE": 7,
+          "CHAOS": 37,
+          "WISDOM": 55,
+          "SNARK": 30
+        }
+      },
+      {
+        "userID": "fqanazr416uozzpa",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 60,
+          "PATIENCE": 6,
+          "CHAOS": 7,
+          "WISDOM": 6,
+          "SNARK": 35
+        }
+      },
+      {
+        "userID": "6cxqvwsiyvtybmmv",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 7,
+          "PATIENCE": 81,
+          "CHAOS": 3,
+          "WISDOM": 25,
+          "SNARK": 15
+        }
+      },
+      {
+        "userID": "79922l5pkq4ndxym",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 10,
+          "PATIENCE": 1,
+          "CHAOS": 43,
+          "WISDOM": 74,
+          "SNARK": 27
+        }
+      },
+      {
+        "userID": "qperx2h7zdw77szv",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 65,
+          "PATIENCE": 27,
+          "CHAOS": 6,
+          "WISDOM": 32,
+          "SNARK": 43
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "bi71upngx09cqfhy",
+        "eye": "·",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 33,
+          "PATIENCE": 31,
+          "CHAOS": 85,
+          "WISDOM": 52,
+          "SNARK": 16
+        }
+      },
+      {
+        "userID": "0hti1ywv0jnf9aod",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 12,
+          "PATIENCE": 20,
+          "CHAOS": 78,
+          "WISDOM": 22,
+          "SNARK": 46
+        }
+      },
+      {
+        "userID": "d2cmcqdiwtyoxm91",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 11,
+          "PATIENCE": 72,
+          "CHAOS": 40,
+          "WISDOM": 40,
+          "SNARK": 20
+        }
+      },
+      {
+        "userID": "ebk6o329qrpvig2q",
+        "eye": "✦",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 32,
+          "PATIENCE": 24,
+          "CHAOS": 20,
+          "WISDOM": 8,
+          "SNARK": 81
+        }
+      },
+      {
+        "userID": "um7h5m2duntg53sn",
+        "eye": "°",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 26,
+          "PATIENCE": 18,
+          "CHAOS": 49,
+          "WISDOM": 16,
+          "SNARK": 87
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "gjxljlkiq3kxvwip",
+        "eye": "·",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 49,
+          "PATIENCE": 45,
+          "CHAOS": 60,
+          "WISDOM": 98,
+          "SNARK": 25
+        }
+      },
+      {
+        "userID": "ehfgow67lioeloas",
+        "eye": "✦",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 20,
+          "PATIENCE": 97,
+          "CHAOS": 30,
+          "WISDOM": 60,
+          "SNARK": 47
+        }
+      },
+      {
+        "userID": "uwycgrcfsb8d1vzk",
+        "eye": "@",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 56,
+          "PATIENCE": 27,
+          "CHAOS": 28,
+          "WISDOM": 60,
+          "SNARK": 94
+        }
+      },
+      {
+        "userID": "ebfw7s632wwiv6me",
+        "eye": "@",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 27,
+          "PATIENCE": 41,
+          "CHAOS": 83,
+          "WISDOM": 28,
+          "SNARK": 38
+        }
+      },
+      {
+        "userID": "lwtkl18tro9ph2ze",
+        "eye": "✦",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 16,
+          "PATIENCE": 79,
+          "CHAOS": 51,
+          "WISDOM": 40,
+          "SNARK": 43
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "qv7uxxv1hiaji6wg",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 50,
+          "PATIENCE": 32,
+          "CHAOS": 44,
+          "WISDOM": 100,
+          "SNARK": 37
+        }
+      },
+      {
+        "userID": "hz1l8e5preoeyp2z",
+        "eye": "@",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 72,
+          "PATIENCE": 47,
+          "CHAOS": 59,
+          "WISDOM": 27,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "de39m1fplugdxriv",
+        "eye": "°",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 64,
+          "PATIENCE": 100,
+          "CHAOS": 39,
+          "WISDOM": 46,
+          "SNARK": 46
+        }
+      },
+      {
+        "userID": "or9cwdmjl64summ0",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 60,
+          "CHAOS": 52,
+          "WISDOM": 29,
+          "SNARK": 37
+        }
+      },
+      {
+        "userID": "v5yup6ptvz1sj1d7",
+        "eye": "✦",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 27,
+          "PATIENCE": 98,
+          "CHAOS": 52,
+          "WISDOM": 35,
+          "SNARK": 71
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "9w27gvgzcdt6c0et",
+        "eye": "✦",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 50,
+          "PATIENCE": 100,
+          "CHAOS": 49,
+          "WISDOM": 62,
+          "SNARK": 65
+        }
+      },
+      {
+        "userID": "nwbiitnqnlek0utj",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 46,
+          "PATIENCE": 66,
+          "CHAOS": 60,
+          "WISDOM": 100,
+          "SNARK": 58
+        }
+      },
+      {
+        "userID": "33dfijlsq1prb1k8",
+        "eye": "×",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 87,
+          "PATIENCE": 50,
+          "CHAOS": 100,
+          "WISDOM": 53,
+          "SNARK": 59
+        }
+      },
+      {
+        "userID": "1k23ybsf75x5abfm",
+        "eye": "✦",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 64,
+          "PATIENCE": 42,
+          "CHAOS": 64,
+          "WISDOM": 60,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "l19rkxq6jg3xmut5",
+        "eye": "·",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 43,
+          "PATIENCE": 58,
+          "CHAOS": 100,
+          "WISDOM": 80,
+          "SNARK": 77
+        }
+      }
+    ]
+  },
+  "turtle": {
+    "common": [
+      {
+        "userID": "qj04sao50hr27h33",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 16,
+          "PATIENCE": 1,
+          "CHAOS": 25,
+          "WISDOM": 82,
+          "SNARK": 16
+        }
+      },
+      {
+        "userID": "9x60oy647wlcp3os",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 82,
+          "PATIENCE": 43,
+          "CHAOS": 40,
+          "WISDOM": 1,
+          "SNARK": 20
+        }
+      },
+      {
+        "userID": "nxgj0ahdxowcx7np",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 21,
+          "PATIENCE": 1,
+          "CHAOS": 11,
+          "WISDOM": 84,
+          "SNARK": 29
+        }
+      },
+      {
+        "userID": "e36yqxc1yxa9ize5",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 5,
+          "PATIENCE": 31,
+          "CHAOS": 61,
+          "WISDOM": 6,
+          "SNARK": 1
+        }
+      },
+      {
+        "userID": "izyf9bh5mqgvmxn6",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 79,
+          "PATIENCE": 5,
+          "CHAOS": 25,
+          "WISDOM": 9,
+          "SNARK": 34
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "it9av3zfx6uu42jl",
+        "eye": "◉",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 94,
+          "PATIENCE": 26,
+          "CHAOS": 54,
+          "WISDOM": 39,
+          "SNARK": 15
+        }
+      },
+      {
+        "userID": "cqe0my74ws7ti2tb",
+        "eye": "◉",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 11,
+          "PATIENCE": 93,
+          "CHAOS": 51,
+          "WISDOM": 38,
+          "SNARK": 32
+        }
+      },
+      {
+        "userID": "z2bv2pnesv6blf16",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 42,
+          "PATIENCE": 36,
+          "CHAOS": 50,
+          "WISDOM": 70,
+          "SNARK": 9
+        }
+      },
+      {
+        "userID": "azcgh6qbfi0013uo",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 19,
+          "PATIENCE": 65,
+          "CHAOS": 17,
+          "WISDOM": 32,
+          "SNARK": 26
+        }
+      },
+      {
+        "userID": "goi5s25vlvns8f2v",
+        "eye": "·",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 25,
+          "PATIENCE": 19,
+          "CHAOS": 77,
+          "WISDOM": 32,
+          "SNARK": 10
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "k3e860r24kuygl3a",
+        "eye": "°",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 95,
+          "PATIENCE": 33,
+          "CHAOS": 49,
+          "WISDOM": 16,
+          "SNARK": 42
+        }
+      },
+      {
+        "userID": "m1mksuhmtvn9p1if",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 17,
+          "PATIENCE": 40,
+          "CHAOS": 32,
+          "WISDOM": 41,
+          "SNARK": 98
+        }
+      },
+      {
+        "userID": "j8e8xmuxh0vf9b87",
+        "eye": "◉",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 39,
+          "PATIENCE": 16,
+          "CHAOS": 28,
+          "WISDOM": 40,
+          "SNARK": 79
+        }
+      },
+      {
+        "userID": "l7s6sdvvta35uw9o",
+        "eye": "@",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 61,
+          "PATIENCE": 27,
+          "CHAOS": 27,
+          "WISDOM": 21,
+          "SNARK": 89
+        }
+      },
+      {
+        "userID": "ya4d996pm1ukyxx8",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 47,
+          "PATIENCE": 81,
+          "CHAOS": 28,
+          "WISDOM": 37,
+          "SNARK": 40
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "ypfpz6n0ojgogdp4",
+        "eye": "·",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 57,
+          "PATIENCE": 71,
+          "CHAOS": 85,
+          "WISDOM": 38,
+          "SNARK": 27
+        }
+      },
+      {
+        "userID": "3vvrjw3z87gembm6",
+        "eye": "◉",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 70,
+          "PATIENCE": 93,
+          "CHAOS": 36,
+          "WISDOM": 72,
+          "SNARK": 42
+        }
+      },
+      {
+        "userID": "ebqr0fz2ar0nk42s",
+        "eye": "✦",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 88,
+          "PATIENCE": 35,
+          "CHAOS": 38,
+          "WISDOM": 39,
+          "SNARK": 36
+        }
+      },
+      {
+        "userID": "ujxr64g5yye4svna",
+        "eye": "×",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 52,
+          "PATIENCE": 73,
+          "CHAOS": 45,
+          "WISDOM": 38,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "9sd8q4dakxip2d0h",
+        "eye": "·",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 62,
+          "PATIENCE": 73,
+          "CHAOS": 91,
+          "WISDOM": 32,
+          "SNARK": 71
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "ynuqd9p0sn2c9dac",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 63,
+          "PATIENCE": 63,
+          "CHAOS": 47,
+          "WISDOM": 62,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "zitqmy3m6zod7vas",
+        "eye": "°",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 86,
+          "PATIENCE": 50,
+          "CHAOS": 79,
+          "WISDOM": 79,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "mlm7vr6yu6tnbss5",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 53,
+          "PATIENCE": 62,
+          "CHAOS": 67,
+          "WISDOM": 100,
+          "SNARK": 58
+        }
+      },
+      {
+        "userID": "y2tdglh7b0ao8zgi",
+        "eye": "✦",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 72,
+          "PATIENCE": 100,
+          "CHAOS": 84,
+          "WISDOM": 85,
+          "SNARK": 47
+        }
+      },
+      {
+        "userID": "phf9lkiia4o23alc",
+        "eye": "✦",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 51,
+          "PATIENCE": 100,
+          "CHAOS": 68,
+          "WISDOM": 68,
+          "SNARK": 78
+        }
+      }
+    ]
+  },
+  "snail": {
+    "common": [
+      {
+        "userID": "uwgec878kn6z7r4h",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 1,
+          "CHAOS": 82,
+          "WISDOM": 6,
+          "SNARK": 25
+        }
+      },
+      {
+        "userID": "i719mdafwd196bz1",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 13,
+          "PATIENCE": 1,
+          "CHAOS": 35,
+          "WISDOM": 55,
+          "SNARK": 6
+        }
+      },
+      {
+        "userID": "2ony9rpjbz8bmji1",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 80,
+          "PATIENCE": 13,
+          "CHAOS": 7,
+          "WISDOM": 20,
+          "SNARK": 1
+        }
+      },
+      {
+        "userID": "qz6a3hte6dy9iz0s",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 19,
+          "PATIENCE": 18,
+          "CHAOS": 1,
+          "WISDOM": 6,
+          "SNARK": 74
+        }
+      },
+      {
+        "userID": "y8aiq03q4ym0i32d",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 17,
+          "CHAOS": 80,
+          "WISDOM": 31,
+          "SNARK": 14
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "iwiu4j2l5kfu63iv",
+        "eye": "✦",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 18,
+          "PATIENCE": 36,
+          "CHAOS": 33,
+          "WISDOM": 8,
+          "SNARK": 75
+        }
+      },
+      {
+        "userID": "mn5ixbcqt3n820cw",
+        "eye": "°",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 36,
+          "PATIENCE": 53,
+          "CHAOS": 29,
+          "WISDOM": 19,
+          "SNARK": 88
+        }
+      },
+      {
+        "userID": "1qixhs95lv8qbw5h",
+        "eye": "°",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 39,
+          "PATIENCE": 24,
+          "CHAOS": 8,
+          "WISDOM": 91,
+          "SNARK": 33
+        }
+      },
+      {
+        "userID": "o1uew85ux97kn8e0",
+        "eye": "°",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 43,
+          "PATIENCE": 39,
+          "CHAOS": 8,
+          "WISDOM": 43,
+          "SNARK": 78
+        }
+      },
+      {
+        "userID": "tqy8qkuia8bt2o54",
+        "eye": "@",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 21,
+          "PATIENCE": 89,
+          "CHAOS": 51,
+          "WISDOM": 8,
+          "SNARK": 39
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "l9z69tijbvniu2yx",
+        "eye": "×",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 50,
+          "PATIENCE": 89,
+          "CHAOS": 35,
+          "WISDOM": 52,
+          "SNARK": 19
+        }
+      },
+      {
+        "userID": "b1dw1f1eibrkaby2",
+        "eye": "◉",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 85,
+          "PATIENCE": 36,
+          "CHAOS": 26,
+          "WISDOM": 49,
+          "SNARK": 39
+        }
+      },
+      {
+        "userID": "ifciysfay2mjesn8",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 18,
+          "PATIENCE": 53,
+          "CHAOS": 53,
+          "WISDOM": 35,
+          "SNARK": 76
+        }
+      },
+      {
+        "userID": "zdk6b7wyn6cq6750",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 99,
+          "PATIENCE": 36,
+          "CHAOS": 40,
+          "WISDOM": 22,
+          "SNARK": 47
+        }
+      },
+      {
+        "userID": "ikzl9m68hsjwhiln",
+        "eye": "◉",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 39,
+          "PATIENCE": 94,
+          "CHAOS": 28,
+          "WISDOM": 15,
+          "SNARK": 42
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "b7qehqhdfb2i3c93",
+        "eye": "◉",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 86,
+          "PATIENCE": 32,
+          "CHAOS": 74,
+          "WISDOM": 61,
+          "SNARK": 62
+        }
+      },
+      {
+        "userID": "h0dt8o1apvgfrmy4",
+        "eye": "◉",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 32,
+          "PATIENCE": 100,
+          "CHAOS": 53,
+          "WISDOM": 42,
+          "SNARK": 55
+        }
+      },
+      {
+        "userID": "t76oxwvh2m4ecbdv",
+        "eye": "×",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 36,
+          "PATIENCE": 45,
+          "CHAOS": 57,
+          "WISDOM": 36,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "by39calq3yuiyd0j",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 40,
+          "PATIENCE": 26,
+          "CHAOS": 53,
+          "WISDOM": 91,
+          "SNARK": 46
+        }
+      },
+      {
+        "userID": "01994xtbnuh165zz",
+        "eye": "·",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 43,
+          "PATIENCE": 100,
+          "CHAOS": 43,
+          "WISDOM": 47,
+          "SNARK": 27
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "ec8ewzmzwoma2tfj",
+        "eye": "°",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 73,
+          "PATIENCE": 45,
+          "CHAOS": 100,
+          "WISDOM": 57,
+          "SNARK": 56
+        }
+      },
+      {
+        "userID": "9wbr8yh33wdscjse",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 74,
+          "CHAOS": 73,
+          "WISDOM": 46,
+          "SNARK": 52
+        }
+      },
+      {
+        "userID": "y2qcff6lp3alkpzl",
+        "eye": "@",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 76,
+          "PATIENCE": 100,
+          "CHAOS": 56,
+          "WISDOM": 87,
+          "SNARK": 44
+        }
+      },
+      {
+        "userID": "d8j6n3t7uq2vi9j0",
+        "eye": "°",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 55,
+          "PATIENCE": 100,
+          "CHAOS": 47,
+          "WISDOM": 51,
+          "SNARK": 61
+        }
+      },
+      {
+        "userID": "fzgeyz616hlcqbas",
+        "eye": "◉",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 59,
+          "PATIENCE": 53,
+          "CHAOS": 100,
+          "WISDOM": 61,
+          "SNARK": 46
+        }
+      }
+    ]
+  },
+  "ghost": {
+    "common": [
+      {
+        "userID": "2qgksi33aqu7vhhe",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 9,
+          "PATIENCE": 41,
+          "CHAOS": 14,
+          "WISDOM": 28,
+          "SNARK": 84
+        }
+      },
+      {
+        "userID": "9v9qdy9d0i4jwu1b",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 27,
+          "PATIENCE": 24,
+          "CHAOS": 1,
+          "WISDOM": 79,
+          "SNARK": 20
+        }
+      },
+      {
+        "userID": "jpasgysyycy57c6e",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 55,
+          "CHAOS": 10,
+          "WISDOM": 38,
+          "SNARK": 27
+        }
+      },
+      {
+        "userID": "c9eyqwcs3cregt7w",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 7,
+          "PATIENCE": 41,
+          "CHAOS": 64,
+          "WISDOM": 14,
+          "SNARK": 40
+        }
+      },
+      {
+        "userID": "4wbf77illy08so00",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 6,
+          "CHAOS": 26,
+          "WISDOM": 11,
+          "SNARK": 57
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "7ki9vz8jb64r3z3d",
+        "eye": "·",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 8,
+          "CHAOS": 19,
+          "WISDOM": 74,
+          "SNARK": 28
+        }
+      },
+      {
+        "userID": "owk80kt7lp8ikpnf",
+        "eye": "°",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 45,
+          "PATIENCE": 93,
+          "CHAOS": 29,
+          "WISDOM": 19,
+          "SNARK": 25
+        }
+      },
+      {
+        "userID": "yin1s5zrg1vudgpd",
+        "eye": "°",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 44,
+          "PATIENCE": 6,
+          "CHAOS": 28,
+          "WISDOM": 39,
+          "SNARK": 85
+        }
+      },
+      {
+        "userID": "e3y09pdport2hj92",
+        "eye": "✦",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 45,
+          "PATIENCE": 72,
+          "CHAOS": 54,
+          "WISDOM": 6,
+          "SNARK": 51
+        }
+      },
+      {
+        "userID": "t5455dwk62osx8ca",
+        "eye": "◉",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 21,
+          "PATIENCE": 93,
+          "CHAOS": 23,
+          "WISDOM": 44,
+          "SNARK": 11
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "z2bxufsiwcjhs96e",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 78,
+          "PATIENCE": 61,
+          "CHAOS": 36,
+          "WISDOM": 28,
+          "SNARK": 45
+        }
+      },
+      {
+        "userID": "goypkb586d40lf50",
+        "eye": "◉",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 40,
+          "PATIENCE": 35,
+          "CHAOS": 100,
+          "WISDOM": 18,
+          "SNARK": 25
+        }
+      },
+      {
+        "userID": "gvc76tzghe5m25zy",
+        "eye": "✦",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 32,
+          "PATIENCE": 26,
+          "CHAOS": 78,
+          "WISDOM": 41,
+          "SNARK": 51
+        }
+      },
+      {
+        "userID": "3j09eu21hpbmj3u4",
+        "eye": "°",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 30,
+          "CHAOS": 20,
+          "WISDOM": 92,
+          "SNARK": 29
+        }
+      },
+      {
+        "userID": "06ckvsxpmoqc34fn",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 43,
+          "PATIENCE": 46,
+          "CHAOS": 56,
+          "WISDOM": 25,
+          "SNARK": 75
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "2e1ed50fsmlr5w3y",
+        "eye": "◉",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 55,
+          "PATIENCE": 32,
+          "CHAOS": 66,
+          "WISDOM": 87,
+          "SNARK": 42
+        }
+      },
+      {
+        "userID": "2c3v2dzpswn2shji",
+        "eye": "°",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 87,
+          "PATIENCE": 48,
+          "CHAOS": 49,
+          "WISDOM": 35,
+          "SNARK": 31
+        }
+      },
+      {
+        "userID": "io07bpyqkj5xjesb",
+        "eye": "·",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 61,
+          "PATIENCE": 64,
+          "CHAOS": 41,
+          "WISDOM": 100,
+          "SNARK": 33
+        }
+      },
+      {
+        "userID": "bv2km9l3sm2xk5lo",
+        "eye": "°",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 64,
+          "PATIENCE": 35,
+          "CHAOS": 55,
+          "WISDOM": 54,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "2u0bxxzyqvwgxpt3",
+        "eye": "✦",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 42,
+          "CHAOS": 39,
+          "WISDOM": 58,
+          "SNARK": 41
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "kc6g5x2qovi1imas",
+        "eye": "°",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 76,
+          "PATIENCE": 50,
+          "CHAOS": 71,
+          "WISDOM": 100,
+          "SNARK": 41
+        }
+      },
+      {
+        "userID": "b9pgf39xa081i0kj",
+        "eye": "@",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 50,
+          "PATIENCE": 100,
+          "CHAOS": 72,
+          "WISDOM": 78,
+          "SNARK": 85
+        }
+      },
+      {
+        "userID": "x4jbej542zf4ceov",
+        "eye": "◉",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 87,
+          "PATIENCE": 84,
+          "CHAOS": 100,
+          "WISDOM": 43,
+          "SNARK": 87
+        }
+      },
+      {
+        "userID": "b34c5teb6b4407go",
+        "eye": "°",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 83,
+          "CHAOS": 83,
+          "WISDOM": 77,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "xgmgcjxlhrvv3iw7",
+        "eye": "°",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 85,
+          "PATIENCE": 51,
+          "CHAOS": 100,
+          "WISDOM": 48,
+          "SNARK": 78
+        }
+      }
+    ]
+  },
+  "axolotl": {
+    "common": [
+      {
+        "userID": "uzlahbwgj0atjjlx",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 36,
+          "PATIENCE": 44,
+          "CHAOS": 21,
+          "WISDOM": 1,
+          "SNARK": 73
+        }
+      },
+      {
+        "userID": "9tmrmn16r17tnw6z",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 22,
+          "PATIENCE": 9,
+          "CHAOS": 73,
+          "WISDOM": 34,
+          "SNARK": 9
+        }
+      },
+      {
+        "userID": "au0o7s2m00nylmim",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 22,
+          "PATIENCE": 63,
+          "CHAOS": 7,
+          "WISDOM": 41,
+          "SNARK": 1
+        }
+      },
+      {
+        "userID": "ioqq8el18v4337qe",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 40,
+          "CHAOS": 84,
+          "WISDOM": 8,
+          "SNARK": 35
+        }
+      },
+      {
+        "userID": "8epjci7x9fqqaqpm",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 6,
+          "PATIENCE": 23,
+          "CHAOS": 79,
+          "WISDOM": 30,
+          "SNARK": 12
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "gt2k9mxwdq36ul7m",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 84,
+          "PATIENCE": 18,
+          "CHAOS": 44,
+          "WISDOM": 26,
+          "SNARK": 9
+        }
+      },
+      {
+        "userID": "7e34ddz250vsq3p5",
+        "eye": "°",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 18,
+          "CHAOS": 93,
+          "WISDOM": 15,
+          "SNARK": 20
+        }
+      },
+      {
+        "userID": "t72aymb6bhz96bjr",
+        "eye": "°",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 47,
+          "PATIENCE": 88,
+          "CHAOS": 47,
+          "WISDOM": 17,
+          "SNARK": 52
+        }
+      },
+      {
+        "userID": "8rjlhqfmrueoueg8",
+        "eye": "✦",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 50,
+          "PATIENCE": 24,
+          "CHAOS": 12,
+          "WISDOM": 74,
+          "SNARK": 24
+        }
+      },
+      {
+        "userID": "jo67zd2tey69wu3g",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 21,
+          "PATIENCE": 76,
+          "CHAOS": 17,
+          "WISDOM": 5,
+          "SNARK": 24
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "0d7czx0xwk0xmaty",
+        "eye": "°",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 20,
+          "PATIENCE": 48,
+          "CHAOS": 33,
+          "WISDOM": 97,
+          "SNARK": 29
+        }
+      },
+      {
+        "userID": "nxyvdf2kothojku1",
+        "eye": "◉",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 52,
+          "PATIENCE": 59,
+          "CHAOS": 37,
+          "WISDOM": 25,
+          "SNARK": 84
+        }
+      },
+      {
+        "userID": "nyt8oxai87o6yzd7",
+        "eye": "@",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 64,
+          "PATIENCE": 97,
+          "CHAOS": 22,
+          "WISDOM": 46,
+          "SNARK": 32
+        }
+      },
+      {
+        "userID": "zb6c0pnk530vga9v",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 90,
+          "PATIENCE": 46,
+          "CHAOS": 23,
+          "WISDOM": 27,
+          "SNARK": 39
+        }
+      },
+      {
+        "userID": "fpnmav3dzjqyfo6z",
+        "eye": "✦",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 27,
+          "PATIENCE": 49,
+          "CHAOS": 83,
+          "WISDOM": 36,
+          "SNARK": 57
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "3s06h52af664f8eq",
+        "eye": "×",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 49,
+          "PATIENCE": 38,
+          "CHAOS": 53,
+          "WISDOM": 65,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "qrfhrs6k41z62am1",
+        "eye": "◉",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 48,
+          "PATIENCE": 35,
+          "CHAOS": 86,
+          "WISDOM": 35,
+          "SNARK": 64
+        }
+      },
+      {
+        "userID": "lcwclqf4iunni7en",
+        "eye": "°",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 93,
+          "PATIENCE": 67,
+          "CHAOS": 37,
+          "WISDOM": 37,
+          "SNARK": 47
+        }
+      },
+      {
+        "userID": "hf8wa998e65ihv8h",
+        "eye": "@",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 32,
+          "PATIENCE": 66,
+          "CHAOS": 61,
+          "WISDOM": 100,
+          "SNARK": 62
+        }
+      },
+      {
+        "userID": "c4azl6w0p6kd5mav",
+        "eye": "×",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 39,
+          "CHAOS": 26,
+          "WISDOM": 50,
+          "SNARK": 61
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "r6c53ofg3xgbprk7",
+        "eye": "◉",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 56,
+          "PATIENCE": 48,
+          "CHAOS": 85,
+          "WISDOM": 61,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "41yw3dof9qcfr3z1",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 87,
+          "PATIENCE": 51,
+          "CHAOS": 40,
+          "WISDOM": 69,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "uc0oov89x9ow7906",
+        "eye": "@",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 54,
+          "PATIENCE": 100,
+          "CHAOS": 60,
+          "WISDOM": 51,
+          "SNARK": 74
+        }
+      },
+      {
+        "userID": "epmt7s1euextxvhb",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 43,
+          "PATIENCE": 76,
+          "CHAOS": 100,
+          "WISDOM": 88,
+          "SNARK": 63
+        }
+      },
+      {
+        "userID": "jtmsngxuph05qq0u",
+        "eye": "·",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 49,
+          "PATIENCE": 68,
+          "CHAOS": 53,
+          "WISDOM": 100,
+          "SNARK": 86
+        }
+      }
+    ]
+  },
+  "capybara": {
+    "common": [
+      {
+        "userID": "alb88iglggm519hp",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 18,
+          "PATIENCE": 3,
+          "CHAOS": 68,
+          "WISDOM": 39,
+          "SNARK": 23
+        }
+      },
+      {
+        "userID": "0naxcowoe09tpbg6",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 20,
+          "PATIENCE": 1,
+          "CHAOS": 56,
+          "WISDOM": 25,
+          "SNARK": 29
+        }
+      },
+      {
+        "userID": "5o76p03fzs2s7r3c",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 7,
+          "PATIENCE": 37,
+          "CHAOS": 33,
+          "WISDOM": 65,
+          "SNARK": 25
+        }
+      },
+      {
+        "userID": "jwylq26woa7k1pmi",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 72,
+          "CHAOS": 16,
+          "WISDOM": 5,
+          "SNARK": 36
+        }
+      },
+      {
+        "userID": "um3gluaukwj45bh1",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 8,
+          "PATIENCE": 78,
+          "CHAOS": 30,
+          "WISDOM": 26,
+          "SNARK": 33
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "5c2zmofmbny159vk",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 44,
+          "PATIENCE": 25,
+          "CHAOS": 84,
+          "WISDOM": 32,
+          "SNARK": 16
+        }
+      },
+      {
+        "userID": "vii84y1epq28p29g",
+        "eye": "°",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 8,
+          "PATIENCE": 77,
+          "CHAOS": 15,
+          "WISDOM": 33,
+          "SNARK": 41
+        }
+      },
+      {
+        "userID": "ukuxhp5w1wv2htrd",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 67,
+          "PATIENCE": 23,
+          "CHAOS": 53,
+          "WISDOM": 18,
+          "SNARK": 37
+        }
+      },
+      {
+        "userID": "6a6cb9q41y9mp7cs",
+        "eye": "◉",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 67,
+          "CHAOS": 25,
+          "WISDOM": 19,
+          "SNARK": 6
+        }
+      },
+      {
+        "userID": "h0zmh5scp3qf0sr6",
+        "eye": "°",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 53,
+          "PATIENCE": 69,
+          "CHAOS": 26,
+          "WISDOM": 5,
+          "SNARK": 26
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "p65p82xiuwahk4pz",
+        "eye": "·",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 57,
+          "PATIENCE": 100,
+          "CHAOS": 26,
+          "WISDOM": 48,
+          "SNARK": 36
+        }
+      },
+      {
+        "userID": "zwcrg6v7i3rbcufu",
+        "eye": "◉",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 88,
+          "PATIENCE": 51,
+          "CHAOS": 60,
+          "WISDOM": 26,
+          "SNARK": 38
+        }
+      },
+      {
+        "userID": "rx33p0sxf4uu4whk",
+        "eye": "✦",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 95,
+          "PATIENCE": 53,
+          "CHAOS": 37,
+          "WISDOM": 44,
+          "SNARK": 15
+        }
+      },
+      {
+        "userID": "q21eljjiqxobk84g",
+        "eye": "·",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 75,
+          "PATIENCE": 64,
+          "CHAOS": 23,
+          "WISDOM": 37,
+          "SNARK": 30
+        }
+      },
+      {
+        "userID": "23f7iyzxketer9bq",
+        "eye": "◉",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 45,
+          "PATIENCE": 38,
+          "CHAOS": 19,
+          "WISDOM": 97,
+          "SNARK": 36
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "zq98jx4txhilgve1",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 38,
+          "CHAOS": 39,
+          "WISDOM": 99,
+          "SNARK": 69
+        }
+      },
+      {
+        "userID": "wkxduir5em2sskl3",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 47,
+          "PATIENCE": 70,
+          "CHAOS": 39,
+          "WISDOM": 45,
+          "SNARK": 85
+        }
+      },
+      {
+        "userID": "k6blubzkkmilp5ay",
+        "eye": "×",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 43,
+          "CHAOS": 37,
+          "WISDOM": 39,
+          "SNARK": 97
+        }
+      },
+      {
+        "userID": "7icrgi6p8ipzv5o6",
+        "eye": "×",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 28,
+          "CHAOS": 39,
+          "WISDOM": 40,
+          "SNARK": 70
+        }
+      },
+      {
+        "userID": "ik0njm1k5pqeftle",
+        "eye": "@",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 60,
+          "PATIENCE": 41,
+          "CHAOS": 50,
+          "WISDOM": 37,
+          "SNARK": 86
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "oy53zzt4syhsbw6s",
+        "eye": "×",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 79,
+          "CHAOS": 55,
+          "WISDOM": 45,
+          "SNARK": 85
+        }
+      },
+      {
+        "userID": "88lfku4amhq6ab8t",
+        "eye": "@",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 72,
+          "CHAOS": 89,
+          "WISDOM": 43,
+          "SNARK": 53
+        }
+      },
+      {
+        "userID": "mrx07y10dfok5nsr",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 60,
+          "PATIENCE": 60,
+          "CHAOS": 51,
+          "WISDOM": 84,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "jbhuab2jzuce8if8",
+        "eye": "°",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 88,
+          "PATIENCE": 54,
+          "CHAOS": 77,
+          "WISDOM": 100,
+          "SNARK": 72
+        }
+      },
+      {
+        "userID": "8xsu4yto0p6bsaei",
+        "eye": "@",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 66,
+          "PATIENCE": 62,
+          "CHAOS": 100,
+          "WISDOM": 52,
+          "SNARK": 62
+        }
+      }
+    ]
+  },
+  "cactus": {
+    "common": [
+      {
+        "userID": "w317g80tcjrtujqa",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 11,
+          "PATIENCE": 75,
+          "CHAOS": 29,
+          "WISDOM": 1,
+          "SNARK": 43
+        }
+      },
+      {
+        "userID": "0ufjfzl04y8p1qu7",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 63,
+          "PATIENCE": 4,
+          "CHAOS": 40,
+          "WISDOM": 37,
+          "SNARK": 6
+        }
+      },
+      {
+        "userID": "mncpe6uypmze3y6s",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 26,
+          "PATIENCE": 83,
+          "CHAOS": 7,
+          "WISDOM": 12,
+          "SNARK": 1
+        }
+      },
+      {
+        "userID": "a8idx3z794dnsteo",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 32,
+          "PATIENCE": 44,
+          "CHAOS": 55,
+          "WISDOM": 30,
+          "SNARK": 7
+        }
+      },
+      {
+        "userID": "ispk932quqohq9uy",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 31,
+          "PATIENCE": 82,
+          "CHAOS": 7,
+          "WISDOM": 4,
+          "SNARK": 8
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "usbmadfgyqqhdm2y",
+        "eye": "◉",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 12,
+          "PATIENCE": 40,
+          "CHAOS": 54,
+          "WISDOM": 81,
+          "SNARK": 31
+        }
+      },
+      {
+        "userID": "8f176gahlpwedcci",
+        "eye": "×",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 47,
+          "PATIENCE": 35,
+          "CHAOS": 50,
+          "WISDOM": 84,
+          "SNARK": 9
+        }
+      },
+      {
+        "userID": "ctrpnj38tbx3se8i",
+        "eye": "◉",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 14,
+          "CHAOS": 33,
+          "WISDOM": 78,
+          "SNARK": 17
+        }
+      },
+      {
+        "userID": "zhe8va13vkgyx4gc",
+        "eye": "·",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 40,
+          "PATIENCE": 14,
+          "CHAOS": 40,
+          "WISDOM": 89,
+          "SNARK": 20
+        }
+      },
+      {
+        "userID": "nowwetkok29884tb",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 88,
+          "PATIENCE": 33,
+          "CHAOS": 19,
+          "WISDOM": 28,
+          "SNARK": 12
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "uzn6vtr8az8k5gpt",
+        "eye": "×",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 21,
+          "PATIENCE": 55,
+          "CHAOS": 34,
+          "WISDOM": 97,
+          "SNARK": 27
+        }
+      },
+      {
+        "userID": "v80nlfj7473xr0eu",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 56,
+          "PATIENCE": 21,
+          "CHAOS": 82,
+          "WISDOM": 35,
+          "SNARK": 41
+        }
+      },
+      {
+        "userID": "lqqm0cigd0jvucda",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 40,
+          "CHAOS": 15,
+          "WISDOM": 93,
+          "SNARK": 64
+        }
+      },
+      {
+        "userID": "y40x2g5h1yrt5814",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 80,
+          "PATIENCE": 42,
+          "CHAOS": 19,
+          "WISDOM": 46,
+          "SNARK": 57
+        }
+      },
+      {
+        "userID": "z5pggneq0mbe08f1",
+        "eye": "✦",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 63,
+          "PATIENCE": 100,
+          "CHAOS": 33,
+          "WISDOM": 25,
+          "SNARK": 39
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "03r3bowh2lp76jpc",
+        "eye": "·",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 34,
+          "CHAOS": 100,
+          "WISDOM": 39,
+          "SNARK": 64
+        }
+      },
+      {
+        "userID": "1qdvtphsgjemsqzn",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 25,
+          "CHAOS": 67,
+          "WISDOM": 40,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "elwvgaj1eqge29cg",
+        "eye": "°",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 55,
+          "PATIENCE": 98,
+          "CHAOS": 36,
+          "WISDOM": 39,
+          "SNARK": 28
+        }
+      },
+      {
+        "userID": "57h837wx73pd6a8x",
+        "eye": "✦",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 62,
+          "PATIENCE": 41,
+          "CHAOS": 55,
+          "WISDOM": 95,
+          "SNARK": 30
+        }
+      },
+      {
+        "userID": "90ivirlvtzylirgg",
+        "eye": "✦",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 32,
+          "PATIENCE": 44,
+          "CHAOS": 59,
+          "WISDOM": 100,
+          "SNARK": 73
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "d72ujiy18l7rl1bq",
+        "eye": "×",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 75,
+          "PATIENCE": 67,
+          "CHAOS": 58,
+          "WISDOM": 100,
+          "SNARK": 41
+        }
+      },
+      {
+        "userID": "m8yvbp61rfmzy6wx",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 80,
+          "PATIENCE": 100,
+          "CHAOS": 43,
+          "WISDOM": 78,
+          "SNARK": 63
+        }
+      },
+      {
+        "userID": "t4st171ye5h5w3yg",
+        "eye": "✦",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 51,
+          "PATIENCE": 62,
+          "CHAOS": 64,
+          "WISDOM": 60,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "mmq8rvv8lg7sprxs",
+        "eye": "✦",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 74,
+          "PATIENCE": 86,
+          "CHAOS": 100,
+          "WISDOM": 59,
+          "SNARK": 52
+        }
+      },
+      {
+        "userID": "a5x9ihbx8iqf68t5",
+        "eye": "◉",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 51,
+          "PATIENCE": 70,
+          "CHAOS": 100,
+          "WISDOM": 64,
+          "SNARK": 47
+        }
+      }
+    ]
+  },
+  "robot": {
+    "common": [
+      {
+        "userID": "9xwnrcauzam7rfr6",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 74,
+          "PATIENCE": 14,
+          "CHAOS": 1,
+          "WISDOM": 33,
+          "SNARK": 29
+        }
+      },
+      {
+        "userID": "t8xeujmw2t23xihg",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 69,
+          "PATIENCE": 38,
+          "CHAOS": 5,
+          "WISDOM": 24,
+          "SNARK": 1
+        }
+      },
+      {
+        "userID": "xrsqwnz4z9frtypg",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 25,
+          "PATIENCE": 84,
+          "CHAOS": 4,
+          "WISDOM": 33,
+          "SNARK": 22
+        }
+      },
+      {
+        "userID": "ma201me01ryqpylj",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 80,
+          "PATIENCE": 19,
+          "CHAOS": 24,
+          "WISDOM": 14,
+          "SNARK": 8
+        }
+      },
+      {
+        "userID": "bigvj1svytaswaav",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 23,
+          "CHAOS": 56,
+          "WISDOM": 42,
+          "SNARK": 28
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "5s7bvujv22t7dxbe",
+        "eye": "@",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 15,
+          "PATIENCE": 80,
+          "CHAOS": 25,
+          "WISDOM": 47,
+          "SNARK": 39
+        }
+      },
+      {
+        "userID": "a63k6snnnd3uzcvp",
+        "eye": "×",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 49,
+          "PATIENCE": 26,
+          "CHAOS": 18,
+          "WISDOM": 94,
+          "SNARK": 42
+        }
+      },
+      {
+        "userID": "ov4uks6xdf3n5k3x",
+        "eye": "·",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 27,
+          "PATIENCE": 46,
+          "CHAOS": 14,
+          "WISDOM": 41,
+          "SNARK": 69
+        }
+      },
+      {
+        "userID": "7uvr3qr8cs84gp4h",
+        "eye": "°",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 80,
+          "PATIENCE": 35,
+          "CHAOS": 30,
+          "WISDOM": 10,
+          "SNARK": 35
+        }
+      },
+      {
+        "userID": "uoudz73kym980kko",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 12,
+          "PATIENCE": 49,
+          "CHAOS": 80,
+          "WISDOM": 52,
+          "SNARK": 44
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "fbjqvfswqvzjzxdc",
+        "eye": "@",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 16,
+          "PATIENCE": 64,
+          "CHAOS": 100,
+          "WISDOM": 63,
+          "SNARK": 30
+        }
+      },
+      {
+        "userID": "8uyeozqcmgti8q01",
+        "eye": "·",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 28,
+          "PATIENCE": 57,
+          "CHAOS": 96,
+          "WISDOM": 56,
+          "SNARK": 53
+        }
+      },
+      {
+        "userID": "395t7ifknvlx66ad",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 30,
+          "PATIENCE": 97,
+          "CHAOS": 50,
+          "WISDOM": 51,
+          "SNARK": 18
+        }
+      },
+      {
+        "userID": "d4bqv7iy8cgqq7ge",
+        "eye": "×",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 85,
+          "PATIENCE": 58,
+          "CHAOS": 19,
+          "WISDOM": 38,
+          "SNARK": 36
+        }
+      },
+      {
+        "userID": "4585afo9i77ewf7c",
+        "eye": "◉",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 78,
+          "PATIENCE": 57,
+          "CHAOS": 30,
+          "WISDOM": 18,
+          "SNARK": 32
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "fmsitmh4jjtb3qzu",
+        "eye": "·",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 27,
+          "PATIENCE": 100,
+          "CHAOS": 74,
+          "WISDOM": 48,
+          "SNARK": 66
+        }
+      },
+      {
+        "userID": "pwvr9r7nt04q027j",
+        "eye": "✦",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 70,
+          "PATIENCE": 38,
+          "CHAOS": 49,
+          "WISDOM": 68,
+          "SNARK": 92
+        }
+      },
+      {
+        "userID": "79h5tauy8tz1klez",
+        "eye": "✦",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 47,
+          "PATIENCE": 93,
+          "CHAOS": 25,
+          "WISDOM": 68,
+          "SNARK": 57
+        }
+      },
+      {
+        "userID": "d4h0iegsl9y474gm",
+        "eye": "@",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 66,
+          "PATIENCE": 88,
+          "CHAOS": 49,
+          "WISDOM": 28,
+          "SNARK": 39
+        }
+      },
+      {
+        "userID": "c9442nyo87wjnud3",
+        "eye": "◉",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 89,
+          "PATIENCE": 51,
+          "CHAOS": 38,
+          "WISDOM": 61,
+          "SNARK": 44
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "5cp72s911gv4254p",
+        "eye": "·",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 47,
+          "PATIENCE": 100,
+          "CHAOS": 88,
+          "WISDOM": 76,
+          "SNARK": 79
+        }
+      },
+      {
+        "userID": "dplq80ur2b5xczsf",
+        "eye": "✦",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 48,
+          "CHAOS": 71,
+          "WISDOM": 71,
+          "SNARK": 88
+        }
+      },
+      {
+        "userID": "z0skn9m28e36o0kj",
+        "eye": "×",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 80,
+          "CHAOS": 64,
+          "WISDOM": 100,
+          "SNARK": 69
+        }
+      },
+      {
+        "userID": "xxsm1bg2ddnyet1t",
+        "eye": "@",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 52,
+          "PATIENCE": 73,
+          "CHAOS": 83,
+          "WISDOM": 77,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "ycq8c8zj0jx7dv2r",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 80,
+          "CHAOS": 69,
+          "WISDOM": 84,
+          "SNARK": 53
+        }
+      }
+    ]
+  },
+  "rabbit": {
+    "common": [
+      {
+        "userID": "luz07d3ac36w0t3l",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 9,
+          "PATIENCE": 6,
+          "CHAOS": 1,
+          "WISDOM": 64,
+          "SNARK": 17
+        }
+      },
+      {
+        "userID": "tn86j6mrs45swuia",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 8,
+          "PATIENCE": 10,
+          "CHAOS": 33,
+          "WISDOM": 24,
+          "SNARK": 73
+        }
+      },
+      {
+        "userID": "h52nh3tbkkqvjug7",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 1,
+          "PATIENCE": 22,
+          "CHAOS": 69,
+          "WISDOM": 27,
+          "SNARK": 31
+        }
+      },
+      {
+        "userID": "k4nojq03dlynrw0y",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 16,
+          "PATIENCE": 80,
+          "CHAOS": 4,
+          "WISDOM": 13,
+          "SNARK": 32
+        }
+      },
+      {
+        "userID": "6wyzprhko0nh43gj",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 16,
+          "PATIENCE": 1,
+          "CHAOS": 22,
+          "WISDOM": 14,
+          "SNARK": 84
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "eyt78rr2ib0yb3jm",
+        "eye": "@",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 91,
+          "PATIENCE": 50,
+          "CHAOS": 5,
+          "WISDOM": 40,
+          "SNARK": 18
+        }
+      },
+      {
+        "userID": "iw9xr9weg1nydpyr",
+        "eye": "×",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 81,
+          "PATIENCE": 12,
+          "CHAOS": 30,
+          "WISDOM": 35,
+          "SNARK": 20
+        }
+      },
+      {
+        "userID": "gfpykq7gbtzz2fr8",
+        "eye": "°",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 68,
+          "PATIENCE": 33,
+          "CHAOS": 29,
+          "WISDOM": 16,
+          "SNARK": 19
+        }
+      },
+      {
+        "userID": "so11ofzjimswhxmz",
+        "eye": "×",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 45,
+          "PATIENCE": 20,
+          "CHAOS": 26,
+          "WISDOM": 7,
+          "SNARK": 79
+        }
+      },
+      {
+        "userID": "f50wu1thdvgzdf5m",
+        "eye": "◉",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 65,
+          "PATIENCE": 38,
+          "CHAOS": 9,
+          "WISDOM": 41,
+          "SNARK": 32
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "hxhwx13qerhuydvh",
+        "eye": "·",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 30,
+          "PATIENCE": 33,
+          "CHAOS": 99,
+          "WISDOM": 25,
+          "SNARK": 22
+        }
+      },
+      {
+        "userID": "vr7v7ehnqo7bfits",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 50,
+          "PATIENCE": 19,
+          "CHAOS": 59,
+          "WISDOM": 36,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "mbygsdld98w3w7st",
+        "eye": "✦",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 52,
+          "PATIENCE": 30,
+          "CHAOS": 75,
+          "WISDOM": 18,
+          "SNARK": 64
+        }
+      },
+      {
+        "userID": "d43hi1za7wggrulz",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 24,
+          "PATIENCE": 76,
+          "CHAOS": 40,
+          "WISDOM": 49,
+          "SNARK": 30
+        }
+      },
+      {
+        "userID": "c471y9i37dlslv2v",
+        "eye": "@",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 33,
+          "CHAOS": 53,
+          "WISDOM": 21,
+          "SNARK": 93
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "peb2joadvq0toznm",
+        "eye": "✦",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 29,
+          "PATIENCE": 66,
+          "CHAOS": 89,
+          "WISDOM": 51,
+          "SNARK": 45
+        }
+      },
+      {
+        "userID": "rx10tkytoo4tm81s",
+        "eye": "@",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 70,
+          "PATIENCE": 90,
+          "CHAOS": 48,
+          "WISDOM": 39,
+          "SNARK": 46
+        }
+      },
+      {
+        "userID": "q591vvc4fladlqcn",
+        "eye": "°",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 44,
+          "PATIENCE": 30,
+          "CHAOS": 70,
+          "WISDOM": 89,
+          "SNARK": 49
+        }
+      },
+      {
+        "userID": "1xv1582952lcycb0",
+        "eye": "×",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 74,
+          "CHAOS": 100,
+          "WISDOM": 54,
+          "SNARK": 46
+        }
+      },
+      {
+        "userID": "qe8h9h8vo4fc03oy",
+        "eye": "·",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 47,
+          "PATIENCE": 49,
+          "CHAOS": 29,
+          "WISDOM": 100,
+          "SNARK": 47
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "2z1cgiyi6t34jnjo",
+        "eye": "°",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 87,
+          "PATIENCE": 89,
+          "CHAOS": 43,
+          "WISDOM": 84,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "opb1i3tj1zrv5zup",
+        "eye": "°",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 100,
+          "CHAOS": 80,
+          "WISDOM": 52,
+          "SNARK": 82
+        }
+      },
+      {
+        "userID": "tj0mlu6190lzf72f",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 74,
+          "CHAOS": 85,
+          "WISDOM": 84,
+          "SNARK": 50
+        }
+      },
+      {
+        "userID": "2q16uis9ur1j0vl9",
+        "eye": "×",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 46,
+          "PATIENCE": 100,
+          "CHAOS": 83,
+          "WISDOM": 57,
+          "SNARK": 63
+        }
+      },
+      {
+        "userID": "ptwlgeark2tvi5bn",
+        "eye": "°",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 80,
+          "PATIENCE": 52,
+          "CHAOS": 50,
+          "WISDOM": 67,
+          "SNARK": 100
+        }
+      }
+    ]
+  },
+  "mushroom": {
+    "common": [
+      {
+        "userID": "o8947hyiid6qm41w",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 38,
+          "PATIENCE": 24,
+          "CHAOS": 16,
+          "WISDOM": 55,
+          "SNARK": 7
+        }
+      },
+      {
+        "userID": "q97u1rmww9kyrgc2",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 36,
+          "PATIENCE": 25,
+          "CHAOS": 6,
+          "WISDOM": 1,
+          "SNARK": 82
+        }
+      },
+      {
+        "userID": "qbyl3587e2rcq1b8",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 74,
+          "PATIENCE": 13,
+          "CHAOS": 1,
+          "WISDOM": 8,
+          "SNARK": 40
+        }
+      },
+      {
+        "userID": "ekeqppglrkffyvi3",
+        "eye": "·",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 83,
+          "PATIENCE": 20,
+          "CHAOS": 27,
+          "WISDOM": 2,
+          "SNARK": 31
+        }
+      },
+      {
+        "userID": "17bc42v8kawb7h02",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 34,
+          "PATIENCE": 1,
+          "CHAOS": 27,
+          "WISDOM": 75,
+          "SNARK": 24
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "byxiv8qtqyc4hhk6",
+        "eye": "°",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 28,
+          "CHAOS": 77,
+          "WISDOM": 41,
+          "SNARK": 7
+        }
+      },
+      {
+        "userID": "3vgjyttb6ce4e1ut",
+        "eye": "◉",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 39,
+          "PATIENCE": 28,
+          "CHAOS": 9,
+          "WISDOM": 76,
+          "SNARK": 23
+        }
+      },
+      {
+        "userID": "tqdwmdpa1d87w4qx",
+        "eye": "·",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 17,
+          "PATIENCE": 87,
+          "CHAOS": 6,
+          "WISDOM": 41,
+          "SNARK": 20
+        }
+      },
+      {
+        "userID": "cgevh9tq431uhtbu",
+        "eye": "·",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 43,
+          "PATIENCE": 28,
+          "CHAOS": 43,
+          "WISDOM": 10,
+          "SNARK": 67
+        }
+      },
+      {
+        "userID": "5h3sgu3l41h0ep5f",
+        "eye": "◉",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 33,
+          "PATIENCE": 47,
+          "CHAOS": 18,
+          "WISDOM": 74,
+          "SNARK": 30
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "a7aejitlvy5gfhu6",
+        "eye": "×",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 52,
+          "PATIENCE": 43,
+          "CHAOS": 18,
+          "WISDOM": 89,
+          "SNARK": 50
+        }
+      },
+      {
+        "userID": "o0lf66un6t88oqz1",
+        "eye": "×",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 25,
+          "PATIENCE": 85,
+          "CHAOS": 36,
+          "WISDOM": 61,
+          "SNARK": 40
+        }
+      },
+      {
+        "userID": "vyck5gaci9zpvheq",
+        "eye": "×",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 15,
+          "PATIENCE": 58,
+          "CHAOS": 31,
+          "WISDOM": 84,
+          "SNARK": 54
+        }
+      },
+      {
+        "userID": "978um9hplgmibvrl",
+        "eye": "×",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 93,
+          "PATIENCE": 37,
+          "CHAOS": 50,
+          "WISDOM": 24,
+          "SNARK": 34
+        }
+      },
+      {
+        "userID": "62008s4z0yignbzq",
+        "eye": "@",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 88,
+          "PATIENCE": 15,
+          "CHAOS": 52,
+          "WISDOM": 48,
+          "SNARK": 52
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "j02kl7jt3h7v30pl",
+        "eye": "°",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 70,
+          "PATIENCE": 33,
+          "CHAOS": 43,
+          "WISDOM": 43,
+          "SNARK": 88
+        }
+      },
+      {
+        "userID": "ap1vvlfj5lyqaibq",
+        "eye": "◉",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 66,
+          "PATIENCE": 72,
+          "CHAOS": 100,
+          "WISDOM": 31,
+          "SNARK": 44
+        }
+      },
+      {
+        "userID": "7gnzllh4d48jgx65",
+        "eye": "°",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 74,
+          "PATIENCE": 73,
+          "CHAOS": 27,
+          "WISDOM": 56,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "gviacqwe8vwp6ib4",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 33,
+          "PATIENCE": 72,
+          "CHAOS": 69,
+          "WISDOM": 87,
+          "SNARK": 44
+        }
+      },
+      {
+        "userID": "w04qabx426pjcokw",
+        "eye": "@",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 45,
+          "PATIENCE": 62,
+          "CHAOS": 41,
+          "WISDOM": 28,
+          "SNARK": 99
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "aosdzi52hticfogk",
+        "eye": "◉",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 100,
+          "CHAOS": 62,
+          "WISDOM": 70,
+          "SNARK": 74
+        }
+      },
+      {
+        "userID": "zslosro3z0vv8tvl",
+        "eye": "°",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 41,
+          "PATIENCE": 67,
+          "CHAOS": 100,
+          "WISDOM": 88,
+          "SNARK": 51
+        }
+      },
+      {
+        "userID": "oaygzf3ik63r8fty",
+        "eye": "@",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 100,
+          "PATIENCE": 78,
+          "CHAOS": 71,
+          "WISDOM": 43,
+          "SNARK": 70
+        }
+      },
+      {
+        "userID": "twxk5xrre3gbf7sx",
+        "eye": "°",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 77,
+          "PATIENCE": 65,
+          "CHAOS": 76,
+          "WISDOM": 100,
+          "SNARK": 41
+        }
+      },
+      {
+        "userID": "jmcc8tfbxj37fnan",
+        "eye": "·",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 52,
+          "PATIENCE": 77,
+          "CHAOS": 64,
+          "WISDOM": 82,
+          "SNARK": 100
+        }
+      }
+    ]
+  },
+  "chonk": {
+    "common": [
+      {
+        "userID": "dkoc54zuo2gcm51a",
+        "eye": "×",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 8,
+          "PATIENCE": 36,
+          "CHAOS": 71,
+          "WISDOM": 14,
+          "SNARK": 37
+        }
+      },
+      {
+        "userID": "jlahhbbmqz7b85yq",
+        "eye": "°",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 63,
+          "PATIENCE": 12,
+          "CHAOS": 23,
+          "WISDOM": 8,
+          "SNARK": 33
+        }
+      },
+      {
+        "userID": "cza664zw88t6xgv5",
+        "eye": "✦",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 43,
+          "CHAOS": 68,
+          "WISDOM": 1,
+          "SNARK": 35
+        }
+      },
+      {
+        "userID": "5jqiavjqz05r3npe",
+        "eye": "@",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 24,
+          "PATIENCE": 55,
+          "CHAOS": 14,
+          "WISDOM": 4,
+          "SNARK": 39
+        }
+      },
+      {
+        "userID": "cn5mtdlr5m9f40w8",
+        "eye": "◉",
+        "hat": "none",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 80,
+          "PATIENCE": 27,
+          "CHAOS": 37,
+          "WISDOM": 31,
+          "SNARK": 7
+        }
+      }
+    ],
+    "uncommon": [
+      {
+        "userID": "q6p7qnm1035vxfyy",
+        "eye": "✦",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 18,
+          "PATIENCE": 83,
+          "CHAOS": 45,
+          "WISDOM": 17,
+          "SNARK": 30
+        }
+      },
+      {
+        "userID": "um2m5hhl5vf1dtej",
+        "eye": "◉",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 36,
+          "PATIENCE": 83,
+          "CHAOS": 17,
+          "WISDOM": 42,
+          "SNARK": 13
+        }
+      },
+      {
+        "userID": "x926mhrn9rpz9mbn",
+        "eye": "✦",
+        "hat": "halo",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 35,
+          "PATIENCE": 19,
+          "CHAOS": 14,
+          "WISDOM": 50,
+          "SNARK": 67
+        }
+      },
+      {
+        "userID": "qw1jn4k0c8w6x6ni",
+        "eye": "@",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 48,
+          "PATIENCE": 45,
+          "CHAOS": 54,
+          "WISDOM": 68,
+          "SNARK": 9
+        }
+      },
+      {
+        "userID": "a532a6v0odwmkx3i",
+        "eye": "✦",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 26,
+          "PATIENCE": 43,
+          "CHAOS": 8,
+          "WISDOM": 32,
+          "SNARK": 73
+        }
+      }
+    ],
+    "rare": [
+      {
+        "userID": "impz0reosw6o2qtf",
+        "eye": "×",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 27,
+          "PATIENCE": 25,
+          "CHAOS": 31,
+          "WISDOM": 82,
+          "SNARK": 49
+        }
+      },
+      {
+        "userID": "9ls2d4dggk8c7rxx",
+        "eye": "·",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 37,
+          "PATIENCE": 21,
+          "CHAOS": 28,
+          "WISDOM": 55,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "ewyf6yeiltfz67ov",
+        "eye": "@",
+        "hat": "tophat",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 33,
+          "PATIENCE": 34,
+          "CHAOS": 52,
+          "WISDOM": 89,
+          "SNARK": 22
+        }
+      },
+      {
+        "userID": "pazmyy543xya8abu",
+        "eye": "@",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 33,
+          "PATIENCE": 56,
+          "CHAOS": 100,
+          "WISDOM": 47,
+          "SNARK": 16
+        }
+      },
+      {
+        "userID": "kvegxdrdwskeli27",
+        "eye": "×",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 60,
+          "PATIENCE": 49,
+          "CHAOS": 31,
+          "WISDOM": 92,
+          "SNARK": 17
+        }
+      }
+    ],
+    "epic": [
+      {
+        "userID": "1vf1phyon7yff64x",
+        "eye": "·",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 40,
+          "PATIENCE": 47,
+          "CHAOS": 88,
+          "WISDOM": 32,
+          "SNARK": 46
+        }
+      },
+      {
+        "userID": "s1s6v46hwqeewziu",
+        "eye": "·",
+        "hat": "propeller",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 89,
+          "PATIENCE": 51,
+          "CHAOS": 53,
+          "WISDOM": 28,
+          "SNARK": 54
+        }
+      },
+      {
+        "userID": "c5lw16549g9cf8mi",
+        "eye": "·",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 66,
+          "PATIENCE": 56,
+          "CHAOS": 48,
+          "WISDOM": 89,
+          "SNARK": 28
+        }
+      },
+      {
+        "userID": "slaw4k1tidri9ob2",
+        "eye": "°",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 44,
+          "PATIENCE": 61,
+          "CHAOS": 26,
+          "WISDOM": 96,
+          "SNARK": 66
+        }
+      },
+      {
+        "userID": "cq6fhv651gjt05rm",
+        "eye": "◉",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 44,
+          "PATIENCE": 97,
+          "CHAOS": 35,
+          "WISDOM": 36,
+          "SNARK": 42
+        }
+      }
+    ],
+    "legendary": [
+      {
+        "userID": "879y8t239aanm82h",
+        "eye": "×",
+        "hat": "beanie",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 79,
+          "PATIENCE": 100,
+          "CHAOS": 41,
+          "WISDOM": 88,
+          "SNARK": 85
+        }
+      },
+      {
+        "userID": "kgu71n4yg8hbe6lk",
+        "eye": "◉",
+        "hat": "tinyduck",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 77,
+          "PATIENCE": 41,
+          "CHAOS": 54,
+          "WISDOM": 75,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "iozm3oscxi46hzd4",
+        "eye": "◉",
+        "hat": "wizard",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 63,
+          "PATIENCE": 52,
+          "CHAOS": 72,
+          "WISDOM": 51,
+          "SNARK": 100
+        }
+      },
+      {
+        "userID": "lrgjk40wz47lk946",
+        "eye": "◉",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 80,
+          "PATIENCE": 53,
+          "CHAOS": 100,
+          "WISDOM": 40,
+          "SNARK": 64
+        }
+      },
+      {
+        "userID": "nl3li6q5poumebhb",
+        "eye": "×",
+        "hat": "crown",
+        "shiny": false,
+        "stats": {
+          "DEBUGGING": 56,
+          "PATIENCE": 54,
+          "CHAOS": 66,
+          "WISDOM": 100,
+          "SNARK": 50
+        }
+      }
+    ]
+  }
+}
