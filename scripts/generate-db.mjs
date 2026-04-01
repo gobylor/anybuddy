@@ -1,11 +1,14 @@
 #!/usr/bin/env bun
 
+import { randomBytes } from 'node:crypto'
+
 // AnyBuddy Database Generator
-// Brute-forces userIDs for every species × rarity combo.
-// MUST run with Bun for correct wyhash results.
+// Brute-forces userIDs for every species x rarity combo.
+// MUST run with Bun for correct hash results.
 
 const SALT = 'friend-2026-401'
 const ENTRIES_PER_COMBO = 5
+const USER_ID_PATTERN = /^[0-9a-f]{64}$/
 
 const SPECIES = [
   'duck', 'goose', 'blob', 'cat', 'dragon', 'octopus',
@@ -18,8 +21,6 @@ const HATS = ['none', 'crown', 'tophat', 'propeller', 'halo', 'wizard', 'beanie'
 const STAT_NAMES = ['DEBUGGING', 'PATIENCE', 'CHAOS', 'WISDOM', 'SNARK']
 const RARITY_WEIGHTS = { common: 60, uncommon: 25, rare: 10, epic: 4, legendary: 1 }
 const RARITY_FLOOR = { common: 5, uncommon: 15, rare: 25, epic: 35, legendary: 50 }
-
-// --- PRNG — exact copy from ref/cc-source/buddy/companion.ts ---
 
 function mulberry32(seed) {
   let a = seed >>> 0
@@ -41,8 +42,7 @@ function pick(rng, arr) {
 }
 
 function rollRarity(rng) {
-  const total = Object.values(RARITY_WEIGHTS).reduce((a, b) => a + b, 0)
-  let roll = rng() * total
+  let roll = rng() * 100
   for (const rarity of RARITIES) {
     roll -= RARITY_WEIGHTS[rarity]
     if (roll < 0) return rarity
@@ -68,7 +68,7 @@ function rollStats(rng, rarity) {
   return stats
 }
 
-function rollFrom(userId) {
+function rollFromUserId(userId) {
   const seed = hashString(userId + SALT)
   const rng = mulberry32(seed)
   const rarity = rollRarity(rng)
@@ -80,104 +80,154 @@ function rollFrom(userId) {
   return { rarity, species, eye, hat, shiny, stats }
 }
 
-// --- Random userID generation ---
-
-function randomUserId() {
-  const chars = 'abcdefghijklmnopqrstuvwxyz0123456789'
-  let id = ''
-  for (let i = 0; i < 16; i++) {
-    id += chars[Math.floor(Math.random() * chars.length)]
-  }
-  return id
+function isValidUserId(userId) {
+  return USER_ID_PATTERN.test(userId)
 }
 
-// --- Main ---
+function generateCandidateUserId() {
+  const userId = randomBytes(32).toString('hex')
+  if (!isValidUserId(userId)) {
+    throw new Error(`Generated invalid userID: ${userId}`)
+  }
+  return userId
+}
+
+function createEmptyDatabase() {
+  const db = {}
+  for (const species of SPECIES) {
+    db[species] = {}
+    for (const rarity of RARITIES) {
+      db[species][rarity] = []
+    }
+  }
+  return db
+}
+
+function buildCliDatabase(webDb) {
+  const cliDb = {}
+  for (const species of SPECIES) {
+    cliDb[species] = {}
+    for (const rarity of RARITIES) {
+      cliDb[species][rarity] = webDb[species][rarity].map(entry => entry.userID)
+    }
+  }
+  return cliDb
+}
+
+function sameStats(left, right) {
+  return STAT_NAMES.every(name => left[name] === right[name])
+}
+
+function verifyWebsiteDatabase(db) {
+  let verified = 0
+  for (const species of SPECIES) {
+    for (const rarity of RARITIES) {
+      for (const entry of db[species][rarity]) {
+        if (!isValidUserId(entry.userID)) {
+          throw new Error(`Invalid website database userID: ${entry.userID}`)
+        }
+
+        const check = rollFromUserId(entry.userID)
+        if (check.species !== species || check.rarity !== rarity) {
+          throw new Error(
+            `Bucket mismatch: ${entry.userID} expected ${species}/${rarity}, got ${check.species}/${check.rarity}`
+          )
+        }
+        if (
+          check.eye !== entry.eye ||
+          check.hat !== entry.hat ||
+          check.shiny !== entry.shiny ||
+          !sameStats(check.stats, entry.stats)
+        ) {
+          throw new Error(`Trait mismatch: ${entry.userID}`)
+        }
+        verified++
+      }
+    }
+  }
+  return verified
+}
+
+function verifyCliProjection(webDb, cliDb) {
+  let verified = 0
+  for (const species of SPECIES) {
+    for (const rarity of RARITIES) {
+      const expectedUserIds = webDb[species][rarity].map(entry => entry.userID)
+      const actualUserIds = cliDb[species][rarity]
+
+      if (JSON.stringify(actualUserIds) !== JSON.stringify(expectedUserIds)) {
+        throw new Error(`CLI projection mismatch: ${species}/${rarity}`)
+      }
+
+      for (const userId of actualUserIds) {
+        if (!isValidUserId(userId)) {
+          throw new Error(`Invalid CLI database userID: ${userId}`)
+        }
+
+        const check = rollFromUserId(userId)
+        if (check.species !== species || check.rarity !== rarity) {
+          throw new Error(
+            `CLI bucket mismatch: ${userId} expected ${species}/${rarity}, got ${check.species}/${check.rarity}`
+          )
+        }
+        verified++
+      }
+    }
+  }
+  return verified
+}
 
 console.log('Generating AnyBuddy database...')
 console.log(`  ${SPECIES.length} species x ${RARITIES.length} rarities x ${ENTRIES_PER_COMBO} entries each`)
 console.log('')
 
-const db = {}
+const webDb = createEmptyDatabase()
+const seenUserIds = new Set()
 let totalFound = 0
 const totalNeeded = SPECIES.length * RARITIES.length * ENTRIES_PER_COMBO
 let iterations = 0
 
-for (const species of SPECIES) {
-  db[species] = {}
-  for (const rarity of RARITIES) {
-    db[species][rarity] = []
-  }
-}
-
 while (totalFound < totalNeeded) {
-  const userId = randomUserId()
-  const result = rollFrom(userId)
+  const userId = generateCandidateUserId()
   iterations++
 
-  const bucket = db[result.species][result.rarity]
-  if (bucket.length < ENTRIES_PER_COMBO) {
-    bucket.push({
-      userID: userId,
-      eye: result.eye,
-      hat: result.hat,
-      shiny: result.shiny,
-      stats: result.stats,
-    })
-    totalFound++
-    if (totalFound % 50 === 0 || totalFound === totalNeeded) {
-      process.stdout.write(`\r  Found ${totalFound}/${totalNeeded} (${iterations.toLocaleString()} iterations)`)
-    }
+  if (seenUserIds.has(userId)) continue
+  seenUserIds.add(userId)
+
+  const result = rollFromUserId(userId)
+  const bucket = webDb[result.species][result.rarity]
+  if (bucket.length >= ENTRIES_PER_COMBO) continue
+
+  bucket.push({
+    userID: userId,
+    eye: result.eye,
+    hat: result.hat,
+    shiny: result.shiny,
+    stats: result.stats,
+  })
+  totalFound++
+
+  if (totalFound % 50 === 0 || totalFound === totalNeeded) {
+    process.stdout.write(`\r  Found ${totalFound}/${totalNeeded} (${iterations.toLocaleString()} iterations)`)
   }
 }
 console.log('\n')
 
-// --- Verification: round-trip every entry ---
+console.log('Verifying website database...')
+const verifiedWebsiteEntries = verifyWebsiteDatabase(webDb)
+console.log(`  All ${verifiedWebsiteEntries} website entries verified OK`)
 
-console.log('Verifying all entries...')
-let verified = 0
-let errors = 0
+const cliDb = buildCliDatabase(webDb)
+console.log('Verifying CLI database...')
+const verifiedCliEntries = verifyCliProjection(webDb, cliDb)
+console.log(`  All ${verifiedCliEntries} CLI entries verified OK`)
 
-for (const species of SPECIES) {
-  for (const rarity of RARITIES) {
-    for (const entry of db[species][rarity]) {
-      const check = rollFrom(entry.userID)
-      if (check.species !== species || check.rarity !== rarity) {
-        console.error(`MISMATCH: ${entry.userID} expected ${species}/${rarity}, got ${check.species}/${check.rarity}`)
-        errors++
-      }
-      if (check.eye !== entry.eye || check.hat !== entry.hat || check.shiny !== entry.shiny) {
-        console.error(`TRAIT MISMATCH: ${entry.userID} traits don't match`)
-        errors++
-      }
-      verified++
-    }
-  }
-}
-
-if (errors > 0) {
-  console.error(`\n${errors} verification errors. Database NOT written.`)
-  process.exit(1)
-}
-console.log(`  All ${verified} entries verified OK`)
-
-// --- Write output ---
-
-const outputPath = new URL('../src/lib/database.json', import.meta.url).pathname
-await Bun.write(outputPath, JSON.stringify(db, null, 2))
-const sizeKB = (JSON.stringify(db).length / 1024).toFixed(1)
-console.log(`\nWritten to ${outputPath} (${sizeKB} KB)`)
-
-// --- Write minimal CLI database (userIDs only) ---
-
-const miniDb = {}
-for (const species of SPECIES) {
-  miniDb[species] = {}
-  for (const rarity of RARITIES) {
-    miniDb[species][rarity] = db[species][rarity].map(e => e.userID)
-  }
-}
+const webOutputPath = new URL('../src/lib/database.json', import.meta.url).pathname
+await Bun.write(webOutputPath, JSON.stringify(webDb, null, 2) + '\n')
+const webSizeKB = (JSON.stringify(webDb).length / 1024).toFixed(1)
+console.log(`\nWritten website database to ${webOutputPath} (${webSizeKB} KB)`)
 
 const cliOutputPath = new URL('../packages/cli/lib/database.json', import.meta.url).pathname
-await Bun.write(cliOutputPath, JSON.stringify(miniDb, null, 2) + '\n')
-const cliSizeKB = (JSON.stringify(miniDb).length / 1024).toFixed(1)
+await Bun.write(cliOutputPath, JSON.stringify(cliDb, null, 2) + '\n')
+const cliSizeKB = (JSON.stringify(cliDb).length / 1024).toFixed(1)
 console.log(`Written CLI database to ${cliOutputPath} (${cliSizeKB} KB)`)
