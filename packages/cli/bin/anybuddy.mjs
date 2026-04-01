@@ -35,8 +35,14 @@ function parseArgs(argv) {
 
   for (let i = 0; i < args.length; i++) {
     switch (args[i]) {
-      case '--species':  opts.species = args[++i]; break
-      case '--rarity':   opts.rarity = args[++i]; break
+      case '--species':
+        opts.species = args[++i]
+        if (!opts.species) { error('--species requires a value'); process.exit(1) }
+        break
+      case '--rarity':
+        opts.rarity = args[++i]
+        if (!opts.rarity) { error('--rarity requires a value'); process.exit(1) }
+        break
       case '--list':     opts.list = true; break
       case '--help':
       case '-h':         opts.help = true; break

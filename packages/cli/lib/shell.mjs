@@ -28,7 +28,7 @@ export function detectRcFile() {
 
 export function persistToken(token) {
   const rcFile = detectRcFile()
-  const line = `export ${ENV_VAR}=${token}`
+  const line = `export ${ENV_VAR}='${token.replace(/'/g, "'\\''")}'`
 
   if (existsSync(rcFile)) {
     const content = readFileSync(rcFile, 'utf8')
