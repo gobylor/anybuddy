@@ -9,7 +9,7 @@ type Props = {
 
 export function RarityPicker({ selected, onSelect }: Props) {
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-3">
       {RARITIES.map((rarity) => {
         const isSelected = selected === rarity
         const color = RARITY_COLORS[rarity]
@@ -18,14 +18,21 @@ export function RarityPicker({ selected, onSelect }: Props) {
             key={rarity}
             onClick={() => onSelect(rarity)}
             aria-pressed={isSelected}
-            className="px-4 py-2 rounded-lg border-2 transition-colors cursor-pointer text-sm capitalize min-h-[44px]"
+            className="min-h-[44px] cursor-pointer rounded-full border px-4 py-2.5 text-sm capitalize tracking-[0.08em] transition duration-200 hover:-translate-y-0.5"
             style={{
-              borderColor: isSelected ? color : '#30363d',
-              backgroundColor: isSelected ? `${color}15` : '#161b22',
-              color: isSelected ? color : '#8b949e',
+              borderColor: isSelected ? color : 'rgb(255 255 255 / 0.08)',
+              backgroundColor: isSelected
+                ? `${color}18`
+                : 'rgb(var(--surface-strong) / 0.55)',
+              color: isSelected ? color : 'rgb(var(--text-1))',
+              boxShadow: isSelected
+                ? `0 16px 32px -24px ${color}`
+                : '0 12px 30px -28px rgb(0 0 0 / 0.85)',
             }}
           >
-            <span className="mr-1">{RARITY_STARS[rarity]}</span>
+            <span className="mr-2 font-mono text-[11px] uppercase">
+              {RARITY_STARS[rarity]}
+            </span>
             {rarity}
           </button>
         )

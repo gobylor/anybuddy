@@ -21,7 +21,7 @@ function previewBones(species: Species): CompanionBones {
 
 export function SpeciesGrid({ selected, onSelect }: Props) {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+    <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 xl:grid-cols-6">
       {SPECIES.map((species) => {
         const isSelected = selected === species
         return (
@@ -30,19 +30,30 @@ export function SpeciesGrid({ selected, onSelect }: Props) {
             onClick={() => onSelect(species)}
             aria-label={`Select ${species}`}
             className={`
-              flex flex-col items-center gap-1 p-3 rounded-lg border-2
-              transition-colors cursor-pointer
+              group flex min-h-[10.5rem] cursor-pointer flex-col items-center justify-between
+              gap-3 rounded-[24px] border px-3 py-4 text-left transition duration-200
+              hover:-translate-y-1 hover:border-accent/45 hover:bg-surface-strong/90
               ${isSelected
-                ? 'border-accent bg-[#1c1206]'
-                : 'border-[#30363d] bg-[#161b22] hover:border-[#484f58]'}
+                ? 'border-accent/55 bg-accent/10 shadow-[0_26px_60px_-36px_rgba(201,139,73,0.85)]'
+                : 'border-white/5 bg-surface/65 shadow-[0_18px_40px_-34px_rgba(0,0,0,0.85)]'}
             `}
           >
-            <SpritePreview bones={previewBones(species)} />
-            <span
-              className={`text-xs capitalize ${isSelected ? 'text-accent' : 'text-muted'}`}
-            >
-              {species}
+            <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-muted">
+              species
             </span>
+            <SpritePreview bones={previewBones(species)} />
+            <div className="space-y-1">
+              <span
+                className={`block text-sm capitalize tracking-[0.08em] ${
+                  isSelected ? 'text-accent' : 'text-text'
+                }`}
+              >
+                {species}
+              </span>
+              <span className="block font-mono text-[10px] uppercase tracking-[0.22em] text-muted">
+                {isSelected ? 'profile armed' : 'ready to reveal'}
+              </span>
+            </div>
           </button>
         )
       })}

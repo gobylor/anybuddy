@@ -18,6 +18,8 @@ describe('Home page', () => {
     expect(
       screen.getByText(/Choose a species to reveal your companion profile/i),
     ).toBeInTheDocument()
+    expect(screen.getByText(/Species gallery/i)).toBeInTheDocument()
+    expect(screen.getByText(/Rarity filter/i)).toBeInTheDocument()
 
     await user.click(screen.getByRole('button', { name: /Select duck/i }))
 

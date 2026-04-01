@@ -8,15 +8,11 @@ import { Instructions } from '@/components/Instructions'
 import { lookup } from '@/lib/database'
 import type { Rarity, Species } from '@/lib/types'
 
-const PHASES = ['Pick Species', 'Pick Rarity', 'Copy UserID'] as const
-
 export default function Home() {
   const [species, setSpecies] = useState<Species | null>(null)
   const [rarity, setRarity] = useState<Rarity | null>(null)
   const [entryIndex, setEntryIndex] = useState(0)
   const resultRef = useRef<HTMLDivElement>(null)
-
-  const phase = !species ? 0 : !rarity ? 1 : 2
 
   // Reset entry index when selection changes
   useEffect(() => {
@@ -68,36 +64,48 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Phase indicator */}
-      <div className="flex justify-center gap-4 mb-8 text-xs">
-        {PHASES.map((label, i) => (
-          <div
-            key={label}
-            className={`flex items-center gap-1.5 ${i <= phase ? 'text-accent' : 'text-muted'}`}
-          >
-            <span
-              className={`w-5 h-5 rounded-full flex items-center justify-center text-[10px] font-bold ${
-                i < phase
-                  ? 'bg-accent text-[#0d1117]'
-                  : i === phase
-                    ? 'border-2 border-accent'
-                    : 'border border-[#30363d]'
-              }`}
-            >
-              {i < phase ? '✓' : i + 1}
-            </span>
-            <span className="hidden sm:inline">{label}</span>
+      <section
+        aria-labelledby="species-heading"
+        className="mb-6 rounded-[28px] border border-border/20 bg-surface/70 p-5 shadow-[0_30px_80px_-40px_rgba(0,0,0,0.9)] backdrop-blur md:p-6"
+      >
+        <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+          <div className="max-w-2xl space-y-2">
+            <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-accent/80">
+              01
+            </p>
+            <h2 id="species-heading" className="text-2xl text-text sm:text-3xl">
+              Species gallery
+            </h2>
+            <p className="text-sm leading-relaxed text-muted sm:text-base">
+              Start with the companion type. The first pick still auto-primes
+              legendary so the reveal stays immediate.
+            </p>
           </div>
-        ))}
-      </div>
-
-      {/* Species grid */}
-      <section className="mb-6">
+          <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
+            Selection studio
+          </p>
+        </div>
         <SpeciesGrid selected={species} onSelect={handleSpeciesSelect} />
       </section>
 
-      {/* Rarity picker */}
-      <section className="mb-8">
+      <section
+        aria-labelledby="rarity-heading"
+        className="mb-8 rounded-[28px] border border-white/5 bg-panel/70 p-5 backdrop-blur md:p-6"
+      >
+        <div className="mb-4 flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
+          <div className="space-y-2">
+            <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-muted">
+              Secondary pass
+            </p>
+            <h2 id="rarity-heading" className="text-xl text-text sm:text-2xl">
+              Rarity filter
+            </h2>
+          </div>
+          <p className="max-w-xl text-sm leading-relaxed text-muted">
+            Refine the reveal by rarity without losing the fast species to
+            profile flow.
+          </p>
+        </div>
         <RarityPicker selected={rarity} onSelect={setRarity} />
       </section>
 
