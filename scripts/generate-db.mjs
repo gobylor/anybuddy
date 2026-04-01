@@ -178,6 +178,6 @@ for (const species of SPECIES) {
 }
 
 const cliOutputPath = new URL('../packages/cli/lib/database.json', import.meta.url).pathname
-await Bun.write(cliOutputPath, JSON.stringify(miniDb, null, 2))
+await Bun.write(cliOutputPath, JSON.stringify(miniDb, null, 2) + '\n')
 const cliSizeKB = (JSON.stringify(miniDb).length / 1024).toFixed(1)
 console.log(`Written CLI database to ${cliOutputPath} (${cliSizeKB} KB)`)
