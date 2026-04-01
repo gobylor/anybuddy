@@ -1,6 +1,6 @@
 {
   "name": "@openlor/anybuddy",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "One-click Claude Code buddy pet configurator",
   "type": "module",
   "bin": {
@@ -17,6 +17,11 @@
   "engines": {
     "node": ">=18"
   },
-  "keywords": ["claude", "buddy", "claude-code", "companion"],
+  "keywords": [
+    "claude",
+    "buddy",
+    "claude-code",
+    "companion"
+  ],
   "license": "MIT"
 }

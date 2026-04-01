@@ -8,11 +8,11 @@ import { fileURLToPath } from 'node:url'
 
 const repoRoot = fileURLToPath(new URL('../', import.meta.url))
 const cliPath = fileURLToPath(new URL('../packages/cli/bin/anybuddy.mjs', import.meta.url))
-const sandboxRoot = mkdtempSync(join(tmpdir(), 'anybuddy-cli-test-'))
+const sandboxRoot = mkdtempSync(join(tmpdir(), 'anybuddy-cli-async-test-'))
 const homeDir = join(sandboxRoot, 'home')
 const binDir = join(sandboxRoot, 'bin')
 const tokenValue = 'claude_token_1234567890abcdef'
-const exactUserId = '6bac3ed97f1e514d55bbe7eaac8d32dd3b9e821701877966b105200aac8d73bb'
+const exactUserId = '130fd416a47deff2b960f1466416208a92c6c1f01411e108c559b8b7043a9d02'
 
 function fail(message, details) {
   console.error(`Error: ${message}`)
@@ -27,6 +27,10 @@ function assert(condition, message, details) {
   if (!condition) {
     fail(message, details)
   }
+}
+
+function sleep(ms) {
+  Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms)
 }
 
 mkdirSync(homeDir)
@@ -65,12 +69,26 @@ cat > "$HOME/.claude.json" <<'JSON'
   "theme": "dark",
   "oauthAccount": {
     "accountUuid": "generated-account-uuid"
-  },
-  "companion": {
-    "species": "generated-companion"
   }
 }
 JSON
+
+(
+  sleep 0.2
+  cat > "$HOME/.claude.json" <<'JSON'
+{
+  "hasCompletedOnboarding": true,
+  "theme": "dark",
+  "userID": "${exactUserId}",
+  "oauthAccount": {
+    "accountUuid": "async-account-uuid"
+  },
+  "companion": {
+    "species": "async-companion"
+  }
+}
+JSON
+) &
 `,
   { mode: 0o755 }
 )
@@ -84,7 +102,7 @@ const env = {
 
 const result = spawnSync(
   process.execPath,
-  [cliPath, '--species', 'duck', '--rarity', 'legendary', '--user-id', exactUserId],
+  [cliPath, '--species', 'rabbit', '--rarity', 'legendary', '--user-id', exactUserId],
   {
     cwd: repoRoot,
     env,
@@ -98,40 +116,29 @@ assert(
   `stdout:\n${result.stdout}\n\nstderr:\n${result.stderr}`
 )
 
-const configPath = join(homeDir, '.claude.json')
-const backupPath = join(homeDir, '.claude.json.bak')
-const rcPath = join(homeDir, '.zshrc')
+sleep(500)
 
+const configPath = join(homeDir, '.claude.json')
 assert(existsSync(configPath), 'Expected ~/.claude.json to exist after CLI run')
-assert(existsSync(backupPath), 'Expected ~/.claude.json.bak to be created')
-assert(existsSync(rcPath), 'Expected ~/.zshrc to be created')
 
 const config = JSON.parse(readFileSync(configPath, 'utf8'))
-const backup = JSON.parse(readFileSync(backupPath, 'utf8'))
-const rcFile = readFileSync(rcPath, 'utf8')
 
 assert(
   config.userID === exactUserId,
-  'Expected generated ~/.claude.json to include the exact requested userID',
+  'Expected final ~/.claude.json to keep the exact requested userID',
   JSON.stringify(config, null, 2)
 )
-assert(!('companion' in config), 'Expected companion to be removed from ~/.claude.json')
+assert(
+  !('companion' in config),
+  'Expected final ~/.claude.json to remove companion even after async Claude rewrite',
+  JSON.stringify(config, null, 2)
+)
 assert(
   !config.oauthAccount?.accountUuid,
-  'Expected oauthAccount.accountUuid to be removed from ~/.claude.json',
+  'Expected final ~/.claude.json to remove oauthAccount.accountUuid even after async Claude rewrite',
   JSON.stringify(config, null, 2)
 )
-assert(
-  backup.userID === 'old-user-id',
-  'Expected backup config to preserve the original ~/.claude.json',
-  JSON.stringify(backup, null, 2)
-)
-assert(
-  rcFile.includes(`CLAUDE_CODE_OAUTH_TOKEN='${tokenValue}'`),
-  'Expected ~/.zshrc to contain the persisted OAuth token',
-  rcFile
-)
 
-console.log('Sandbox CLI flow passed')
+console.log('Sandbox async companion flow passed')
 
 rmSync(sandboxRoot, { recursive: true, force: true })

@@ -23,6 +23,12 @@ Pick a buddy:
 npx @openlor/anybuddy --species duck --rarity legendary
 ```
 
+Pick the exact buddy variant shown on AnyBuddy:
+
+```bash
+npx @openlor/anybuddy --species turtle --rarity legendary --user-id 14a197f94a5767f008c89e62829f69374037680b6f424715fffc309eee535ca2
+```
+
 More examples:
 
 ```bash
@@ -32,7 +38,7 @@ npx @openlor/anybuddy --help
 
 After a successful run:
 
-- AnyBuddy looks up a matching user ID
+- AnyBuddy looks up a matching user ID, or applies the exact one you provide
 - captures your Claude Code OAuth token
 - updates `~/.claude.json`
 - persists `CLAUDE_CODE_OAUTH_TOKEN` in your shell rc file
