@@ -1,7 +1,17 @@
 import type { Metadata } from 'next'
-import { Fira_Code } from 'next/font/google'
+import { Fira_Code, Manrope, Space_Grotesk } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+
+const manrope = Manrope({
+  subsets: ['latin'],
+  variable: '--font-body',
+})
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  variable: '--font-display',
+})
 
 const firaCode = Fira_Code({
   subsets: ['latin'],
@@ -9,9 +19,9 @@ const firaCode = Fira_Code({
 })
 
 export const metadata: Metadata = {
-  title: 'AnyBuddy | Pick Any Claude Code Buddy You Want',
+  title: 'AnyBuddy | Pick the exact Claude Code buddy you want',
   description:
-    '抽卡靠运气，换卡靠 AnyBuddy。Any Buddy You Want. Pick the exact Claude Code buddy you want, browse all 18 species and rarities, and copy a matching user ID instantly.',
+    'A small utility by Lor —— AI Builder. Pick the exact Claude Code buddy you want, browse all 18 species and rarities, and copy a matching user ID instantly.',
   keywords: [
     'AnyBuddy',
     'Claude Code',
@@ -39,9 +49,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: 'AnyBuddy | Pick Any Claude Code Buddy You Want',
+    title: 'AnyBuddy | Pick the exact Claude Code buddy you want',
     description:
-      '抽卡靠运气，换卡靠 AnyBuddy。Any Buddy You Want. Pick the exact Claude Code buddy you want and get a matching user ID instantly.',
+      'A small utility by Lor —— AI Builder. Pick the exact Claude Code buddy you want and get a matching user ID instantly.',
     url: 'https://anybuddy.cc',
     siteName: 'AnyBuddy',
     type: 'website',
@@ -49,9 +59,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AnyBuddy | Pick Any Claude Code Buddy You Want',
+    title: 'AnyBuddy | Pick the exact Claude Code buddy you want',
     description:
-      '抽卡靠运气，换卡靠 AnyBuddy。Any Buddy You Want. Pick the Claude Code buddy you want and copy a matching user ID instantly.',
+      'A small utility by Lor —— AI Builder. Pick the exact Claude Code buddy you want and copy a matching user ID instantly.',
   },
   metadataBase: new URL('https://anybuddy.cc'),
 }
@@ -62,8 +72,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={firaCode.variable}>
-      <body className="bg-[#0d1117] text-[#e6edf3] font-mono antialiased min-h-screen">
+    <html
+      lang="en"
+      className={`${manrope.variable} ${spaceGrotesk.variable} ${firaCode.variable}`}
+    >
+      <body className="bg-bg text-text antialiased min-h-screen">
         {children}
         <Analytics />
       </body>
