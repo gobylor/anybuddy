@@ -1,0 +1,17 @@
+import { describe, expect, it } from 'vitest'
+import { render, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
+import Home from '../page'
+
+describe('Home page', () => {
+  it('renders the title and reveals a buddy after species selection', async () => {
+    const user = userEvent.setup()
+    render(<Home />)
+
+    expect(screen.getByRole('heading', { name: 'AnyBuddy' })).toBeInTheDocument()
+
+    await user.click(screen.getByRole('button', { name: /Select duck/i }))
+
+    expect(screen.getByText(/Your legendary duck/i)).toBeInTheDocument()
+  })
+})
