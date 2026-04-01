@@ -4,8 +4,11 @@ import { useState } from 'react'
 import { SpritePreview } from './SpritePreview'
 import type { BuddyEntry } from '@/lib/database'
 import {
+  HAT_LABELS,
   RARITY_COLORS,
+  RARITY_LABELS,
   RARITY_STARS,
+  SPECIES_LABELS,
   type CompanionBones,
   type Eye,
   type Hat,
@@ -81,10 +84,9 @@ export function ResultCard({
           <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-muted">
             03
           </p>
-          <h2 className="text-2xl text-text sm:text-3xl">Companion dossier</h2>
+          <h2 className="text-2xl text-text sm:text-3xl">伙伴档案</h2>
           <p className="max-w-2xl text-sm leading-relaxed text-muted">
-            Your reveal is filed. Copy the command strip for this species and
-            rarity, or cycle through alternate entries in the same record set.
+            档案已生成。复制该物种和稀有度对应的命令，或浏览同一档案集中的其他条目。
           </p>
         </div>
         <div
@@ -96,22 +98,21 @@ export function ResultCard({
           }}
         >
           <span>{RARITY_STARS[rarity]}</span>
-          <span>{rarity}</span>
-          {entry.shiny ? <span>shiny</span> : null}
+          <span>{RARITY_LABELS[rarity]}</span>
+          {entry.shiny ? <span>闪光</span> : null}
         </div>
       </div>
 
       <div className="grid gap-5 lg:grid-cols-[minmax(14rem,18rem)_1fr]">
         <div className="rounded-[24px] border border-border/65 bg-bg/72 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
           <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-muted">
-            Portrait
+            头像
           </p>
           <div className="flex min-h-[16rem] items-center justify-center">
             <SpritePreview bones={bones} large />
           </div>
           <p className="border-t border-border/60 pt-3 text-sm leading-relaxed text-muted">
-            Alternate reveals stay inside the same rarity bucket so the visual
-            identity changes without losing the chosen tier.
+            切换同一稀有度内的不同造型，视觉形象会变化但不影响已选等级。
           </p>
         </div>
 
@@ -119,43 +120,42 @@ export function ResultCard({
           <section className="rounded-[24px] border border-border/65 bg-surface p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
             <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
               <div>
-                <h3 className="text-xl capitalize text-text">
-                  Your {rarity} {species}
+                <h3 className="text-xl text-text">
+                  你的{RARITY_LABELS[rarity]}{SPECIES_LABELS[species]}
                 </h3>
                 <p className="text-sm leading-relaxed text-muted">
-                  Trait details sit together here so the portrait and lookup
-                  metadata read like one printed companion record.
+                  特征详情汇总在这里，头像与属性信息组合成一份完整的伙伴档案。
                 </p>
               </div>
               <span
                 className="font-mono text-[11px] uppercase tracking-[0.22em]"
                 style={{ color }}
               >
-                {entry.shiny ? 'shiny variant' : 'standard profile'}
+                {entry.shiny ? '闪光变体' : '标准档案'}
               </span>
             </div>
 
             <dl className="grid gap-3 sm:grid-cols-3">
               <div className="rounded-[18px] border border-border/60 bg-bg/58 px-4 py-3">
                 <dt className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
-                  Eye
+                  眼睛
                 </dt>
                 <dd className="mt-2 text-lg text-text">{entry.eye}</dd>
               </div>
               <div className="rounded-[18px] border border-border/60 bg-bg/58 px-4 py-3">
                 <dt className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
-                  Hat
+                  帽子
                 </dt>
-                <dd className="mt-2 text-lg capitalize text-text">
-                  {entry.hat === 'none' ? 'None' : entry.hat}
+                <dd className="mt-2 text-lg text-text">
+                  {HAT_LABELS[entry.hat as Hat]}
                 </dd>
               </div>
               <div className="rounded-[18px] border border-border/60 bg-bg/58 px-4 py-3">
                 <dt className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
-                  Shiny
+                  闪光
                 </dt>
                 <dd className="mt-2 text-lg text-text">
-                  {entry.shiny ? 'Yes ✨' : 'No'}
+                  {entry.shiny ? '是 ✨' : '否'}
                 </dd>
               </div>
             </dl>
@@ -164,11 +164,10 @@ export function ResultCard({
           <section className="rounded-[24px] border border-border/65 bg-bg/72 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
             <div className="mb-3 space-y-1">
               <label className="font-mono text-[11px] uppercase tracking-[0.24em] text-muted">
-                One-click apply
+                一键应用
               </label>
               <p className="text-sm leading-relaxed text-muted">
-                Copy and paste this command into your terminal to instantly
-                apply this buddy to Claude Code.
+                复制以下命令并粘贴到终端中，即可将此伙伴应用到 Claude Code。
               </p>
             </div>
 
@@ -213,7 +212,7 @@ export function ResultCard({
                     <path d="M4.5 6A1.5 1.5 0 003 7.5v9A1.5 1.5 0 004.5 18h7a1.5 1.5 0 001.5-1.5v-5.879a1.5 1.5 0 00-.44-1.06L9.44 6.439A1.5 1.5 0 008.378 6H4.5z" />
                   </svg>
                 )}
-                {copied ? 'Copied!' : 'Copy'}
+                {copied ? '已复制！' : '复制'}
               </button>
             </div>
 
@@ -222,7 +221,7 @@ export function ResultCard({
                 onClick={onShuffle}
                 className="mt-4 font-mono text-[11px] uppercase tracking-[0.24em] text-muted transition-colors hover:text-text"
               >
-                Show another match ({entryIndex + 1}/{totalEntries})
+                换一个 ({entryIndex + 1}/{totalEntries})
               </button>
             )}
           </section>

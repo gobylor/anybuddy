@@ -1,6 +1,6 @@
 'use client'
 
-import { RARITIES, RARITY_COLORS, RARITY_STARS, type Rarity } from '@/lib/types'
+import { RARITIES, RARITY_COLORS, RARITY_LABELS, RARITY_STARS, type Rarity } from '@/lib/types'
 
 type Props = {
   selected: Rarity | null
@@ -18,7 +18,7 @@ export function RarityPicker({ selected, onSelect }: Props) {
             key={rarity}
             onClick={() => onSelect(rarity)}
             aria-pressed={isSelected}
-            className="min-h-[46px] cursor-pointer rounded-[18px] border px-4 py-2.5 text-sm capitalize tracking-[0.08em] transition duration-200 hover:-translate-y-0.5"
+            className="min-h-[46px] cursor-pointer rounded-[18px] border px-4 py-2.5 text-sm tracking-[0.08em] transition duration-200 hover:-translate-y-0.5"
             style={{
               borderColor: isSelected ? color : 'rgb(var(--line) / 0.72)',
               backgroundColor: isSelected
@@ -33,7 +33,7 @@ export function RarityPicker({ selected, onSelect }: Props) {
             <span className="mr-2 font-mono text-[11px] uppercase">
               {RARITY_STARS[rarity]}
             </span>
-            {rarity}
+            {RARITY_LABELS[rarity]}
           </button>
         )
       })}

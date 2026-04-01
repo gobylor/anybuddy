@@ -1,7 +1,7 @@
 'use client'
 
 import { SpritePreview } from './SpritePreview'
-import { SPECIES, type CompanionBones, type Species } from '@/lib/types'
+import { SPECIES, SPECIES_LABELS, type CompanionBones, type Species } from '@/lib/types'
 
 type Props = {
   selected: Species | null
@@ -28,7 +28,7 @@ export function SpeciesGrid({ selected, onSelect }: Props) {
           <button
             key={species}
             onClick={() => onSelect(species)}
-            aria-label={`Select ${species}`}
+            aria-label={`选择 ${SPECIES_LABELS[species]}`}
             aria-pressed={isSelected}
             className={`
               group relative flex min-h-[11rem] cursor-pointer flex-col items-center justify-between
@@ -41,19 +41,19 @@ export function SpeciesGrid({ selected, onSelect }: Props) {
           >
             <span className="absolute right-3 top-3 h-2.5 w-2.5 rounded-full border border-border/80 bg-white/80" />
             <span className="font-mono text-[10px] uppercase tracking-[0.26em] text-muted">
-              species
+              物种
             </span>
             <SpritePreview bones={previewBones(species)} />
             <div className="space-y-1">
               <span
-                className={`block text-sm capitalize tracking-[0.08em] ${
+                className={`block text-sm tracking-[0.08em] ${
                   isSelected ? 'text-[#355f55]' : 'text-text'
                 }`}
               >
-                {species}
+                {SPECIES_LABELS[species]}
               </span>
               <span className="block font-mono text-[10px] uppercase tracking-[0.22em] text-muted">
-                {isSelected ? 'dossier armed' : 'ready to file'}
+                {isSelected ? '已选中' : '待选择'}
               </span>
             </div>
           </button>

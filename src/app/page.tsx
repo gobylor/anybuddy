@@ -57,12 +57,12 @@ export default function Home() {
               <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
                 <div className="max-w-3xl space-y-4 sm:space-y-5">
                   <p className="font-mono text-[11px] uppercase tracking-[0.34em] text-muted sm:text-[12px]">
-                    Selection sheet / editorial utility
+                    伙伴选择面板
                   </p>
                   <h1 className="max-w-3xl text-[4rem] font-semibold leading-[0.86] tracking-[-0.06em] text-text sm:text-[6rem] lg:text-[7.25rem]">
                     AnyBuddy
                   </h1>
-                  <p className="max-w-2xl text-lg text-text sm:text-[1.35rem]" lang="zh-CN">
+                  <p className="max-w-2xl text-lg text-text sm:text-[1.35rem]">
                     抽卡靠运气，换卡靠{' '}
                     <span className="font-semibold text-[#3e6d61]">AnyBuddy</span>
                     。
@@ -71,8 +71,7 @@ export default function Home() {
                     Any Buddy You Want.
                   </p>
                   <p className="max-w-[38rem] text-base leading-relaxed text-muted sm:text-lg">
-                    Choose a species, refine the rarity, and reveal the
-                    companion dossier that best fits your Claude Code setup.
+                    选择物种、筛选稀有度，揭晓最适合你 Claude Code 的伙伴档案。
                   </p>
                 </div>
 
@@ -105,15 +104,14 @@ export default function Home() {
                     01
                   </p>
                   <h2 id="species-heading" className="text-2xl text-text sm:text-3xl">
-                    Species gallery
+                    物种图鉴
                   </h2>
                   <p className="text-sm leading-relaxed text-muted sm:text-base">
-                    Start with the companion type. The first selection still
-                    primes legendary so the first reveal lands immediately.
+                    从伙伴类型开始选择。首次选择默认为传说稀有度，让你立即看到结果。
                   </p>
                 </div>
                 <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-muted">
-                  Companion index
+                  伙伴索引
                 </p>
               </div>
               <SpeciesGrid selected={species} onSelect={handleSpeciesSelect} />
@@ -129,12 +127,11 @@ export default function Home() {
                     02
                   </p>
                   <h2 id="rarity-heading" className="text-xl text-text sm:text-2xl">
-                    Rarity filter
+                    稀有度筛选
                   </h2>
                 </div>
                 <p className="max-w-2xl text-sm leading-relaxed text-muted">
-                  Tune the dossier by rarity without interrupting the fast
-                  species-to-result flow.
+                  按稀有度筛选档案，不打断从物种到结果的快速流程。
                 </p>
               </div>
               <RarityPicker selected={rarity} onSelect={setRarity} />
@@ -162,14 +159,13 @@ export default function Home() {
                     03
                   </p>
                   <h2 className="mt-3 text-2xl text-text sm:text-[2rem]">
-                    Companion dossier
+                    伙伴档案
                   </h2>
                   <p className="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-muted">
-                    Choose a species to open the companion dossier.
+                    选择一个物种来打开伙伴档案。
                   </p>
                   <p className="mx-auto mt-2 max-w-xl text-sm leading-relaxed text-muted">
-                    Legendary is primed on the first pick so the reveal stays
-                    immediate once you start.
+                    首次选择默认为传说稀有度，让你一开始就能立即看到结果。
                   </p>
                 </section>
               )}
@@ -179,10 +175,9 @@ export default function Home() {
               <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
                 <div className="space-y-1.5">
                   <p>
-                    Not affiliated with Anthropic. Community tool based on
-                    public information.
+                    与 Anthropic 无关。基于公开信息的社区工具。
                   </p>
-                  <p>Works with Claude Code v2.1.x · SALT: friend-2026-401</p>
+                  <p>适用于 Claude Code v2.1.x · SALT: friend-2026-401</p>
                 </div>
                 <p className="font-mono uppercase tracking-[0.22em] text-[#3e6d61]">
                   Lor —— AI Builder
