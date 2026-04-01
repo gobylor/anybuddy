@@ -14,16 +14,19 @@ describe('Home page', () => {
 
     expect(screen.getByRole('heading', { name: 'AnyBuddy' })).toBeInTheDocument()
     expect(
-      screen.getByText(/A small utility by Lor —— AI Builder/i),
+      screen.getByText(/selection sheet/i),
     ).toBeInTheDocument()
     expect(
-      screen.getByText(/Pick the Claude Code buddy vibe you want/i),
+      screen.getByText(
+        /choose a species, refine the rarity, and reveal the companion dossier/i,
+      ),
     ).toBeInTheDocument()
     expect(
-      screen.getByText(/Choose a species to reveal your companion profile/i),
+      screen.getByText(/Choose a species to open the companion dossier/i),
     ).toBeInTheDocument()
     expect(screen.getByText(/Species gallery/i)).toBeInTheDocument()
     expect(screen.getByText(/Rarity filter/i)).toBeInTheDocument()
+    expect(screen.getByText(/Lor —— AI Builder/i)).toBeInTheDocument()
 
     const repoLink = screen.getByRole('link', {
       name: /view anybuddy repository on github/i,
@@ -39,6 +42,9 @@ describe('Home page', () => {
 
     await user.click(screen.getByRole('button', { name: /Select duck/i }))
 
+    expect(
+      screen.getByRole('heading', { name: /Companion dossier/i }),
+    ).toBeInTheDocument()
     expect(screen.getByText(/Your legendary duck/i)).toBeInTheDocument()
   })
 

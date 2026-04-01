@@ -18,16 +18,16 @@ export function RarityPicker({ selected, onSelect }: Props) {
             key={rarity}
             onClick={() => onSelect(rarity)}
             aria-pressed={isSelected}
-            className="min-h-[44px] cursor-pointer rounded-full border px-4 py-2.5 text-sm capitalize tracking-[0.08em] transition duration-200 hover:-translate-y-0.5"
+            className="min-h-[46px] cursor-pointer rounded-[18px] border px-4 py-2.5 text-sm capitalize tracking-[0.08em] transition duration-200 hover:-translate-y-0.5"
             style={{
-              borderColor: isSelected ? color : 'rgb(255 255 255 / 0.08)',
+              borderColor: isSelected ? color : 'rgb(var(--line) / 0.72)',
               backgroundColor: isSelected
-                ? `${color}18`
-                : 'rgb(var(--surface-strong) / 0.55)',
+                ? `${color}1a`
+                : 'rgb(var(--surface) / 0.82)',
               color: isSelected ? color : 'rgb(var(--text-1))',
               boxShadow: isSelected
-                ? `0 16px 32px -24px ${color}`
-                : '0 12px 30px -28px rgb(0 0 0 / 0.85)',
+                ? '0 16px 32px -24px rgb(39 76 69 / 0.22)'
+                : '0 10px 26px -24px rgb(39 76 69 / 0.18)',
             }}
           >
             <span className="mr-2 font-mono text-[11px] uppercase">

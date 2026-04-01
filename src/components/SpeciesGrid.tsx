@@ -29,29 +29,31 @@ export function SpeciesGrid({ selected, onSelect }: Props) {
             key={species}
             onClick={() => onSelect(species)}
             aria-label={`Select ${species}`}
+            aria-pressed={isSelected}
             className={`
-              group flex min-h-[10.5rem] cursor-pointer flex-col items-center justify-between
+              group relative flex min-h-[11rem] cursor-pointer flex-col items-center justify-between
               gap-3 rounded-[24px] border px-3 py-4 text-left transition duration-200
-              hover:-translate-y-1 hover:border-accent/45 hover:bg-surface-strong/90
+              hover:-translate-y-1 hover:border-[#3e6d61]/45 hover:bg-surface-strong
               ${isSelected
-                ? 'border-accent/55 bg-accent/10 shadow-[0_26px_60px_-36px_rgba(201,139,73,0.85)]'
-                : 'border-white/5 bg-surface/65 shadow-[0_18px_40px_-34px_rgba(0,0,0,0.85)]'}
+                ? 'border-[#3e6d61]/70 bg-[#e6f2ee] shadow-[0_22px_52px_-36px_rgba(62,109,97,0.38)]'
+                : 'border-border/65 bg-bg/65 shadow-[0_18px_44px_-38px_rgba(39,76,69,0.22)]'}
             `}
           >
-            <span className="font-mono text-[10px] uppercase tracking-[0.24em] text-muted">
+            <span className="absolute right-3 top-3 h-2.5 w-2.5 rounded-full border border-border/80 bg-white/80" />
+            <span className="font-mono text-[10px] uppercase tracking-[0.26em] text-muted">
               species
             </span>
             <SpritePreview bones={previewBones(species)} />
             <div className="space-y-1">
               <span
                 className={`block text-sm capitalize tracking-[0.08em] ${
-                  isSelected ? 'text-accent' : 'text-text'
+                  isSelected ? 'text-[#355f55]' : 'text-text'
                 }`}
               >
                 {species}
               </span>
               <span className="block font-mono text-[10px] uppercase tracking-[0.22em] text-muted">
-                {isSelected ? 'profile armed' : 'ready to reveal'}
+                {isSelected ? 'dossier armed' : 'ready to file'}
               </span>
             </div>
           </button>

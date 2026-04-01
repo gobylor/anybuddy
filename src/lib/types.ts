@@ -49,9 +49,9 @@ export const RARITY_STARS: Record<Rarity, string> = {
 }
 
 export const RARITY_COLORS: Record<Rarity, string> = {
-  common: '#8b949e',
-  uncommon: '#7ee787',
-  rare: '#79c0ff',
-  epic: '#d2a8ff',
-  legendary: '#ffa657',
+  common: '#8f958c',
+  uncommon: '#87a58d',
+  rare: '#7d9eb2',
+  epic: '#9f90b0',
+  legendary: '#b88d62',
 }

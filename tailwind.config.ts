@@ -32,7 +32,7 @@ const config: Config = {
         text: 'rgb(var(--text-0) / <alpha-value>)',
         muted: 'rgb(var(--text-1) / <alpha-value>)',
         accent: 'rgb(var(--accent) / <alpha-value>)',
-        border: 'rgb(var(--accent) / <alpha-value>)',
+        border: 'rgb(var(--line) / <alpha-value>)',
         success: 'rgb(var(--success) / <alpha-value>)',
         sprite: 'rgb(var(--sprite) / <alpha-value>)',
         rarity: {

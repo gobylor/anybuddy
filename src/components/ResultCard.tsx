@@ -73,26 +73,25 @@ export function ResultCard({
 
   return (
     <div
-      className="rounded-[30px] border border-accent/25 bg-surface/80 p-6 shadow-[0_40px_100px_-48px_rgba(0,0,0,0.95)] backdrop-blur md:p-7"
-      style={{ boxShadow: `0 42px 90px -52px ${color}` }}
+      className="editorial-rise rounded-[30px] border border-border/70 bg-[#fffdf8]/92 p-6 shadow-[0_32px_88px_-54px_rgba(39,76,69,0.3)] md:p-7"
+      style={{ boxShadow: `0 34px 88px -58px ${color}` }}
     >
       <div className="mb-6 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
         <div className="space-y-2">
-          <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-accent/80">
-            02
+          <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-muted">
+            03
           </p>
-          <h2 className="text-2xl text-text sm:text-3xl">Companion profile</h2>
+          <h2 className="text-2xl text-text sm:text-3xl">Companion dossier</h2>
           <p className="max-w-2xl text-sm leading-relaxed text-muted">
-            Your reveal is locked in. Copy the deployment command for this
-            species and rarity, or cycle through alternate matches in the same
-            bucket.
+            Your reveal is filed. Copy the command strip for this species and
+            rarity, or cycle through alternate entries in the same record set.
           </p>
         </div>
         <div
-          className="inline-flex w-fit items-center gap-2 rounded-full border px-4 py-2 font-mono text-[11px] uppercase tracking-[0.22em]"
+          className="inline-flex w-fit items-center gap-2 rounded-[18px] border px-4 py-2 font-mono text-[11px] uppercase tracking-[0.22em]"
           style={{
             borderColor: `${color}55`,
-            backgroundColor: `${color}14`,
+            backgroundColor: `${color}18`,
             color,
           }}
         >
@@ -103,20 +102,29 @@ export function ResultCard({
       </div>
 
       <div className="grid gap-5 lg:grid-cols-[minmax(14rem,18rem)_1fr]">
-        <div className="flex min-h-[17rem] items-center justify-center rounded-[24px] border border-white/5 bg-panel/80 p-5">
-          <SpritePreview bones={bones} large />
+        <div className="rounded-[24px] border border-border/65 bg-bg/72 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
+          <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-muted">
+            Portrait
+          </p>
+          <div className="flex min-h-[16rem] items-center justify-center">
+            <SpritePreview bones={bones} large />
+          </div>
+          <p className="border-t border-border/60 pt-3 text-sm leading-relaxed text-muted">
+            Alternate reveals stay inside the same rarity bucket so the visual
+            identity changes without losing the chosen tier.
+          </p>
         </div>
 
         <div className="grid gap-5">
-          <section className="rounded-[24px] border border-white/5 bg-panel/80 p-5">
+          <section className="rounded-[24px] border border-border/65 bg-surface p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
             <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
               <div>
                 <h3 className="text-xl capitalize text-text">
                   Your {rarity} {species}
                 </h3>
                 <p className="text-sm leading-relaxed text-muted">
-                  Trait details are grouped here so the sprite and the lookup
-                  metadata read like one profile instead of separate widgets.
+                  Trait details sit together here so the portrait and lookup
+                  metadata read like one printed companion record.
                 </p>
               </div>
               <span
@@ -128,13 +136,13 @@ export function ResultCard({
             </div>
 
             <dl className="grid gap-3 sm:grid-cols-3">
-              <div className="rounded-[18px] border border-white/5 bg-bg/40 px-4 py-3">
+              <div className="rounded-[18px] border border-border/60 bg-bg/58 px-4 py-3">
                 <dt className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
                   Eye
                 </dt>
                 <dd className="mt-2 text-lg text-text">{entry.eye}</dd>
               </div>
-              <div className="rounded-[18px] border border-white/5 bg-bg/40 px-4 py-3">
+              <div className="rounded-[18px] border border-border/60 bg-bg/58 px-4 py-3">
                 <dt className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
                   Hat
                 </dt>
@@ -142,7 +150,7 @@ export function ResultCard({
                   {entry.hat === 'none' ? 'None' : entry.hat}
                 </dd>
               </div>
-              <div className="rounded-[18px] border border-white/5 bg-bg/40 px-4 py-3">
+              <div className="rounded-[18px] border border-border/60 bg-bg/58 px-4 py-3">
                 <dt className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
                   Shiny
                 </dt>
@@ -153,35 +161,35 @@ export function ResultCard({
             </dl>
           </section>
 
-          <section className="rounded-[24px] border border-white/5 bg-panel/80 p-5">
+          <section className="rounded-[24px] border border-border/65 bg-bg/72 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
             <div className="mb-3 flex items-start justify-between gap-4">
               <div className="space-y-1">
                 <label className="font-mono text-[11px] uppercase tracking-[0.24em] text-muted">
-                  Deployment command
+                  Command strip
                 </label>
                 <p className="text-sm leading-relaxed text-muted">
                   Run this command to apply a buddy from this species and
-                  rarity bucket in Claude Code.
+                  rarity record in Claude Code.
                 </p>
               </div>
               <button
                 onClick={handleCopy}
-                className="rounded-full border px-4 py-2 text-sm transition-colors"
+                className="rounded-[18px] border px-4 py-2 text-sm transition-colors"
                 style={{
                   color: copied ? 'rgb(var(--success))' : 'rgb(var(--text-0))',
                   borderColor: copied
                     ? 'rgb(var(--success) / 0.45)'
-                    : 'rgb(var(--text-0) / 0.12)',
+                    : 'rgb(var(--line) / 0.82)',
                   backgroundColor: copied
                     ? 'rgb(var(--success) / 0.08)'
-                    : 'rgb(var(--bg-0) / 0.25)',
+                    : 'rgb(var(--surface) / 0.82)',
                 }}
               >
                 {copied ? 'Copied' : 'Copy command'}
               </button>
             </div>
 
-            <code className="block overflow-x-auto rounded-[18px] border border-white/5 bg-bg/55 px-4 py-3 text-sm select-all">
+            <code className="block overflow-x-auto rounded-[18px] border border-border/60 bg-surface px-4 py-3 text-sm select-all">
               {command}
             </code>
 
@@ -190,7 +198,7 @@ export function ResultCard({
                 onClick={onShuffle}
                 className="mt-4 font-mono text-[11px] uppercase tracking-[0.24em] text-muted transition-colors hover:text-text"
               >
-                ↻ Show another ({entryIndex + 1}/{totalEntries})
+                Show another match ({entryIndex + 1}/{totalEntries})
               </button>
             )}
           </section>

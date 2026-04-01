@@ -1,5 +1,9 @@
 import type { Metadata } from 'next'
-import { Fira_Code, Manrope, Space_Grotesk } from 'next/font/google'
+import {
+  Cormorant_Garamond,
+  IBM_Plex_Mono,
+  Manrope,
+} from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
@@ -8,24 +12,28 @@ const manrope = Manrope({
   variable: '--font-body',
 })
 
-const spaceGrotesk = Space_Grotesk({
+const cormorantGaramond = Cormorant_Garamond({
   subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
   variable: '--font-display',
 })
 
-const firaCode = Fira_Code({
+const ibmPlexMono = IBM_Plex_Mono({
   subsets: ['latin'],
+  weight: ['400', '500', '600'],
   variable: '--font-mono',
 })
 
 export const metadata: Metadata = {
-  title: 'AnyBuddy | Pick the exact Claude Code buddy you want',
+  title: 'AnyBuddy | Editorial buddy selection sheet for Claude Code',
   description:
-    'A small utility by Lor —— AI Builder. Pick the exact Claude Code buddy you want, browse all 18 species and rarities, and copy a matching user ID instantly.',
+    'Choose a species, refine the rarity, and reveal the right Claude Code companion dossier in a light editorial selection sheet.',
   keywords: [
     'AnyBuddy',
     'Claude Code',
     'buddy',
+    'selection sheet',
+    'companion dossier',
     'reroll',
     'companion',
     'pet',
@@ -49,9 +57,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: 'AnyBuddy | Pick the exact Claude Code buddy you want',
+    title: 'AnyBuddy | Editorial buddy selection sheet for Claude Code',
     description:
-      'A small utility by Lor —— AI Builder. Pick the exact Claude Code buddy you want and get a matching user ID instantly.',
+      'Choose a species, refine the rarity, and reveal a Claude Code companion dossier instantly.',
     url: 'https://anybuddy.cc',
     siteName: 'AnyBuddy',
     type: 'website',
@@ -59,9 +67,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AnyBuddy | Pick the exact Claude Code buddy you want',
+    title: 'AnyBuddy | Editorial buddy selection sheet for Claude Code',
     description:
-      'A small utility by Lor —— AI Builder. Pick the exact Claude Code buddy you want and copy a matching user ID instantly.',
+      'Choose a species, refine the rarity, and reveal a Claude Code companion dossier instantly.',
   },
   metadataBase: new URL('https://anybuddy.cc'),
 }
@@ -74,7 +82,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${manrope.variable} ${spaceGrotesk.variable} ${firaCode.variable}`}
+      className={`${manrope.variable} ${cormorantGaramond.variable} ${ibmPlexMono.variable}`}
     >
       <body className="bg-bg text-text antialiased min-h-screen">
         {children}
