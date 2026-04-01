@@ -11,7 +11,7 @@ Any Buddy You Want.
 ## 核心价值 / Core value
 
 - 想要指定的 Claude Code buddy，不用反复碰运气。
-- 直接按 `species + rarity` 搜索，快速拿到可用的 `user ID`。
+- 直接按 `species + rarity` 搜索。
 - 既可以在网页里查，也可以用 CLI 一键应用到本地 Claude 配置。
 
 ## 立即开始 / Get started
@@ -23,10 +23,10 @@ npx @openlor/anybuddy --list
 npx @openlor/anybuddy --species duck --rarity legendary
 ```
 
-如果你已经在 AnyBuddy 上看到具体那一只，也可以直接把 exact variant 的 `user ID` 应用到本地：
+如果你已经在 AnyBuddy 上选好了目标 `species` 和 `rarity`，也可以直接应用到本地：
 
 ```bash
-npx @openlor/anybuddy --species turtle --rarity legendary --user-id 14a197f94a5767f008c89e62829f69374037680b6f424715fffc309eee535ca2
+npx @openlor/anybuddy --species turtle --rarity legendary
 ```
 
 ## 什么是 AnyBuddy / What is this

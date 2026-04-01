@@ -5,6 +5,7 @@ import { SpeciesGrid } from '@/components/SpeciesGrid'
 import { RarityPicker } from '@/components/RarityPicker'
 import { ResultCard } from '@/components/ResultCard'
 import { Instructions } from '@/components/Instructions'
+import { buildCliCommand } from '@/lib/cli-command'
 import { lookup } from '@/lib/database'
 import type { Rarity, Species } from '@/lib/types'
 
@@ -34,6 +35,13 @@ export default function Home() {
 
   const entries = species && rarity ? lookup(species, rarity) : []
   const entry = entries[entryIndex % Math.max(entries.length, 1)] ?? null
+  const command =
+    species && rarity && entry
+      ? buildCliCommand({
+          species,
+          rarity,
+        })
+      : null
 
   return (
     <main className="max-w-5xl mx-auto px-4 py-8 sm:py-12">
@@ -59,7 +67,7 @@ export default function Home() {
             Any Buddy You Want.
           </p>
           <p className="max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
-            Pick the exact Claude Code buddy you want.
+            Pick the Claude Code buddy vibe you want.
           </p>
         </div>
       </section>
@@ -117,17 +125,14 @@ export default function Home() {
               species={species}
               rarity={rarity}
               entry={entry}
+              command={command ?? ''}
               entryIndex={entryIndex}
               totalEntries={entries.length}
               onShuffle={() =>
                 setEntryIndex((i) => (i + 1) % entries.length)
               }
             />
-            <Instructions
-              species={species}
-              rarity={rarity}
-              userID={entry.userID}
-            />
+            <Instructions />
           </>
         ) : (
           <div className="rounded-lg border-2 border-dashed border-[#30363d] py-12 text-center text-muted">

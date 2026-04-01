@@ -17,6 +17,7 @@ type Props = {
   species: Species
   rarity: Rarity
   entry: BuddyEntry
+  command: string
   entryIndex: number
   totalEntries: number
   onShuffle: () => void
@@ -45,6 +46,7 @@ export function ResultCard({
   species,
   rarity,
   entry,
+  command,
   entryIndex,
   totalEntries,
   onShuffle,
@@ -62,7 +64,7 @@ export function ResultCard({
   const color = RARITY_COLORS[rarity]
 
   const handleCopy = async () => {
-    const ok = await copyToClipboard(entry.userID)
+    const ok = await copyToClipboard(command)
     if (ok) {
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
@@ -81,8 +83,9 @@ export function ResultCard({
           </p>
           <h2 className="text-2xl text-text sm:text-3xl">Companion profile</h2>
           <p className="max-w-2xl text-sm leading-relaxed text-muted">
-            Your reveal is locked in. Copy the user ID directly or cycle through
-            alternate matches for the same species and rarity.
+            Your reveal is locked in. Copy the deployment command for this
+            species and rarity, or cycle through alternate matches in the same
+            bucket.
           </p>
         </div>
         <div
@@ -154,10 +157,11 @@ export function ResultCard({
             <div className="mb-3 flex items-start justify-between gap-4">
               <div className="space-y-1">
                 <label className="font-mono text-[11px] uppercase tracking-[0.24em] text-muted">
-                  userID
+                  Deployment command
                 </label>
                 <p className="text-sm leading-relaxed text-muted">
-                  Copy the exact ID for this profile reveal.
+                  Run this command to apply a buddy from this species and
+                  rarity bucket in Claude Code.
                 </p>
               </div>
               <button
@@ -173,12 +177,12 @@ export function ResultCard({
                     : 'rgb(var(--bg-0) / 0.25)',
                 }}
               >
-                {copied ? 'Copied' : 'Copy userID'}
+                {copied ? 'Copied' : 'Copy command'}
               </button>
             </div>
 
             <code className="block overflow-x-auto rounded-[18px] border border-white/5 bg-bg/55 px-4 py-3 text-sm select-all">
-              {entry.userID}
+              {command}
             </code>
 
             {totalEntries > 1 && (
