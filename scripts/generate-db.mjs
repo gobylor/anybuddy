@@ -166,3 +166,18 @@ const outputPath = new URL('../src/lib/database.json', import.meta.url).pathname
 await Bun.write(outputPath, JSON.stringify(db, null, 2))
 const sizeKB = (JSON.stringify(db).length / 1024).toFixed(1)
 console.log(`\nWritten to ${outputPath} (${sizeKB} KB)`)
+
+// --- Write minimal CLI database (userIDs only) ---
+
+const miniDb = {}
+for (const species of SPECIES) {
+  miniDb[species] = {}
+  for (const rarity of RARITIES) {
+    miniDb[species][rarity] = db[species][rarity].map(e => e.userID)
+  }
+}
+
+const cliOutputPath = new URL('../packages/cli/lib/database.json', import.meta.url).pathname
+await Bun.write(cliOutputPath, JSON.stringify(miniDb, null, 2))
+const cliSizeKB = (JSON.stringify(miniDb).length / 1024).toFixed(1)
+console.log(`Written CLI database to ${cliOutputPath} (${cliSizeKB} KB)`)

@@ -1,0 +1,668 @@
+{
+  "duck": {
+    "common": [
+      "oa8bnt1comgawm6j",
+      "a38q3ov8tknqawfo",
+      "4dybedm1ekij9dsk",
+      "0kxgf9fs5muf9tji",
+      "xh4hzt8klbpsdsq2"
+    ],
+    "uncommon": [
+      "sobh0pgfm77w6mo3",
+      "iw1lqkrze6z0qji8",
+      "ihopyfenjom5mauc",
+      "2gpo84er8mmo0y58",
+      "y7nzncy0cp1zr6kt"
+    ],
+    "rare": [
+      "zd1ezw1gh2clbwz2",
+      "reh2b8gel9ve8xhe",
+      "sggwtkapzq0y5g8k",
+      "is9w4tbphlxf17zo",
+      "eiunmenmj9uomcqy"
+    ],
+    "epic": [
+      "sxbk4buyi4opa2wg",
+      "4my56p0ypmbogcyd",
+      "rhv1gu12n9aw9dxk",
+      "qufqrfvs2etzsvng",
+      "21cgmcdxub8x75q1"
+    ],
+    "legendary": [
+      "22ftr3cwxqtqgxxi",
+      "j84z5zdqhob9an97",
+      "eyrkb2e6rbqavzc8",
+      "066z1rv6nk335p14",
+      "3j4yekhbsd3vtfli"
+    ]
+  },
+  "goose": {
+    "common": [
+      "0i8ty6bwejhj7xh7",
+      "c8sk2nohp84uq5lg",
+      "szrr6qoahoq9idxe",
+      "o0oypfodhru93f0u",
+      "7oqxw4tnyd2hqwpk"
+    ],
+    "uncommon": [
+      "dv3uj4g9dnhyldap",
+      "mq9uw9w0niafcfg6",
+      "m37fxx9zw49gejxo",
+      "s2nhmip2ptskvc6e",
+      "igzzpld0swv6wb2e"
+    ],
+    "rare": [
+      "hydmbddn0nfcug87",
+      "8yn4vdzhikii824r",
+      "pq582v9aim30id7k",
+      "m0ors2sbjxokv5at",
+      "7gu3iva9czsincr5"
+    ],
+    "epic": [
+      "ngdzzwttgi2gv7s6",
+      "7eyaah3ebbqu1l60",
+      "d0f7neaxsxnvbk7b",
+      "p92cq6se06oox5w8",
+      "bvcdwsv2ibkjkwex"
+    ],
+    "legendary": [
+      "035u1w6tnoc06sul",
+      "2jt9w5x0njg6asyy",
+      "2jbqaedi4kawr9mo",
+      "wvzltwv8qunlsbya",
+      "lbba0nt78pr154s1"
+    ]
+  },
+  "blob": {
+    "common": [
+      "mg59mm05b923cn97",
+      "axt74yq9v5rh8s1o",
+      "e9szl9yyqtzlrzpj",
+      "hn01dpogxe5k65ig",
+      "0kk7zmopd8dzhqpa"
+    ],
+    "uncommon": [
+      "twqxhe8cpr3m1i8u",
+      "r03jls5zfflkb8dl",
+      "ljcuubzt7gmrtzf4",
+      "4b49m9zmto3qudzb",
+      "fzynghj3i225t94s"
+    ],
+    "rare": [
+      "b04bvh9xcoxes90r",
+      "f20mz20uyi2pnklr",
+      "vyadj07xzqtu0bl3",
+      "zsce7m9if74ikrh2",
+      "bfjzkr8093cg5297"
+    ],
+    "epic": [
+      "8o6dix6y8emqfv51",
+      "ctkhjob4o0tw374o",
+      "9x20vntemqo138fe",
+      "qvswbadqxfx0waia",
+      "du3arow87v3mzibj"
+    ],
+    "legendary": [
+      "5nhnx2zvhwlr7ufw",
+      "hy3tjj8hoh7frons",
+      "2tky09vgfqeg8o4i",
+      "86u2bqwvhh5z3ymy",
+      "58fzi3uu8wc25fhz"
+    ]
+  },
+  "cat": {
+    "common": [
+      "06aw8ou489mucs3h",
+      "ut938ddkffj6j5a8",
+      "ojhspiqgdxu6neie",
+      "2802ea1f2ra080l8",
+      "ki9t4f08ef6vw4de"
+    ],
+    "uncommon": [
+      "tzvous7ll8vcb0c3",
+      "fdnsoawoey811ea9",
+      "5q25el340cnowb5j",
+      "hquey1dy92sjazho",
+      "efz9992rz7fh9b97"
+    ],
+    "rare": [
+      "knzbhm0vjc4nsb63",
+      "jb0q6n87a6m7peu9",
+      "54su4grdspcdxq27",
+      "8e83wws5ngrsbnmf",
+      "rsac7kkge0vxtff1"
+    ],
+    "epic": [
+      "0kb1waml76x0jkjl",
+      "e118woanddlkmjof",
+      "w0cgpdpe044yd1cl",
+      "i3qolekh2271alh1",
+      "cro4ixodcz1mscak"
+    ],
+    "legendary": [
+      "1dielgewurr8elke",
+      "9nqjsu5hd1j823mz",
+      "mlvma5toei6iqjqi",
+      "1kmwbk5m2c0jw24l",
+      "brj7d113tnzue15v"
+    ]
+  },
+  "dragon": {
+    "common": [
+      "dzbuexuxn3ia06ur",
+      "vlyk5wrietkfy2xt",
+      "e0v0xv770eoi4vta",
+      "aqy80dkwfv1f9e32",
+      "ex79hyqftlsqmdrz"
+    ],
+    "uncommon": [
+      "cju8r0ykpr5oilg7",
+      "gdx4jt2f42mk6880",
+      "k7s6h9df0fur4j6p",
+      "cvxfk04byafre5ol",
+      "q14nk3tsy213we0n"
+    ],
+    "rare": [
+      "rorm2619w2mfddue",
+      "g9xol13egnlmp2lk",
+      "qishzaik4yj5ihe6",
+      "9dro7zmwytxkl47u",
+      "et5wx49cyc9eyt6n"
+    ],
+    "epic": [
+      "8lgmqsn8iyugbhln",
+      "78b375wt0f4gfimk",
+      "bk9p6opyl6u06w26",
+      "bys4ploqbonbiijh",
+      "xs5ozj4e53s6o4l7"
+    ],
+    "legendary": [
+      "p7ok3dq7gr0e01vt",
+      "x7hkbz6pg1gud3om",
+      "6pbns2ta9mcqt2zu",
+      "lvjvs5qifag4v87b",
+      "cbfpwh1zm0wp5fsc"
+    ]
+  },
+  "octopus": {
+    "common": [
+      "up6p6thjb25ayjc0",
+      "huet6acvzq0ojwbq",
+      "qs84f9eisvgrfgea",
+      "v1l9smbzpbbex8cv",
+      "9ee9pm51tf4gklkv"
+    ],
+    "uncommon": [
+      "v2jgc75qh8nbvqvw",
+      "ks6rdhc7iaosx2gu",
+      "yoonm7vfydys7s9x",
+      "iqp9jojvbv9sc59b",
+      "pb5wfqd00cj4dcdd"
+    ],
+    "rare": [
+      "5ouknmp6zfblt4wn",
+      "8ngjrdvr9do5v356",
+      "u4si0srqp1gb9va3",
+      "ajc4yva3mb07rko5",
+      "xr67us16kmdw8ag2"
+    ],
+    "epic": [
+      "wczjavxyu32uhu9t",
+      "p3f95sngrxek22u6",
+      "g8h716jzp9gaayxh",
+      "pul59pscmq8rcgmu",
+      "6t86952p5br3gdau"
+    ],
+    "legendary": [
+      "ypmibwri25nm65ym",
+      "lpawf2u9vnrrug36",
+      "ddqxfg1698fd013r",
+      "ogtjazpt1vyy09g7",
+      "4u0f1fy302xc1m3u"
+    ]
+  },
+  "owl": {
+    "common": [
+      "imu1uh7h2fk22srb",
+      "j40s297i5azwau97",
+      "n5nkqd8kyy5plke7",
+      "t978486jo17blzbi",
+      "bx5yiyzb0zdxmo6e"
+    ],
+    "uncommon": [
+      "omt1g79qcr5z61zm",
+      "ng8werhsbnt5dvu3",
+      "bdrd15pihay03tcs",
+      "cldk9oe0q1nzvsf9",
+      "fh4z0agl1xkf112f"
+    ],
+    "rare": [
+      "3epnmqudr81ivcpw",
+      "wil0lhyexfhs7mlv",
+      "iwsvkit79ptq1c8o",
+      "meem32e60x4d1lj1",
+      "yys23ubqy0wn9n46"
+    ],
+    "epic": [
+      "48kozltazi1k3vsc",
+      "1if5lgaw11mjtckw",
+      "qopjsf1iyima93qj",
+      "bwlxzac52x9v0gma",
+      "cdoaaypb9igo8oyv"
+    ],
+    "legendary": [
+      "ee5kw3xat9ewt2te",
+      "9n1kt578xbkglmv3",
+      "yxc6q6smld4x3gxh",
+      "qe1dylvr9xp1la1s",
+      "zth0bhssbw8v8phg"
+    ]
+  },
+  "penguin": {
+    "common": [
+      "twb63w241tnpsl5m",
+      "s1r1dojr8bbbm220",
+      "z08k0vh7u4to5vyw",
+      "cz1jv06ek71k1hqo",
+      "42iusw17x0hq8n8b"
+    ],
+    "uncommon": [
+      "5uyl6v6ysvu2ly0x",
+      "hkm6t8yy5ttfu1lx",
+      "v0h9myc4y3pwzrqh",
+      "wjofk233ik09pbr1",
+      "bej0r5zalgzk8pws"
+    ],
+    "rare": [
+      "rgjoa3e4zxztykfi",
+      "qh3ji0oaxdwcmjqp",
+      "vl6j2j3um4dpubno",
+      "5p6yqdl407wrb2x5",
+      "tx3o6p5pbw3oe1rw"
+    ],
+    "epic": [
+      "pui7t6o8llsqh1ht",
+      "uv0ezs9dlmc1awmg",
+      "acsuuyesd9fxkgna",
+      "ful1elig2gw111bz",
+      "keudor75zr1i9wz9"
+    ],
+    "legendary": [
+      "wp8zakoluu2rcupe",
+      "mpcof3b4hevxeoax",
+      "4r2lbi1jxyveqz2a",
+      "supobf9f3kau4c1c",
+      "ywt4fumg11eu6axx"
+    ]
+  },
+  "turtle": {
+    "common": [
+      "j9vj0eqlb0veva2h",
+      "mo84d72ia9ugj37f",
+      "5bk19me0w2iwx4xz",
+      "s95gr2q7zkc0d6dt",
+      "n4gxsxcjef4t98wz"
+    ],
+    "uncommon": [
+      "vvtwb92pt3qjct3p",
+      "ore9nuw8jiyy6hfj",
+      "mv4jiq0i52prj19x",
+      "c12ay270l3hh1iwb",
+      "cmvcgba7rk8xltub"
+    ],
+    "rare": [
+      "77j68vzn0vp9zbjh",
+      "u8lly9yxo3fg15yl",
+      "vbjbeit6l3611705",
+      "8ygx8dl381crxi0z",
+      "70w0f3llrpqw1eb7"
+    ],
+    "epic": [
+      "ql1rtc316s9t9x3m",
+      "dxjt9cvmwlduywef",
+      "i2euyw3bio8t9i4e",
+      "06r4kpxbt7twfb1w",
+      "190he4zij9ad657k"
+    ],
+    "legendary": [
+      "22balvgpqgyxt9fk",
+      "ptm5sedpgou6dgsk",
+      "rgjs0ba6y14ud0wv",
+      "rkcxztu6mq6bwv6f",
+      "b5qt5yl7qu5wqzgh"
+    ]
+  },
+  "snail": {
+    "common": [
+      "2e9zedqsm0r6jq0y",
+      "i71aaenfs8zxqzcb",
+      "h20sc7zd055d0er2",
+      "70ypac5dalx5oij1",
+      "i7kxe2np213fhw13"
+    ],
+    "uncommon": [
+      "nr6fq7r1olifp9j7",
+      "e08hrvvdovml8nlq",
+      "bbkt0gwcgr9d4y2p",
+      "q7l7gyjltpnzxfbh",
+      "ozr35ngt8md93bnu"
+    ],
+    "rare": [
+      "mn3xpiyrel72ybku",
+      "qht9yn4juv8atogc",
+      "ra63g6x6ye9xn4c6",
+      "0vpvmgeirl0ccy61",
+      "humj0lzn7wcpnuxh"
+    ],
+    "epic": [
+      "9cu107mom1drsr6i",
+      "p58oebyu988qvc9b",
+      "qtk4qzn3xmw6vdkb",
+      "732bgpcsh5r851os",
+      "jtfih7cxsy99u7ex"
+    ],
+    "legendary": [
+      "kbl3sh5og1iuue8p",
+      "57dqrnzpj3vby7cc",
+      "l0a2875rv5wlx1f7",
+      "lz65adtcejmlxtio",
+      "fpj4f9ym9bgs72yo"
+    ]
+  },
+  "ghost": {
+    "common": [
+      "0rgwvhbsj0md73ur",
+      "cbp86v6lai03l878",
+      "cj7sgulvwc2wsaux",
+      "ra6kzbl21bkhaflv",
+      "dy5pdvc431efpgsj"
+    ],
+    "uncommon": [
+      "c2j6j840522yik6h",
+      "lx3a1ly4lwdldu2f",
+      "euqivbw25hqfogb3",
+      "iu665wrl99vidpal",
+      "ocg82axxirhiasoe"
+    ],
+    "rare": [
+      "9gvb94kyostkcmnm",
+      "1hch7bpyru6nm9bl",
+      "yk1mlxawwr3bx296",
+      "2kgb3mco1htbiixw",
+      "xjo3lsieb5u4vp2u"
+    ],
+    "epic": [
+      "2slv051nr4cgs9pm",
+      "sxarl7amjv6td626",
+      "cc9ttfxdyicneda7",
+      "7iirw89b73s0u8uc",
+      "kcphgw4a4vkgoi8j"
+    ],
+    "legendary": [
+      "0yvb39smt6noeodn",
+      "tqimtx64akd6h9xf",
+      "h0hipuxidxfazkvt",
+      "wyww8k1bpjgpj9z9",
+      "juhksp8ac7mzuaen"
+    ]
+  },
+  "axolotl": {
+    "common": [
+      "rmirzudgigbmk48k",
+      "xom8r5io57m7kkop",
+      "j3o1czgo5isp1e2x",
+      "a6drdmqwz6opo8nj",
+      "sa6bkhy11euf7xxw"
+    ],
+    "uncommon": [
+      "g6swyofs1fvxhlrc",
+      "hz2k2vqi2fwm0vj8",
+      "5u7hcut4259gq1t0",
+      "6oca6odz8pne8jqz",
+      "s6scdih86w7nt0kq"
+    ],
+    "rare": [
+      "mxxmia9ie6u46ejc",
+      "s36ix4d2t1ny8dey",
+      "rpoy7k0cd4405lid",
+      "42fcrml1hgpko9sy",
+      "43ebs86yo6kznavs"
+    ],
+    "epic": [
+      "25f49bo78nnqxnvz",
+      "qvlw3vmpl1u1i14m",
+      "3cgifcxaupk3p0il",
+      "85upszyeek8b6zcw",
+      "b0a9jz4bkit2l86q"
+    ],
+    "legendary": [
+      "j6preu04j4agw73t",
+      "glddtylztvhm1tbg",
+      "ouwv3mryn6hlj8f7",
+      "4ahqupo8xpyv4016",
+      "md5wghn3ktvd9d5f"
+    ]
+  },
+  "capybara": {
+    "common": [
+      "abg89cyfzy02rvv3",
+      "fp6kfawbwugdkc4h",
+      "8skwwphoq4mt40t3",
+      "g7ti2zpetxyeauwq",
+      "7v7hr0emkwov6hab"
+    ],
+    "uncommon": [
+      "93nyesssoct8jozv",
+      "vfft653vn3iouar9",
+      "l5ly7g8mql22bm44",
+      "4lxhtx2g6ktsqqkx",
+      "u9so1pjxiwphg0je"
+    ],
+    "rare": [
+      "f9ni0h3mf83tascb",
+      "mpanrdyzt01vh8rz",
+      "zqsap2574u7xonnc",
+      "45f8r215lcqxrxii",
+      "coei3dvg863plr3b"
+    ],
+    "epic": [
+      "gk30iie0r1w2kxsh",
+      "1g0lv3kkp5pts5v8",
+      "7l3imsbwi8vzwsfk",
+      "t25dye1n9nufll9h",
+      "33r7zgxoukvflqgs"
+    ],
+    "legendary": [
+      "me7xokumuype5uv8",
+      "0bdgvyy4a9h73ubk",
+      "9ex40ay9mh11n93v",
+      "dirj9esx69bc6biq",
+      "mjggqncyrb76w94p"
+    ]
+  },
+  "cactus": {
+    "common": [
+      "r7gj6ga2ymcmr6dv",
+      "fy1yy6kcbhg46bfo",
+      "m1waj9k790f9gzat",
+      "fubnvz5a3okadh9j",
+      "93rqijcmnwnbd7vp"
+    ],
+    "uncommon": [
+      "uyuw9ezzb9qdr9ps",
+      "kascy18c60n4rot9",
+      "9csx8ksi1qb53bth",
+      "blqhvsuug2ap986z",
+      "p0shu4khu2s9qjhf"
+    ],
+    "rare": [
+      "wdvo0dllrxjma0ai",
+      "bidbml4v3gunbxer",
+      "te8oznyfx1hzv8p1",
+      "ntbtjvddo291h5dq",
+      "44vvnhw3hjig7pvl"
+    ],
+    "epic": [
+      "bd7ste53xmni2lqo",
+      "ug9791tkgzcf6ux1",
+      "dtbqptvm4oxvq2j2",
+      "vdkn1jgjkuzlopxk",
+      "lzcmvudjsuiq3jte"
+    ],
+    "legendary": [
+      "cv814w2dhoo1crxj",
+      "gm00pbfoyl4zj31i",
+      "y9hrx100ogk9vnnh",
+      "yafhtq9jjuv0qs1e",
+      "ubyh7lgoocyn3edl"
+    ]
+  },
+  "robot": {
+    "common": [
+      "1gvkjbcrsgb55zna",
+      "aynojkm025i6qlb1",
+      "q28sje801t3c090y",
+      "gxijjkdc6rsbh24u",
+      "ldd3cjafxuorgpsd"
+    ],
+    "uncommon": [
+      "hegtxiq2i6qqgdll",
+      "7h896pd71pqdzucc",
+      "ksw5qbra4226hycq",
+      "37ohpyn0c2g5r60n",
+      "g4q4f7kap0vodq6x"
+    ],
+    "rare": [
+      "zm0cguc2h9kqu4ad",
+      "6q0yvsfjtwr11ser",
+      "sohy9a0ayz02s7ou",
+      "hs81ajyo9pnjawu5",
+      "0a3vw0d39qv1ogsl"
+    ],
+    "epic": [
+      "wfscz8brr6tpk2y8",
+      "5k4egt4yst3ikcbn",
+      "2kmxburisnctx01c",
+      "z1jfi7cjvhczw7ri",
+      "xugltf4owxg06btr"
+    ],
+    "legendary": [
+      "5s1e7je8a87pip6i",
+      "vga0tqpp426k51x6",
+      "v3hmr4vspqu0cgss",
+      "s66t0oapqsu69pg9",
+      "lm12jkpok8ve87xy"
+    ]
+  },
+  "rabbit": {
+    "common": [
+      "ne6mgqwo16jlk4lo",
+      "sjju8fwfr9xo910j",
+      "pqblrx61zwlnt8w2",
+      "33m80lrecpagf1zq",
+      "iqydvzvroef5yg5e"
+    ],
+    "uncommon": [
+      "b0xf7iojvwje539n",
+      "pv71atuz474kd3gt",
+      "989l1xztava1b74x",
+      "qjs05vc1hwmtvqh9",
+      "nvy0tkz7p1zrgln8"
+    ],
+    "rare": [
+      "teguzpzdrs7cjqvb",
+      "kjm1c8annww43lud",
+      "xpps1lapag70mifb",
+      "4f2yya81f7d71161",
+      "3vqyzne2yksseb1n"
+    ],
+    "epic": [
+      "gu8y1pam7zfdrgho",
+      "06aeqgn5ojjk9s9r",
+      "5nny1fjyw44du3ox",
+      "srlbu3b95gew96qj",
+      "dkjethhaoe5orj8p"
+    ],
+    "legendary": [
+      "1uyw1iua6ctx9mfj",
+      "pxnym8j7gmnq4tf7",
+      "o174s8ggqifdvxv9",
+      "trlcdw6iypc1qxzr",
+      "27h9qcm67spn2ew3"
+    ]
+  },
+  "mushroom": {
+    "common": [
+      "sz1zjifod2plb0qm",
+      "z6yl93mpn7gxh45i",
+      "pobnpb3xvtvnigou",
+      "b0qsglnir6rwmg5a",
+      "hrcr386scfhvfprt"
+    ],
+    "uncommon": [
+      "oqh2s94mvr24genz",
+      "6u3mmiyojjuwrs5e",
+      "339l6niih780fcdy",
+      "wg9kh2b8hevavrti",
+      "bvx70y7dnkz6lbhu"
+    ],
+    "rare": [
+      "icgq4889ih2s8jqn",
+      "ae7qt2p0bl5v28db",
+      "nmtvj007gpp6azqo",
+      "kspoer6qk2jy2ztv",
+      "s5cbzyujdml445gw"
+    ],
+    "epic": [
+      "ebhftmxc44pv9q0k",
+      "62c0ukof0wnpn36q",
+      "qsd9zc3y0ebz285y",
+      "3bjiwercahecrsm6",
+      "zkbxrjw1mfgjdz7g"
+    ],
+    "legendary": [
+      "qdog2e01prl3xnwm",
+      "o4bang662ox3k6qj",
+      "a8thc0cq981d43h3",
+      "2nus5nkbp65acdd4",
+      "x1r9d9vmx1nf2k1v"
+    ]
+  },
+  "chonk": {
+    "common": [
+      "h35ozsv3e9t3fpus",
+      "4phcdfbeyjcntj1r",
+      "spz8dqnzobwfyelq",
+      "25poo9qdh68gh56l",
+      "pa2ok5s7p6ywylh0"
+    ],
+    "uncommon": [
+      "qzmkdex9lxunmw60",
+      "m1wy3lnb5u9ymx8t",
+      "x4s7uu9qmzcmtd77",
+      "bdh6m7fv62mvx4ld",
+      "hppno97cnn7783lu"
+    ],
+    "rare": [
+      "92102iwiy3zoshqs",
+      "lmqzum827334z64a",
+      "kws1go5djc7wqnki",
+      "boa4eegji78w8r9l",
+      "zcooi4b9o72j9qfu"
+    ],
+    "epic": [
+      "j7l496m67wklo09r",
+      "1o2xv66frofixn4m",
+      "1nbuvvy8ntx4rgeb",
+      "qmltgax8jzuxailw",
+      "jmoc7k3vzi4e3d2x"
+    ],
+    "legendary": [
+      "8r41vdrem8qv4mni",
+      "0zbt5q2utad9xwx3",
+      "9tsdoo3q5eirerg3",
+      "1f1u2g7opni7f8iw",
+      "tf1uybituh7u8kdf"
+    ]
+  }
+}
