@@ -76,7 +76,7 @@ export default function RootLayout({
       lang="en"
       className={`${manrope.variable} ${spaceGrotesk.variable} ${firaCode.variable}`}
     >
-      <body className="bg-[#0d1117] text-[#e6edf3] font-mono antialiased min-h-screen">
+      <body className="bg-bg text-text antialiased min-h-screen">
         {children}
         <Analytics />
       </body>

@@ -5,6 +5,16 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
+        display: [
+          'var(--font-display)',
+          'Segoe UI',
+          'sans-serif',
+        ],
+        sans: [
+          'var(--font-body)',
+          'Segoe UI',
+          'sans-serif',
+        ],
         mono: [
           'var(--font-mono)',
           'ui-monospace',
@@ -14,12 +24,17 @@ const config: Config = {
         ],
       },
       colors: {
-        bg: '#0d1117',
-        text: '#e6edf3',
-        muted: '#8b949e',
-        accent: '#ffa657',
-        success: '#7ee787',
-        sprite: '#7ee787',
+        bg: 'rgb(var(--bg-0) / <alpha-value>)',
+        panel: 'rgb(var(--bg-1) / <alpha-value>)',
+        elevated: 'rgb(var(--bg-2) / <alpha-value>)',
+        surface: 'rgb(var(--surface) / <alpha-value>)',
+        'surface-strong': 'rgb(var(--surface-strong) / <alpha-value>)',
+        text: 'rgb(var(--text-0) / <alpha-value>)',
+        muted: 'rgb(var(--text-1) / <alpha-value>)',
+        accent: 'rgb(var(--accent) / <alpha-value>)',
+        border: 'rgb(var(--accent) / <alpha-value>)',
+        success: 'rgb(var(--success) / <alpha-value>)',
+        sprite: 'rgb(var(--sprite) / <alpha-value>)',
         rarity: {
           common: '#8b949e',
           uncommon: '#7ee787',
