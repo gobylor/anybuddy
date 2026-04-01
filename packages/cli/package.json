@@ -1,10 +1,13 @@
 {
-  "name": "anybuddy",
+  "name": "@openlor/anybuddy",
   "version": "0.1.0",
   "description": "One-click Claude Code buddy pet configurator",
   "type": "module",
   "bin": {
     "anybuddy": "bin/anybuddy.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "bin/",

@@ -20,7 +20,7 @@ function copyToClipboard(text: string): Promise<boolean> {
 export function Instructions({ species, rarity }: { species: string; rarity: string }) {
   const [copied, setCopied] = useState(false)
 
-  const command = `npx anybuddy --species ${species} --rarity ${rarity}`
+  const command = `npx @openlor/anybuddy --species ${species} --rarity ${rarity}`
 
   const handleCopy = async () => {
     const ok = await copyToClipboard(command)

@@ -6,7 +6,7 @@ import { header, error } from '../lib/print.mjs'
 
 function printHelp() {
   console.log(`
-Usage: npx anybuddy [options]
+Usage: npx @openlor/anybuddy [options]
 
 Options:
   --species <name>    Target species (required)
@@ -15,9 +15,9 @@ Options:
   --help, -h          Show help
 
 Examples:
-  npx anybuddy --species duck --rarity legendary
-  npx anybuddy --species dragon --rarity epic
-  npx anybuddy --list
+  npx @openlor/anybuddy --species duck --rarity legendary
+  npx @openlor/anybuddy --species dragon --rarity epic
+  npx @openlor/anybuddy --list
 `)
 }
 

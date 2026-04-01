@@ -14,20 +14,20 @@ One-click Claude Code buddy configurator.
 Run without installing globally:
 
 ```bash
-npx anybuddy --list
+npx @openlor/anybuddy --list
 ```
 
 Pick a buddy:
 
 ```bash
-npx anybuddy --species duck --rarity legendary
+npx @openlor/anybuddy --species duck --rarity legendary
 ```
 
 More examples:
 
 ```bash
-npx anybuddy --species dragon --rarity epic
-npx anybuddy --help
+npx @openlor/anybuddy --species dragon --rarity epic
+npx @openlor/anybuddy --help
 ```
 
 After a successful run:
