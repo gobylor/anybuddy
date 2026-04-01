@@ -43,3 +43,7 @@ Claude Code 使用 wyhash 算法，以 user ID 和全局 salt 为种子来分配
 ## 许可证
 
 MIT
+
+## Acknowledgements / 致谢
+
+Thanks to Linux.do user [nemomen](https://linux.do/u/nemomen) for the buddy reroll idea. 感谢其提供的 buddy reroll 思路。

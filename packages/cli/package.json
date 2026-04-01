@@ -4,11 +4,12 @@
   "description": "One-click Claude Code buddy pet configurator",
   "type": "module",
   "bin": {
-    "anybuddy": "./bin/anybuddy.mjs"
+    "anybuddy": "bin/anybuddy.mjs"
   },
   "files": [
     "bin/",
-    "lib/"
+    "lib/**/*.mjs",
+    "lib/**/*.json"
   ],
   "engines": {
     "node": ">=18"

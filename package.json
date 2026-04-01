@@ -8,7 +8,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:cli": "node scripts/test-cli-flow.mjs",
+    "pack:cli": "npm pack --dry-run ./packages/cli",
+    "release:cli:dry": "pnpm test && node packages/cli/bin/anybuddy.mjs --help && npm publish --dry-run ./packages/cli --access public",
+    "release:cli": "npm run release:cli:dry && npm publish ./packages/cli --access public"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
