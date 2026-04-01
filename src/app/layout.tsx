@@ -9,31 +9,49 @@ const firaCode = Fira_Code({
 })
 
 export const metadata: Metadata = {
-  title: 'AnyBuddy — Pick Any Claude Code Buddy You Want',
+  title: 'AnyBuddy | Pick Any Claude Code Buddy You Want',
   description:
-    'Choose your dream Claude Code companion pet. All 18 species, all rarities. Free.',
+    '抽卡靠运气，换卡靠 AnyBuddy。Any Buddy You Want. Pick the exact Claude Code buddy you want, browse all 18 species and rarities, and copy a matching user ID instantly.',
   keywords: [
+    'AnyBuddy',
     'Claude Code',
     'buddy',
     'reroll',
     'companion',
     'pet',
     'change pet',
+    'user ID',
+    'pick Claude Code buddy',
+    'Claude Code companion',
     'claude code buddy reroll',
+    'claude code buddy user id',
+    'Claude Code buddy change',
+    'Any Buddy You Want',
+    '抽卡靠运气，换卡靠 AnyBuddy',
+    'Claude Code buddy 换卡',
+    'Claude Code buddy 更换',
   ],
+  alternates: {
+    canonical: 'https://anybuddy.cc',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
-    title: 'AnyBuddy — Pick Any Claude Code Buddy You Want',
+    title: 'AnyBuddy | Pick Any Claude Code Buddy You Want',
     description:
-      'Choose your dream Claude Code companion pet. All 18 species, all rarities. Free.',
+      '抽卡靠运气，换卡靠 AnyBuddy。Any Buddy You Want. Pick the exact Claude Code buddy you want and get a matching user ID instantly.',
     url: 'https://anybuddy.cc',
     siteName: 'AnyBuddy',
     type: 'website',
+    locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AnyBuddy — Pick Any Claude Code Buddy You Want',
+    title: 'AnyBuddy | Pick Any Claude Code Buddy You Want',
     description:
-      'Choose your dream Claude Code companion pet. All 18 species, all rarities.',
+      '抽卡靠运气，换卡靠 AnyBuddy。Any Buddy You Want. Pick the Claude Code buddy you want and copy a matching user ID instantly.',
   },
   metadataBase: new URL('https://anybuddy.cc'),
 }

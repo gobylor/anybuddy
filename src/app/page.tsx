@@ -46,9 +46,21 @@ export default function Home() {
         <h1 className="text-3xl sm:text-4xl font-bold text-accent mb-2">
           AnyBuddy
         </h1>
-        <p className="text-muted text-sm">
+        <div className="space-y-1">
+          <p
+            className="text-sm sm:text-base text-text"
+            lang="zh-CN"
+          >
+            抽卡靠运气，换卡靠 <span className="text-accent font-bold">AnyBuddy</span>。
+          </p>
+          <p className="text-sm sm:text-base text-text font-semibold tracking-[0.04em]">
+            Any Buddy You Want.
+          </p>
+        </div>
+        <p className="text-muted text-sm sm:text-base mt-3 max-w-2xl mx-auto leading-relaxed">
           Pick any Claude Code <code className="text-text">/buddy</code>{' '}
-          companion you want
+          companion you want, browse all 18 species and every rarity, and copy a
+          matching user ID in seconds.
         </p>
       </div>
 

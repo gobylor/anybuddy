@@ -2,6 +2,9 @@
 
 # AnyBuddy
 
+Any Buddy You Want.  
+抽卡靠运气，换卡靠 AnyBuddy。
+
 Pick any Claude Code /buddy companion you want.
 
 **[anybuddy.cc](https://anybuddy.cc)**
@@ -21,6 +24,9 @@ MIT
 ---
 
 # AnyBuddy
+
+抽卡靠运气，换卡靠 AnyBuddy。  
+Any Buddy You Want.
 
 自由选择你想要的 Claude Code /buddy 伴侣
 
