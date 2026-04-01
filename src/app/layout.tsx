@@ -11,6 +11,30 @@ export const metadata: Metadata = {
   title: 'AnyBuddy — Pick Any Claude Code Buddy You Want',
   description:
     'Choose your dream Claude Code companion pet. All 18 species, all rarities. Free.',
+  keywords: [
+    'Claude Code',
+    'buddy',
+    'reroll',
+    'companion',
+    'pet',
+    'change pet',
+    'claude code buddy reroll',
+  ],
+  openGraph: {
+    title: 'AnyBuddy — Pick Any Claude Code Buddy You Want',
+    description:
+      'Choose your dream Claude Code companion pet. All 18 species, all rarities. Free.',
+    url: 'https://anybuddy.cc',
+    siteName: 'AnyBuddy',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AnyBuddy — Pick Any Claude Code Buddy You Want',
+    description:
+      'Choose your dream Claude Code companion pet. All 18 species, all rarities.',
+  },
+  metadataBase: new URL('https://anybuddy.cc'),
 }
 
 export default function RootLayout({
