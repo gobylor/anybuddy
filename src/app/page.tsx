@@ -41,28 +41,32 @@ export default function Home() {
 
   return (
     <main className="max-w-5xl mx-auto px-4 py-8 sm:py-12">
-      {/* Header */}
-      <div className="text-center mb-8">
-        <h1 className="text-3xl sm:text-4xl font-bold text-accent mb-2">
-          AnyBuddy
-        </h1>
-        <div className="space-y-1">
+      <section className="mb-10 sm:mb-12">
+        <div className="max-w-3xl space-y-4">
+          <p className="text-[11px] uppercase tracking-[0.28em] text-accent/80">
+            A small utility by Lor —— AI Builder
+          </p>
+          <h1
+            className="text-5xl font-semibold leading-none text-accent sm:text-7xl"
+            style={{ fontFamily: 'var(--font-display)' }}
+          >
+            AnyBuddy
+          </h1>
           <p
-            className="text-sm sm:text-base text-text"
+            className="text-base text-text sm:text-lg"
             lang="zh-CN"
           >
-            抽卡靠运气，换卡靠 <span className="text-accent font-bold">AnyBuddy</span>。
+            抽卡靠运气，换卡靠{' '}
+            <span className="font-semibold text-accent">AnyBuddy</span>。
           </p>
-          <p className="text-sm sm:text-base text-text font-semibold tracking-[0.04em]">
+          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-text/80 sm:text-base">
             Any Buddy You Want.
           </p>
+          <p className="max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+            Pick the exact Claude Code buddy you want.
+          </p>
         </div>
-        <p className="text-muted text-sm sm:text-base mt-3 max-w-2xl mx-auto leading-relaxed">
-          Pick any Claude Code <code className="text-text">/buddy</code>{' '}
-          companion you want, browse all 18 species and every rarity, and copy a
-          matching user ID in seconds.
-        </p>
-      </div>
+      </section>
 
       {/* Phase indicator */}
       <div className="flex justify-center gap-4 mb-8 text-xs">
@@ -114,8 +118,8 @@ export default function Home() {
             <Instructions species={species} rarity={rarity} />
           </>
         ) : (
-          <div className="text-center text-muted py-12 border-2 border-dashed border-[#30363d] rounded-lg">
-            Pick a species above to see your buddy
+          <div className="rounded-lg border-2 border-dashed border-[#30363d] py-12 text-center text-muted">
+            Choose a species to reveal your companion profile.
           </div>
         )}
       </div>

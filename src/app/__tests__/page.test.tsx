@@ -9,6 +9,15 @@ describe('Home page', () => {
     render(<Home />)
 
     expect(screen.getByRole('heading', { name: 'AnyBuddy' })).toBeInTheDocument()
+    expect(
+      screen.getByText(/A small utility by Lor —— AI Builder/i),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByText(/Pick the exact Claude Code buddy you want/i),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByText(/Choose a species to reveal your companion profile/i),
+    ).toBeInTheDocument()
 
     await user.click(screen.getByRole('button', { name: /Select duck/i }))
 
