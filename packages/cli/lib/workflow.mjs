@@ -4,7 +4,7 @@ import * as token from './token.mjs'
 import * as shell from './shell.mjs'
 import * as print from './print.mjs'
 
-export async function run(species, rarity) {
+export async function run(species, rarity, exactUserID = null) {
   // Step 1: Validate & Lookup
   print.step(`Looking up: ${rarity} ${species}`)
   const errors = db.validate(species, rarity)
@@ -13,12 +13,12 @@ export async function run(species, rarity) {
     process.exit(1)
   }
 
-  const userID = db.lookup(species, rarity)
+  const userID = exactUserID || db.lookup(species, rarity)
   if (!userID) {
     print.error(`No userID found for ${species}/${rarity}`)
     process.exit(1)
   }
-  print.info(`Found userID: ${userID.slice(0, 8)}...`)
+  print.info(`${exactUserID ? 'Using exact' : 'Found'} userID: ${userID.slice(0, 8)}...`)
 
   // Step 2: Get OAuth Token
   print.step('Getting OAuth token...')

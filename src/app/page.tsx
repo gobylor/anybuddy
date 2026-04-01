@@ -111,7 +111,11 @@ export default function Home() {
                 setEntryIndex((i) => (i + 1) % entries.length)
               }
             />
-            <Instructions species={species} rarity={rarity} />
+            <Instructions
+              species={species}
+              rarity={rarity}
+              userID={entry.userID}
+            />
           </>
         ) : (
           <div className="text-center text-muted py-12 border-2 border-dashed border-[#30363d] rounded-lg">

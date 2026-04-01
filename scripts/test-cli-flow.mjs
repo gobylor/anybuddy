@@ -12,6 +12,7 @@ const sandboxRoot = mkdtempSync(join(tmpdir(), 'anybuddy-cli-test-'))
 const homeDir = join(sandboxRoot, 'home')
 const binDir = join(sandboxRoot, 'bin')
 const tokenValue = 'claude_token_1234567890abcdef'
+const exactUserId = '6bac3ed97f1e514d55bbe7eaac8d32dd3b9e821701877966b105200aac8d73bb'
 
 function fail(message, details) {
   console.error(`Error: ${message}`)
@@ -83,7 +84,7 @@ const env = {
 
 const result = spawnSync(
   process.execPath,
-  [cliPath, '--species', 'duck', '--rarity', 'legendary'],
+  [cliPath, '--species', 'duck', '--rarity', 'legendary', '--user-id', exactUserId],
   {
     cwd: repoRoot,
     env,
@@ -110,8 +111,8 @@ const backup = JSON.parse(readFileSync(backupPath, 'utf8'))
 const rcFile = readFileSync(rcPath, 'utf8')
 
 assert(
-  typeof config.userID === 'string' && config.userID.length > 0,
-  'Expected generated ~/.claude.json to include a userID',
+  config.userID === exactUserId,
+  'Expected generated ~/.claude.json to include the exact requested userID',
   JSON.stringify(config, null, 2)
 )
 assert(!('companion' in config), 'Expected companion to be removed from ~/.claude.json')

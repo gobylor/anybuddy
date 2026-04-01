@@ -11,11 +11,13 @@ Usage: npx @openlor/anybuddy [options]
 Options:
   --species <name>    Target species (required)
   --rarity <name>     Target rarity (required)
+  --user-id <id>      Exact userID to apply for this species/rarity
   --list              Show all available species and rarities
   --help, -h          Show help
 
 Examples:
   npx @openlor/anybuddy --species duck --rarity legendary
+  npx @openlor/anybuddy --species turtle --rarity legendary --user-id 14a197f94a5767f008c89e62829f69374037680b6f424715fffc309eee535ca2
   npx @openlor/anybuddy --species dragon --rarity epic
   npx @openlor/anybuddy --list
 `)
@@ -42,6 +44,10 @@ function parseArgs(argv) {
       case '--rarity':
         opts.rarity = args[++i]
         if (!opts.rarity) { error('--rarity requires a value'); process.exit(1) }
+        break
+      case '--user-id':
+        opts.userID = args[++i]
+        if (!opts.userID) { error('--user-id requires a value'); process.exit(1) }
         break
       case '--list':     opts.list = true; break
       case '--help':
@@ -76,4 +82,4 @@ if (!opts.species || !opts.rarity) {
   process.exit(1)
 }
 
-await run(opts.species, opts.rarity)
+await run(opts.species, opts.rarity, opts.userID)

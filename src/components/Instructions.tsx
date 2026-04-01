@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { buildCliCommand } from '@/lib/cli-command'
 
 function copyToClipboard(text: string): Promise<boolean> {
   if (navigator.clipboard?.writeText) {
@@ -17,10 +18,18 @@ function copyToClipboard(text: string): Promise<boolean> {
   return Promise.resolve(ok)
 }
 
-export function Instructions({ species, rarity }: { species: string; rarity: string }) {
+export function Instructions({
+  species,
+  rarity,
+  userID,
+}: {
+  species: string
+  rarity: string
+  userID: string
+}) {
   const [copied, setCopied] = useState(false)
 
-  const command = `npx @openlor/anybuddy --species ${species} --rarity ${rarity}`
+  const command = buildCliCommand({ species, rarity, userID })
 
   const handleCopy = async () => {
     const ok = await copyToClipboard(command)
@@ -57,7 +66,7 @@ export function Instructions({ species, rarity }: { species: string; rarity: str
         </div>
 
         <p className="text-xs text-muted mt-3">
-          The CLI handles everything: OAuth login, config setup, and buddy injection.
+          The CLI handles everything: OAuth login, config setup, and exact buddy injection.
           <br />
           After it finishes, restart your terminal, run{' '}
           <code className="text-accent">claude</code>, type{' '}
