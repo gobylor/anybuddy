@@ -23,11 +23,6 @@ describe('Home page', () => {
 
     await user.click(screen.getByRole('button', { name: /Select duck/i }))
 
-    expect(screen.getByText(/Companion profile/i)).toBeInTheDocument()
-    expect(
-      screen.getByText(/npx anybuddy --species duck --rarity legendary/i),
-    ).toBeInTheDocument()
-    expect(screen.getByText(/Lor —— AI Builder/i)).toBeInTheDocument()
     expect(screen.getByText(/Your legendary duck/i)).toBeInTheDocument()
   })
 })

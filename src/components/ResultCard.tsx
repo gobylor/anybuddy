@@ -71,64 +71,126 @@ export function ResultCard({
 
   return (
     <div
-      className="rounded-lg border-2 p-6"
-      style={{ borderColor: color, backgroundColor: `${color}08` }}
+      className="rounded-[30px] border border-accent/25 bg-surface/80 p-6 shadow-[0_40px_100px_-48px_rgba(0,0,0,0.95)] backdrop-blur md:p-7"
+      style={{ boxShadow: `0 42px 90px -52px ${color}` }}
     >
-      {/* Header */}
-      <div className="text-center mb-4">
-        <h2 className="text-xl font-bold capitalize" style={{ color }}>
-          Your {rarity} {species}
-        </h2>
-        <p className="text-sm" style={{ color }}>
-          {RARITY_STARS[rarity]}
-          {entry.shiny ? ' ✨ Shiny!' : ''}
-        </p>
-      </div>
-
-      {/* Sprite + info — stack on mobile, side-by-side on sm+ */}
-      <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 justify-center">
-        <SpritePreview bones={bones} large />
-        <div className="flex flex-col gap-2 text-sm">
-          <p>
-            <span className="text-muted">Eye:</span> {entry.eye}
+      <div className="mb-6 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+        <div className="space-y-2">
+          <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-accent/80">
+            02
           </p>
-          <p>
-            <span className="text-muted">Hat:</span>{' '}
-            {entry.hat === 'none' ? '—' : entry.hat}
+          <h2 className="text-2xl text-text sm:text-3xl">Companion profile</h2>
+          <p className="max-w-2xl text-sm leading-relaxed text-muted">
+            Your reveal is locked in. Copy the user ID directly or cycle through
+            alternate matches for the same species and rarity.
           </p>
-          <p>
-            <span className="text-muted">Shiny:</span>{' '}
-            {entry.shiny ? 'Yes ✨' : 'No'}
-          </p>
+        </div>
+        <div
+          className="inline-flex w-fit items-center gap-2 rounded-full border px-4 py-2 font-mono text-[11px] uppercase tracking-[0.22em]"
+          style={{
+            borderColor: `${color}55`,
+            backgroundColor: `${color}14`,
+            color,
+          }}
+        >
+          <span>{RARITY_STARS[rarity]}</span>
+          <span>{rarity}</span>
+          {entry.shiny ? <span>shiny</span> : null}
         </div>
       </div>
 
-      {/* UserID + Copy */}
-      <div className="mt-6 flex flex-col gap-3">
-        <label className="text-xs text-muted">Your userID:</label>
-        <div className="flex gap-2">
-          <code className="flex-1 bg-[#0d1117] border border-[#30363d] rounded px-3 py-2 text-sm font-mono select-all overflow-x-auto">
-            {entry.userID}
-          </code>
-          <button
-            onClick={handleCopy}
-            className="px-4 py-2 rounded border transition-colors cursor-pointer whitespace-nowrap text-sm"
-            style={{
-              color: copied ? '#7ee787' : '#e6edf3',
-              borderColor: copied ? '#7ee787' : '#30363d',
-            }}
-          >
-            {copied ? 'Copied!' : 'Copy'}
-          </button>
+      <div className="grid gap-5 lg:grid-cols-[minmax(14rem,18rem)_1fr]">
+        <div className="flex min-h-[17rem] items-center justify-center rounded-[24px] border border-white/5 bg-panel/80 p-5">
+          <SpritePreview bones={bones} large />
         </div>
-        {totalEntries > 1 && (
-          <button
-            onClick={onShuffle}
-            className="text-xs text-muted hover:text-text transition-colors cursor-pointer self-start"
-          >
-            ↻ Show another ({entryIndex + 1}/{totalEntries})
-          </button>
-        )}
+
+        <div className="grid gap-5">
+          <section className="rounded-[24px] border border-white/5 bg-panel/80 p-5">
+            <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+              <div>
+                <h3 className="text-xl capitalize text-text">
+                  Your {rarity} {species}
+                </h3>
+                <p className="text-sm leading-relaxed text-muted">
+                  Trait details are grouped here so the sprite and the lookup
+                  metadata read like one profile instead of separate widgets.
+                </p>
+              </div>
+              <span
+                className="font-mono text-[11px] uppercase tracking-[0.22em]"
+                style={{ color }}
+              >
+                {entry.shiny ? 'shiny variant' : 'standard profile'}
+              </span>
+            </div>
+
+            <dl className="grid gap-3 sm:grid-cols-3">
+              <div className="rounded-[18px] border border-white/5 bg-bg/40 px-4 py-3">
+                <dt className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
+                  Eye
+                </dt>
+                <dd className="mt-2 text-lg text-text">{entry.eye}</dd>
+              </div>
+              <div className="rounded-[18px] border border-white/5 bg-bg/40 px-4 py-3">
+                <dt className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
+                  Hat
+                </dt>
+                <dd className="mt-2 text-lg capitalize text-text">
+                  {entry.hat === 'none' ? 'None' : entry.hat}
+                </dd>
+              </div>
+              <div className="rounded-[18px] border border-white/5 bg-bg/40 px-4 py-3">
+                <dt className="font-mono text-[11px] uppercase tracking-[0.22em] text-muted">
+                  Shiny
+                </dt>
+                <dd className="mt-2 text-lg text-text">
+                  {entry.shiny ? 'Yes ✨' : 'No'}
+                </dd>
+              </div>
+            </dl>
+          </section>
+
+          <section className="rounded-[24px] border border-white/5 bg-panel/80 p-5">
+            <div className="mb-3 flex items-start justify-between gap-4">
+              <div className="space-y-1">
+                <label className="font-mono text-[11px] uppercase tracking-[0.24em] text-muted">
+                  userID
+                </label>
+                <p className="text-sm leading-relaxed text-muted">
+                  Copy the exact ID for this profile reveal.
+                </p>
+              </div>
+              <button
+                onClick={handleCopy}
+                className="rounded-full border px-4 py-2 text-sm transition-colors"
+                style={{
+                  color: copied ? 'rgb(var(--success))' : 'rgb(var(--text-0))',
+                  borderColor: copied
+                    ? 'rgb(var(--success) / 0.45)'
+                    : 'rgb(var(--text-0) / 0.12)',
+                  backgroundColor: copied
+                    ? 'rgb(var(--success) / 0.08)'
+                    : 'rgb(var(--bg-0) / 0.25)',
+                }}
+              >
+                {copied ? 'Copied' : 'Copy userID'}
+              </button>
+            </div>
+
+            <code className="block overflow-x-auto rounded-[18px] border border-white/5 bg-bg/55 px-4 py-3 text-sm select-all">
+              {entry.userID}
+            </code>
+
+            {totalEntries > 1 && (
+              <button
+                onClick={onShuffle}
+                className="mt-4 font-mono text-[11px] uppercase tracking-[0.24em] text-muted transition-colors hover:text-text"
+              >
+                ↻ Show another ({entryIndex + 1}/{totalEntries})
+              </button>
+            )}
+          </section>
+        </div>
       </div>
     </div>
   )

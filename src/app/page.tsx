@@ -133,13 +133,16 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="mt-16 pt-6 border-t border-[#30363d] text-center text-xs text-muted">
+      <footer className="mt-16 border-t border-white/5 pt-6 text-center text-xs text-muted">
         <p>
           Not affiliated with Anthropic. Community tool based on public
           information.
         </p>
         <p className="mt-1">
           Works with Claude Code v2.1.x · SALT: friend-2026-401
+        </p>
+        <p className="mt-3 font-mono uppercase tracking-[0.22em] text-accent/70">
+          Lor —— AI Builder
         </p>
       </footer>
     </main>
