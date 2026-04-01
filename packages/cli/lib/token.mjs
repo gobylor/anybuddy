@@ -1,5 +1,40 @@
 import { execFileSync, execSync } from 'node:child_process'
 
+const ANSI_ESCAPE_RE = /\u001B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])/g
+const CONTROL_RE = /[\u0000-\u001F\u007F]/g
+const ZERO_WIDTH_RE = /[\u200B-\u200D\uFEFF]/g
+const TOKEN_RE = /^[A-Za-z0-9._~+/=-]{20,}$/
+
+function cleanOutputLine(line) {
+  return line
+    .replace(ANSI_ESCAPE_RE, '')
+    .replace(CONTROL_RE, '')
+    .replace(ZERO_WIDTH_RE, '')
+    .trim()
+}
+
+function looksLikeToken(line) {
+  return (
+    line.length >= 20 &&
+    !/\s/.test(line) &&
+    !/^https?:\/\//i.test(line) &&
+    TOKEN_RE.test(line)
+  )
+}
+
+function extractToken(output) {
+  const lines = String(output).split(/\r?\n|\r/g)
+
+  for (let i = lines.length - 1; i >= 0; i--) {
+    const candidate = cleanOutputLine(lines[i])
+    if (looksLikeToken(candidate)) {
+      return candidate
+    }
+  }
+
+  return null
+}
+
 export function isClaudeInstalled() {
   try {
     execSync('which claude', { stdio: 'ignore' })
@@ -18,9 +53,7 @@ export function getToken() {
     timeout: 300_000, // 5 minute timeout for OAuth flow
   })
 
-  // Token is typically the last non-empty line of output
-  const lines = output.trim().split('\n').filter(l => l.trim())
-  const token = lines[lines.length - 1]?.trim()
+  const token = extractToken(output)
 
   if (!token) {
     throw new Error('Failed to capture OAuth token from claude setup-token')
