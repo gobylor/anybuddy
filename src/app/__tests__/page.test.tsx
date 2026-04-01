@@ -25,6 +25,18 @@ describe('Home page', () => {
     expect(screen.getByText(/Species gallery/i)).toBeInTheDocument()
     expect(screen.getByText(/Rarity filter/i)).toBeInTheDocument()
 
+    const repoLink = screen.getByRole('link', {
+      name: /view anybuddy repository on github/i,
+    })
+
+    expect(repoLink).toHaveAttribute(
+      'href',
+      'https://github.com/gobylor/anybuddy',
+    )
+    expect(repoLink).toHaveAttribute('target', '_blank')
+    expect(repoLink).toHaveAttribute('rel', expect.stringContaining('noopener'))
+    expect(repoLink).toHaveAttribute('rel', expect.stringContaining('noreferrer'))
+
     await user.click(screen.getByRole('button', { name: /Select duck/i }))
 
     expect(screen.getByText(/Your legendary duck/i)).toBeInTheDocument()
