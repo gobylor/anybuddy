@@ -1,18 +1,31 @@
+<p align="center">
+  <img src="assets/anybuddy-hero.png" alt="AnyBuddy" width="720">
+</p>
+
 # AnyBuddy：自由选择你想要的 Claude Code buddy
+
 
 抽卡靠运气，换卡靠 AnyBuddy。
 
 Any Buddy You Want.
 
+
+
 自由选择你想要的 Claude Code buddy，按 `species` 和 `rarity` 找到匹配的 `user ID`，然后在网页或 CLI 里直接使用。
 
 官网入口：**[anybuddy.cc](https://anybuddy.cc)**
+
+<p align="center">
+  <img src="assets/anybuddy-species-gallery.png" alt="AnyBuddy Species Gallery" width="600">
+</p>
 
 ## 核心价值 / Core value
 
 - 想要指定的 Claude Code buddy，不用反复碰运气。
 - 直接按 `species + rarity` 搜索。
 - 既可以在网页里查，也可以用 CLI 一键应用到本地 Claude 配置。
+
+
 
 ## 立即开始 / Get started
 
