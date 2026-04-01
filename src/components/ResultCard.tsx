@@ -162,36 +162,60 @@ export function ResultCard({
           </section>
 
           <section className="rounded-[24px] border border-border/65 bg-bg/72 p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.45)]">
-            <div className="mb-3 flex items-start justify-between gap-4">
-              <div className="space-y-1">
-                <label className="font-mono text-[11px] uppercase tracking-[0.24em] text-muted">
-                  Command strip
-                </label>
-                <p className="text-sm leading-relaxed text-muted">
-                  Run this command to apply a buddy from this species and
-                  rarity record in Claude Code.
-                </p>
-              </div>
-              <button
-                onClick={handleCopy}
-                className="rounded-[18px] border px-4 py-2 text-sm transition-colors"
-                style={{
-                  color: copied ? 'rgb(var(--success))' : 'rgb(var(--text-0))',
-                  borderColor: copied
-                    ? 'rgb(var(--success) / 0.45)'
-                    : 'rgb(var(--line) / 0.82)',
-                  backgroundColor: copied
-                    ? 'rgb(var(--success) / 0.08)'
-                    : 'rgb(var(--surface) / 0.82)',
-                }}
-              >
-                {copied ? 'Copied' : 'Copy command'}
-              </button>
+            <div className="mb-3 space-y-1">
+              <label className="font-mono text-[11px] uppercase tracking-[0.24em] text-muted">
+                One-click apply
+              </label>
+              <p className="text-sm leading-relaxed text-muted">
+                Copy and paste this command into your terminal to instantly
+                apply this buddy to Claude Code.
+              </p>
             </div>
 
-            <code className="block overflow-x-auto rounded-[18px] border border-border/60 bg-surface px-4 py-3 text-sm select-all">
-              {command}
-            </code>
+            <div className="group relative">
+              <code className="block overflow-x-auto rounded-[18px] border border-border/60 bg-surface pl-4 pr-[7.5rem] py-3.5 text-sm select-all">
+                {command}
+              </code>
+              <button
+                onClick={handleCopy}
+                className="absolute right-1.5 top-1/2 -translate-y-1/2 inline-flex items-center gap-2 rounded-[14px] px-4 py-2 text-sm font-medium shadow-sm transition-all duration-200"
+                style={{
+                  color: copied ? '#fff' : '#fff',
+                  backgroundColor: copied
+                    ? 'rgb(var(--success))'
+                    : '#3e6d61',
+                  boxShadow: copied
+                    ? '0 2px 8px rgba(74,126,98,0.35)'
+                    : '0 2px 8px rgba(62,109,97,0.3)',
+                }}
+              >
+                {copied ? (
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="h-4 w-4"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="h-4 w-4"
+                  >
+                    <path d="M7 3.5A1.5 1.5 0 018.5 2h3.879a1.5 1.5 0 011.06.44l3.122 3.12A1.5 1.5 0 0117 6.622V12.5a1.5 1.5 0 01-1.5 1.5h-1v-3.379a3 3 0 00-.879-2.121L10.5 5.379A3 3 0 008.379 4.5H7v-1z" />
+                    <path d="M4.5 6A1.5 1.5 0 003 7.5v9A1.5 1.5 0 004.5 18h7a1.5 1.5 0 001.5-1.5v-5.879a1.5 1.5 0 00-.44-1.06L9.44 6.439A1.5 1.5 0 008.378 6H4.5z" />
+                  </svg>
+                )}
+                {copied ? 'Copied!' : 'Copy'}
+              </button>
+            </div>
 
             {totalEntries > 1 && (
               <button
